@@ -1,0 +1,264 @@
+[
+  {
+    "key": "BDD_Editor_Button",
+    "value": "//span[contains(text(),'BDD Editor')]",
+    "type": "xpath"
+  },
+  {
+    "key": "BDD_Editor_Dropdown",
+    "value": "div[class='col-md-4']>select",
+    "type": "css"
+  },
+  {
+    "key": "EditSpec",
+    "value": "j_idt252:specFileList:2:editSpecFileButton",
+    "type": "id"
+  },
+  {
+    "key": "CreateSpec",
+    "value": "div[class='table-header']>a:nth-of-type(1)",
+    "type": "css"
+  },
+  {
+    "key": "SpecFileNameInput",
+    "value": "div[class='col-md-6 mr-1 p-0 pt-4']>input",
+    "type": "css"
+  },
+  {
+    "key": "NewScenrioForSpec",
+    "value": "div[class='scenario-buttons']>a",
+    "type": "css"
+  },
+  {
+    "key": "NewScenarioForSpec",
+    "value": "defaultForm:scenariosAccordionPanel:0:j_idt244",
+    "type": "id"
+  },
+  {
+    "key": "NewScenarioForSpec",
+    "value": "defaultForm:scenariosAccordionPanel:0:tagsDataList:0:j_idt252",
+    "type": "id"
+  },
+  {
+    "key": "NewTextTagForSpec1",
+    "value": "defaultForm:scenariosAccordionPanel:0:tagsDataList:0:j_idt252",
+    "type": "id"
+  },
+  {
+    "key": "NewTextTagForSpec2",
+    "value": "defaultForm:scenariosAccordionPanel:0:tagsDataList:1:j_idt252",
+    "type": "id"
+  },
+  {
+  "key": "RandomStepForTestPlan",
+  "value": "li[class='ui-autocomplete-item ui-autocomplete-list-item ui-corner-all']",
+  "type": "css"
+  },
+  {
+    "key": "CopyScenarioForSpec",
+    "value": "i[class='icon-copy bigger-120']",
+    "type": "css"
+  },
+  {
+    "key": "RemoveScenarioForSpec",
+    "value": "defaultForm:scenariosAccordionPanel:0:deleteButton,",
+    "type": "id"
+  },
+  {
+    "key": "SaveButtonForSpec",
+    "value": "defaultForm:saveButton,",
+    "type": "id"
+  },
+  {
+    "key": "CancelButtonForSpec",
+    "value": "defaultForm:resetButton,,",
+    "type": "id"
+  },
+  {
+    "key": "CreateConceptFileButton",
+    "value": "div[class='table-header']>a:nth-of-type(2)",
+    "type": "css"
+  },
+  {
+    "key": "ConceptSekmesi",
+    "value": "ul[class='ui-tabs-nav ui-helper-reset ui-widget-header ui-corner-all']>li:nth-of-type(2)",
+    "type": "css"
+  },
+  {
+    "key": "SpecSekmesi",
+    "value": "ul[class='ui-tabs-nav ui-helper-reset ui-widget-header ui-corner-all']>li:nth-of-type(1)",
+    "type": "css"
+  },
+  {
+    "key": "SearchFieldConceptForBDD",
+    "value": "j_idt252:cptFileList:globalFilter",
+    "type": "id"
+  },
+  {
+    "key": "SearchFieldSpecForBDD",
+    "value": "j_idt252:specFileList:globalFilter",
+    "type": "id"
+  },
+  {
+    "key": "BDDFileListText",
+    "value": "//div[@class='navbar-header']/div[2]//li[contains(text(),'BDD File List')]",
+    "type": "xpath"
+  },
+  {
+    "key": "Bosyer",
+    "value": "#fileTable",
+    "type": "id"
+  },
+  {
+    "key" : "TestFileText",
+    "value": "div[class='page-header']",
+    "type" : "css"
+  },
+  {
+    "key" : "CreateSpecFileButton",
+    "value": "div[class='table-header']>a:nth-of-type(1)",
+    "type" : "css"
+  },
+  {
+    "key" : "CreateConceptFileButtonText",
+    "value": "//span[contains(text(),'Create Spec File')]",
+    "type" : "xpath"
+  },
+  {
+    "key" : "EditSpecFileButton",
+    "value": "j_idt252:specFileList:0:editSpecFileButton",
+    "type" : "id"
+  },
+  {
+    "key" : "SpecConceptFileList",
+    "value": "div[class='table-header']>span",
+    "type" : "css"
+  },
+  {
+    "key" : "SpecTab",
+    "value": "ul[class='ui-tabs-nav ui-helper-reset ui-widget-header ui-corner-all']>li:nth-of-type(1)",
+    "type" : "css"
+  },
+  {
+    "key" : "ConceptTab",
+    "value": "ul[class='ui-tabs-nav ui-helper-reset ui-widget-header ui-corner-all']>li:nth-of-type(2)",
+    "type" : "css"
+  },
+  {
+    "key" : "SpecFileNameText",
+    "value": "tr[role='row']>th:nth-of-type(1)",
+    "type" : "css"
+  },
+  {
+    "key" : "LanguageText",
+    "value": "tr[role='row']>th:nth-of-type(2)",
+    "type" : "css"
+  },
+  {
+    "key" : "ScenarioCountText",
+    "value": "tr[role='row']>th:nth-of-type(3)",
+    "type" : "css"
+  },
+  {
+    "key" : "SearchFileName",
+    "value": "div[class='ui-datatable-header ui-widget-header ui-corner-top']>div",
+    "type" : "css"
+  },
+  {
+    "key": "RastgeleSecim",
+    "value": "select[id='project']>option",
+    "type": "css"
+  },
+  {
+    "key": "YanlısProje",
+    "value": "//option[contains(text(),'DDK_Ford')]",
+    "type": "xpath"
+  },
+  {
+    "key": "HataMesajı",
+    "value": ".ui-messages-error-summary",
+    "type": "css"
+  },
+  {
+    "key": "SearchFileNameText",
+    "value": "div[class='ui-outputpanel ui-widget']>input",
+    "type": "css"
+  },
+  {
+    "key": "Amazon",
+    "value": "//option[contains(text(),'Amazon')]",
+    "type": "xpath"
+  },
+  {
+    "key": "CreateSpecFile",
+    "value": "div[class='table-header']>a:nth-of-type(1)",
+    "type": "css"
+  },
+  {
+    "key": "Specmassage",
+    "value": ".ui-messages-error-summary",
+    "type": "css"
+  },
+  {
+    "key": "CreatePageSaveButton",
+    "value": "defaultForm:saveButton",
+    "type": "id"
+  },
+  {
+    "key": "CreateConceptProjectNameText",
+    "value": ".ui-inputfield.ui-inputtext.ui-widget.ui-state-default.ui-corner-all.form-control",
+    "type": "css"
+  },
+  {
+    "key": "NewScenarioButton",
+    "value": ".ui-commandlink.ui-widget.btn.btn-primary.btn-sm",
+    "type": "css"
+  },
+  {
+    "key": "NewScenarioText",
+    "value": "div[class='scenario-content']>input",
+    "type": "css"
+  },
+  {
+    "key": "SecondCreateConceptErrorMassage",
+    "value": "div[class='ui-messages-error ui-corner-all']>ul>li:nth-of-type(2)",
+    "type": "css"
+  },
+  {
+    "key": "ScenarioNameEmptyErrorMessage",
+    "value": "//span[contains(text(),'Scenario name cannot be empty')]",
+    "type": "xpath"
+  },
+  {
+    "key": "FileNameRequiredErrorMessage",
+    "value": "//span[contains(text(),'File Name field is required.')]",
+    "type": "xpath"
+  },
+  {
+    "key": "FileNameValidationErrorMessage",
+    "value": "//span[contains(text(),'Validation Error')]",
+    "type": "xpath"
+  },
+  {
+    "key": "TestStepErrorMessage",
+    "value": "//span[contains(text(),'test step')]",
+    "type": "xpath"
+  },
+  {
+    "key": "CreateSpecProjectNameText",
+    "value": ".ui-inputfield.ui-inputtext.ui-widget.ui-state-default.ui-corner-all.form-control",
+    "type": "css"
+  },
+  {
+    "key": "TagNameTextforBDD",
+    "value": "div[class='scenario-content']>div>input",
+    "type": "css"
+  },
+  {
+    "key": "ExampleSpecText",
+    "value": "//span[contains(text(),'example.spec')]",
+    "type": "xpath"
+  }
+
+
+]

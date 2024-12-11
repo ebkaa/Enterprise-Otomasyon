@@ -1,0 +1,130 @@
+
+# Companies tabına tıkla ve companies sayfasında olduğunu kontrol et
+* "companiesTab" elementine tıkla
+* Şu anki url "https://dev.testinium.com/members/companyList.html" ile aynı mı
+* "companiesLogoTitleInCompanies" elementinin görünür olması kontrol edilir
+
+# Dashboard tabına tıkla for companies
+* "dashboardTab" elementinin görünür olması kontrol edilir
+* "dashboardTab" elementine tıkla
+
+# System Setting tabına tıkla
+* "systemSettingTab_subTab" elementinin görünür olması kontrol edilir
+* "systemSettingTab_subTab" elementine tıkla
+
+# Users tabına tıkla for companies
+* "usersTab" elementinin görünür olması kontrol edilir
+* "usersTab" elementine tıkla
+
+# Projects tabına tıkla for companies
+* "projectsTab" elementinin görünür olması kontrol edilir
+* "projectsTab" elementine tıkla
+
+# Scenarioss tabına tıkla
+* "scenariossTab" elementinin görünür olması kontrol edilir
+* "scenariossTab" elementine tıkla
+
+# Plans tabına tıkla for companies
+* "plansTab" elementinin görünür olması kontrol edilir
+* "plansTab" elementine tıkla
+
+# BDD Editor tabına tıkla
+* "bddEditorTab" elementinin görünür olması kontrol edilir
+* "bddEditorTab" elementine tıkla
+
+# Reports tabına tıkla for companies
+* "reportsTab_SubTab" elementine tıkla
+
+# Create new company butonuna tıkla
+* "createNewCompany" elementinin görünür olması kontrol edilir
+* "createNewCompany" elementine tıkla
+
+# Companies sayfasının elementlerinin kontrollerinin yapılması
+* "companiesTab" elementinin görünür olması kontrol edilir
+* "companiesTab" elementinin tıklanabilir olması kontrol edilir
+* "companyListName" elementinin görünür olması kontrol edilir
+
+# Tablo kontrolünün sağlanması
+* "tableHeadCheck" elementinin görünür olması kontrol edilir
+
+# Companies List sayfasında edit sayfasının kontrollerinin yapılması
+* "editButton" elementinin görünür olması kontrol edilir
+* "editButton" elementinin tıklanabilir olması kontrol edilir
+
+# Edit butonuna tıkla
+* "editButton" elementine tıkla
+
+# Create new company oluşturulması
+* "companiesTableName" elementinin görünür olması kontrol edilir
+* "createNewCompany" elementinin görünür olması kontrol edilir
+* "createNewCompany" elementinin tıklanabilir olması kontrol edilir
+
+# Fill company form sayfasının kontrollerinin sağlanması
+* "basicInfoTab" elementinin görünür olması kontrol edilir
+* "basicInfoTab" elementinin tıklanabilir olması kontrol edilir
+
+# Basic Info Sayfasındaki formun doldurulması
+* "nameOrTitle" elementinin tıklanabilir olması kontrol edilir
+* "nameOrTitle" elementine "sena " değerini yaz
+* "shortName" elementinin tıklanabilir olması kontrol edilir
+* "shortName" elementine "sena" değerini yaz
+* "emailAddress" elementinin tıklanabilir olması kontrol edilir
+* "emailAddress" elementine "sena.eroglu@testinium.com" değerini yaz
+* "parallelTestLimit" elementinin tıklanabilir olması kontrol edilir
+* "parallelTestLimit" elementine "4" değerini yaz
+* "parallelTestLimitForEachPlan" elementinin tıklanabilir olması kontrol edilir
+* "parallelTestLimitForEachPlan" elementine "2" değerini yaz
+* "enabledNoButton" elementine tıkla
+* "enabledYesButton" elementine tıkla
+* "saveButton_BasicInfo" elementine tıkla
+
+# Version Control System butonuna tıkla
+* "versionControlSystemTab" elementine tıkla
+
+# Version Control sayfasının kontrollerinin sağlanması
+* "VersionControlSystemTab" elementinin görünür olması kontrol edilir
+* "VersionControlSystemTab" elementinin tıklanabilir olması kontrol edilir
+
+# Version Control System sayfasının doldurulması
+* "versionControlSystem_Git" elementinin tıklanabilir olması kontrol edilir
+* "versionControlSystem_Git" elementine tıkla
+* "externalRepository_No" elementinin tıklanabilir olması kontrol edilir
+* "externalRepository_No" elementine tıkla
+
+# Executor butonuna tıkla
+* "executorTab" elementine tıkla
+
+# Executor sayfasının kontrolllerinin sağlanması
+* "ExternalTestExecutor_No" elementinin görünür olması kontrol edilir
+* "ExternalTestExecutor_No" elementinin tıklanabilir olması kontrol edilir
+
+# Executor sayfasında external test executor yes butonu
+* "ExternalTestExecutor_Yes" elementinin görünür olması kontrol edilir
+* "ExternalTestExecutor_Yes" elementine tıkla
+* "SSHIp/Hostname" elementinin görünür olması kontrol edilir
+* "SSHIp/Hostname" elementine "deneme2@testinium.com" değerini yaz
+* "SshPort" elementinin görünür olması kontrol edilir
+* "SshUser" elementinin görünür olması kontrol edilir
+* "ServerWorkspacePath" elementine "/home/ubuntu/workspace" değerini yaz
+* "ExternalTestExecutor_No" elementine tıkla
+
+# Plugins butonuna tıkla
+* "pluginsTab" elementine tıkla
+
+# Plugins sayfasının kontrolünün sağlanması
+* "Enabled_PluginsHeader" elementinin görünür olması kontrol edilir
+* "plugins_Add" elementine tıkla
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+[
+  {
+    "key": "AllPlansText",
+    "value": "//a[contains(text(),'All Plans')]",
+    "type": "xpath"
+  },
+  {
+    "key": "PlansButton",
+    "value": "//span[contains(text(),'Plans')]",
+    "type": "xpath"
+  },
+  {
+    "key": "username",
+    "value": "username",
+    "type": "id"
+  },
+  {
+    "key": "ExportTable",
+    "value": "button[class='btn btn-sm margin-left-5']",
+    "type": "css"
+  },
+  {
+    "key": "PlanNameText",
+    "value": "//th[contains(text(),'PLAN NAME')]",
+    "type": "xpath"
+  },
+  {
+    "key": "ProjectNameText",
+    "value": "//th[contains(text(),'PROJECT NAME')]",
+    "type": "xpath"
+  },
+  {
+    "key": "LastExecutionText",
+    "value": "//th[contains(text(),'LAST EXECUTION')]",
+    "type": "xpath"
+  }
+
+]

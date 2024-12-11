@@ -1,0 +1,134 @@
+# Scenarios tabına tıkla ve Scenarios sayfasında olduğunu kontrol et
+* "scenariosTab" elementinin görünür olması kontrol edilir
+* "scenariosTab" elementine tıkla
+* Şu anki url "http://dev.testinium.com/members/testScenarioList.html" ile aynı mı
+* "pageHeader" elementinin görünür olması kontrol edilir
+
+# Scenarios sayfasındaki elementlerin kontrolünü yap
+* "pageHeader" elementinin text değeri "Test Scenario List" değerini içeriyor mu
+* "pageHeader" elementinin görünür olması kontrol edilir
+* Şu anki url "http://dev.testinium.com/members/testScenarioList.html" ile aynı mı
+
+# Create New Scenario için proje adının seçilmesi
+* "createNewScenarioTop" elementine tıkla
+* "projectButton" elementinin tıklanabilir olması kontrol edilir
+* "projectButton" elementine tıkla
+* "4" rastgele sayı üret "rasgeleSayıKeyValue" keyinde tut
+* "projectNameList" element listesinin "rasgeleSayıKeyValue" sıradaki elemanına tıkla
+
+
+# Scenario sayfasında <projectName> adlı proje seçilir
+* "projectNameInput_PlansPage" elementinin görünür olması kontrol edilir
+* "projectNameInput_PlansPage" elementinin değerini temizle
+* "projectNameInput_PlansPage" elementine <projectName> değerini yaz
+* "1" saniye bekle
+* "projectNameInput_PlansPage" elementine "ENTER" keyini yolla
+* "1" saniye bekle
+
+# Create new scenario butonuna tıklanır
+* "createNewPlanButton_ScenarioPage" elementinin görünür olması kontrol edilir
+* "createNewPlanButton_ScenarioPage" elementine tıkla
+
+# Create New Scenario Kontrollerinin sağlanması
+* "createNewScenarioTop" elementine tıkla
+* "testScenarioForm" elementinin görünür olması kontrol edilir
+* "scenarioName_Button" elementinin görünür olması kontrol edilir
+* "description" elementinin görünür olması kontrol edilir
+* "maxExecutionTime" elementinin görünür olması kontrol edilir
+* "enabledYes" elementinin görünür olması kontrol edilir
+* "enabledNo" elementinin görünür olması kontrol edilir
+* "scenarioDetailsSave" elementinin tıklanabilir olması kontrol edilir
+* "scenarioDetailsSave" elementine tıkla
+* "scenarioDetailsCancel" elementinin tıklanabilir olması kontrol edilir
+* "scenarioDetailsCancel" elementine tıkla
+
+# Create New Group için proje adının seçilmesi
+* "createNewGroupTop" elementine tıkla
+* "projectButton" elementinin tıklanabilir olması kontrol edilir
+* "projectButton" elementine tıkla
+* "45" rastgele sayı üret "rasgeleSayıKeyValue" keyinde tut
+* "projectNameList" element listesinin "rasgeleSayıKeyValue" sıradaki elemanına tıkla
+
+# Create New Group Kontrollerinin sağlanması
+* "createNewGroupTop" elementine tıkla
+* "scenarioName" elementinin görünür olması kontrol edilir
+* "testScenarioSave" elementinin görünür olması kontrol edilir
+* "testScenarioCancel" elementinin görünür olması kontrol edilir
+* "testScenarioCancel" elementine tıkla
+
+# Copy Scenario için proje adının seçilmesi
+* "copyScenarioTop" elementine tıkla
+* "projectButton" elementinin tıklanabilir olması kontrol edilir
+* "projectButton" elementine tıkla
+* "25" rastgele sayı üret "rasgeleSayıKeyValue" keyinde tut
+* "projectNameList" element listesinin "rasgeleSayıKeyValue" sıradaki elemanına tıkla
+
+# Copy Scenario Kontrollerinin sağlanması
+* "copyScenarioTop" elementine tıkla
+* "tergetProject" elementinin görünür olması kontrol edilir
+* "copyTestScenario_Save" elementinin tıklanabilir olması kontrol edilir
+* "copyTestScenario_Cancel" elementine tıkla
+
+# Project Name Dropdown kontrollerinin sağlanması
+* "projectButton" elementine tıkla
+* "projectName" elementinin görünür olması kontrol edilir
+* "projectButton" elementinin tıklanabilir olması kontrol edilir
+
+# Export Excel sayfasının element kontrolü yapılır
+* Create New Group için proje adının seçilmesi
+* "exportExcelTop" elementinin görünür olması kontrol edilir
+* "exportExcelTop" elementine tıkla
+
+# Export Excel Butonunun Kontrollerinin sağlanması
+* "exportExcelTitle" elementinin görünür olması kontrol edilir
+* "netScenarioButton" elementinin görünür olması kontrol edilir
+* "selectAllButton" elementinin tıklanabilir olması kontrol edilir
+* "exportExcelButton" elementinin tıklanabilir olması kontrol edilir
+
+# Export Excel için proje adının seçilmesi
+* "projectButton" elementinin tıklanabilir olması kontrol edilir
+* "projectButton" elementine tıkla
+* "45" rastgele sayı üret "rasgeleSayıKeyValue" keyinde tut
+* "projectNameList" element listesinin "rasgeleSayıKeyValue" sıradaki elemanına tıkla
+
+# Dashboard tabına tıklayınız
+* "dashBoardTab_Scenario" elementinin görünür olması kontrol edilir
+* "dashBoardTab_Scenario" elementine tıkla
+
+# Companies tabına tıklayınız
+* "companiesTab_Scenario" elementinin görünür olması kontrol edilir
+* "companiesTab_Scenario" elementine tıkla
+
+# Users tabına tıklayınız
+* "usersTab_Scenario" elementinin görünür olması kontrol edilir
+* "usersTab_Scenario" elementine tıkla
+
+# Projects tabına tıklayınız
+* "projectTab_Scenario" elementinin görünür olması kontrol edilir
+* "projectTab_Scenario" elementine tıkla
+
+# Plans tabına tıklayınız
+* "plansTab_Scenario" elementinin görünür olması kontrol edilir
+* "plansTab_Scenario" elementine tıkla
+
+# BDD Editör tabına tıklayınız
+* "bddEditor_Scenario" elementinin görünür olması kontrol edilir
+* "bddEditor_Scenario" elementine tıkla
+
+# <projectName> adlı proje seçilir
+* "projectButton" elementinin tıklanabilir olması kontrol edilir
+* "projectButton" elementine tıkla
+* "projectNameSelect_ScenarioPage" elementinin değerini <projectName> değeriyle değiştirerek "xKeyValue" elementini oluştur
+* "xKeyValue" elementinin görünür olması kontrol edilir
+* "xKeyValue" elementine tıkla
+
+# <scenarioName> senaryosunun listede listelendiği doğrulanır
+* "scenarioName_scenarioTable_scenariosPage" elementinin değerini <scenarioName> değeriyle değiştirerek "xpathKeyValue" elementini oluştur
+* "xpathKeyValue" elementinin görünür olması kontrol edilir
+
+# Arama kutusuna <projectName> kelimesini yaz for scenarios
+* "searchbox_Scenario" elementinin görünür olması kontrol edilir
+* "searchbox_Scenario" elementine <projectName> değerini yaz
+
+
+

@@ -1,0 +1,277 @@
+[
+  {
+    "key": "companiesLogoTitleInCompanies",
+    "value": "//div[@class='page-header']/h1",
+    "type": "xpath"
+  },
+  {
+    "key": "dashboardTab",
+    "value": "//span[@class='menu-text' and text()=' Dashboard ']",
+    "type": "xpath"
+  },
+  {
+
+    "key": "systemSettingTab",
+    "value": "//a[@class='dropdown-toggle']/span[@class='menu-text' and text()=' System Settings ']",
+    "type": "xpath"
+  },
+  {
+    "key": "systemSettingTab_subTab",
+    "value": "//span[@class='menu-text' and text()='System Properties']",
+    "type": "xpath"
+  },
+  {
+    "key": "usersTab",
+    "value": "//span[@class='menu-text' and text()=' Users ']",
+    "type": "xpath"
+  },
+  {
+    "key": "projectsTab",
+    "value": "//span[@class='menu-text' and text()=' Projects ']",
+    "type": "xpath"
+  },
+  {
+    "key": "scenariossTab",
+    "value": "//span[@class='menu-text' and text()=' Scenarios ']",
+    "type": "xpath"
+  },
+  {
+    "key": "plansTab",
+    "value": "//span[@class='menu-text' and text()=' Plans ']",
+    "type": "xpath"
+  },
+  {
+    "key": "bddEditorTab",
+    "value": "//span[@class='menu-text' and text()=' BDD Editor ']",
+    "type": "xpath"
+  },
+  {
+    "key": "reportsTab",
+    "value": "//a[@class='dropdown-toggle']/span[@class='menu-text' and text()=' Reports ']",
+    "type": "xpath"
+  },
+  {
+    "key": "reportsTab_SubTab",
+    "value": "//a[@href='/members/reports/testExecutionList.html' and normalize-space(.)='Test Executions (Auto)']",
+    "type": "xpath"
+  },
+  {
+    "key": "companiesTab",
+    "value": "//div[@class='sidebar']//a[@href='/members/companyList.html' and .//span[normalize-space(.)='Companies']]",
+    "type": "xpath"
+  },
+  {
+    "key": "companyListName",
+    "value": "//div[@class='page-header']/h1",
+    "type": "xpath"
+  },
+  {
+    "key": "companiesTableName",
+    "value": "//div[@class='table-header']/span",
+    "type": "xpath"
+  },
+  {
+    "key": "createNewCompany",
+    "value": "//a[@class='btn btn-sm btn-primary pull-right']",
+    "type": "xpath"
+  },
+  {
+    "key": "companiesNameOrTitle",
+    "value": "//tr[@class='ui-widget-content ui-datatable-even']/td/a[text()='Sena Eroğlu']",
+    "type": "xpath"
+  },
+  {
+    "key": "tableHeadCheck",
+    "value": "//thead[@id='companyList_head']",
+    "type": "xpath"
+  },
+  {
+    "key": "editButton",
+    "value": "//td[@class='action-buttons']/a[@href='/members/companyForm.html?id=8']",
+    "type": "xpath"
+  },
+  {
+    "key": "basicInfoTab",
+    "value": "//li[@class='active']/a[@href='#basicInfoTab']",
+    "type": "xpath"
+  },
+  {
+    "key": "VersionControlSystemTab",
+    "value": "//a[@href='#vcsTab']/i",
+    "type": "xpath"
+  },
+  {
+    "key": "versionControlSystem_Svn",
+    "value": "//input[@id='defaultForm:preferedRepository:0']",
+    "type": "xpath"
+  },
+  {
+    "key": "versionControlSystem_Git",
+    "value": "//input[@id='defaultForm:preferedRepository:1']",
+    "type": "xpath"
+  },
+  {
+    "key": "externalRepository_Yes",
+    "value": " //input[@id='defaultForm:isExternalRepository:0']",
+    "type": "xpath"
+  },
+  {
+    "key": "externalRepository_No",
+    "value": "//input[@id='defaultForm:isExternalRepository:1']",
+    "type": "xpath"
+  },
+  {
+    "key": "gitAuthenticationType_Password",
+    "value": "//input[@id='defaultForm:gitAuthType:0']",
+    "type": "xpath"
+  },
+  {
+    "key": "gitAuthenticationType_sshKey",
+    "value": "//input[@id='defaultForm:gitAuthType:1']",
+    "type": "xpath"
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": "xpath"
+
+
+  },
+  {
+    "key": "gitUser",
+    "value": "//input[@id='defaultForm:repositoryUser']",
+    "type": "xpath"
+  },
+  {
+    "key": "gitPassword",
+    "value": "//input[@id='defaultForm:repositoryPass']",
+    "type": "xpath"
+  },
+  {
+    "key": "versionControlSystem_Save",
+    "value": "//a[@id='defaultForm:saveButton']",
+    "type": "xpath"
+  },
+  {
+    "key": "versionControlSystem_Cancel",
+    "value": "  //a[@id='defaultForm:resetButton']",
+    "type": "xpath"
+  },
+  {
+    "key": "basicInfoTab",
+    "value": "//ul[@class='nav nav-tabs padding-16']/li/a[@href='#basicInfoTab']",
+    "type": "xpath"
+  },
+  {
+    "key": "nameOrTitle",
+    "value": "//div[@class='col-md-3']/input[@id='defaultForm:companyName']",
+    "type": "xpath"
+  },
+  {
+    "key": "shortName",
+    "value": "//div[@class='col-md-3']/input[@id='defaultForm:shortName']",
+    "type": "xpath"
+  },
+  {
+    "key": "emailAddress",
+    "value": "//div[@class='col-md-3']/input[@id='defaultForm:email']",
+    "type": "xpath"
+  },
+  {
+    "key": "parallelTestLimit",
+    "value": "//div[@class='col-md-3']/input[@id='defaultForm:parallelTestLimit']",
+    "type": "xpath"
+  },
+  {
+    "key": "parallelTestLimitForEachPlan",
+    "value": "//div[@class='col-md-3']/input[@id='defaultForm:planParalelTestLimit']",
+    "type": "xpath"
+  },
+  {
+    "key": "enabledYesButton",
+    "value": " //table[@id='defaultForm:companyEnabled']/tbody/tr/td/input[@id='defaultForm:companyEnabled:0']",
+    "type": "xpath"
+  },
+  {
+    "key": "enabledNoButton",
+    "value": "//table[@id='defaultForm:companyEnabled']/tbody/tr/td/input[@id='defaultForm:companyEnabled:1']",
+    "type": "xpath"
+  },
+  {
+    "key": "saveButton_BasicInfo",
+    "value": "//a[@id='defaultForm:saveButton']/i",
+    "type": "xpath"
+  },
+  {
+    "key": "versionControlSystemTab",
+    "value": "//ul[@class='nav nav-tabs padding-16']/li/a[@href='#vcsTab']",
+    "type": "xpath"
+  },
+  {
+    "key": "executorTab",
+    "value": "//ul[@class='nav nav-tabs padding-16']/li/a[@href='#executorTab']",
+    "type": "xpath"
+  },
+  {
+    "key": "ExternalTestExecutor_Yes",
+    "value": "//input[@id='defaultForm:isExternalExecutor:0']",
+    "type": "xpath"
+  },
+  {
+    "key": "ExternalTestExecutor_No",
+    "value": "//input[@id='defaultForm:isExternalExecutor:1']",
+    "type": "xpath"
+  },
+  {
+    "key": "SSHIp/Hostname",
+    "value": "//input[@id='defaultForm:executorIP']",
+    "type": "xpath"
+  },
+  {
+    "key": "SshPort",
+    "value": "//input[@id='defaultForm:executorPort']",
+    "type": "xpath"
+  },
+  {
+    "key": "SshUser",
+    "value": " //input[@id='defaultForm:executorUser']",
+    "type": "xpath"
+  },
+  {
+    "key": "SshPassword",
+    "value": "//input[@id='defaultForm:executorPass']",
+    "type": "xpath"
+  },
+  {
+    "key": "ServerWorkspacePath",
+    "value": "//input[@id='defaultForm:executorWorkspace']",
+    "type": "xpath"
+  },
+  {
+    "key": "pluginsTab",
+    "value": "//ul[@class='nav nav-tabs padding-16']/li/a[@href='#pluginsTab']",
+    "type": "xpath"
+  },
+  {
+    "key": "plugins_Add",
+    "value": "defaultForm:j_idt321:0:j_idt325",
+    "type": "id"
+  },
+  {
+    "key": "plugins_remove",
+    "value": "defaultForm:j_idt311:0:j_idt319",
+    "type": "xpath"
+  },
+  {
+    "key": "Enabled_PluginsHeader",
+    "value": "//div[@class='table-header']/span[text()='Enabled Plugins']",
+    "type": "xpath"
+  },
+  {
+    "key": "pluginsCancelButton",
+    "value": "defaultForm:resetButton",
+    "type": "id"
+
+  }
+]
+

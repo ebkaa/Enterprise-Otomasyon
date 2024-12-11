@@ -1,0 +1,395 @@
+
+# Projects tabına tıkla ve Projects sayfasında olduğunu kontrol et
+* "projectsTab_Projects" elementinin görünür olması kontrol edilir
+* "projectsTab_Projects" elementine tıkla
+* Şu anki url "http://dev.testinium.com/members/projectList.html" ile aynı mı
+* "projectListTextNavBar_Projects" elementinin görünür olması kontrol edilir
+* "projectListTextNavBar_Projects" elementinin text değeri "Project List" değerine eşit mi
+* "projectListTextHeader_Projects" elementinin görünür olması kontrol edilir
+* "projectListTextHeader_Projects" elementinin text değeri "Project List" değerine eşit mi
+
+
+# Yan taraftaki Tab kontrollerini yap
+* "dashBoardTab_Projects" elementinin görünür olması kontrol edilir
+* "systemSettingsTab_Projects" elementinin görünür olması kontrol edilir
+* "systemSettingsTab_Projects" elementine tıkla
+* "licenceInformation_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "systemProperties_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "seleniumHubs_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "rolePermissionManagement_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "rolePermissionManagement_Projects_SystemSettings" elementine tıkla
+* "roles_Projects_SystemSettings_RolesManagement" elementinin görünür olması kontrol edilir
+* "permissions_Projects_SystemSettings_RolesManagement" elementinin görünür olması kontrol edilir
+* "rolePermissionManagement_Projects_SystemSettings" elementine tıkla
+* "browsersPhones_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "testEnvironments_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "testEnvironmentsStatus_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "activeTests_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "screenResolutions_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "preDefinedExceptions_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "cloudTestEnvironments_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "cloudTestEnvironmentsGroups_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "notifications_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "projectClone_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "companysScheduledPlans_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "systemSettingsTab_Projects" elementine tıkla
+* "companiesTab_Projects" elementinin görünür olması kontrol edilir
+* "usersTab_Projects" elementinin görünür olması kontrol edilir
+* "projectsTab_Projects" elementinin görünür olması kontrol edilir
+* "scenariosTab_Projects" elementinin görünür olması kontrol edilir
+* "plansTab_Projects" elementinin görünür olması kontrol edilir
+* "bddEditor_Projects" elementinin görünür olması kontrol edilir
+* "reportsTab_Projects" elementinin görünür olması kontrol edilir
+* "reportsTab_Projects" elementine tıkla
+* "testExecutionsAuto_Projects_Reports" elementinin görünür olması kontrol edilir
+* "testExecutionsRemote_Projects_Reports" elementinin görünür olması kontrol edilir
+* "testExecutionsTag_Projects_Reports" elementinin görünür olması kontrol edilir
+* "detailedReports_Projects_Reports" elementinin görünür olması kontrol edilir
+* "instantReports_Projects_Reports" elementinin görünür olması kontrol edilir
+* "scheduledReports_Projects_Reports" elementinin görünür olması kontrol edilir
+* "graphReports_Projects_Reports" elementinin görünür olması kontrol edilir
+* "executionGraphs_Projects_Reports" elementinin görünür olması kontrol edilir
+* "passRateReports_Projects_Reports" elementinin görünür olması kontrol edilir
+* "testResultsByPeriod_Projects_Reports" elementinin görünür olması kontrol edilir
+
+# Projects sayfasındaki elementlerin kontrolünü yap
+* Yan taraftaki Tab kontrollerini yap
+* "testiniumLogo_Projects" elementinin görünür olması kontrol edilir
+* "dashboardIcon_Projects" elementinin görünür olması kontrol edilir
+* "projectListTextNavBar_Projects" elementinin görünür olması kontrol edilir
+* "projectListTextHeader_Projects" elementinin görünür olması kontrol edilir
+* "projectTable_Projects" elementinin görünür olması kontrol edilir
+* "columnsTab_Projects" elementinin görünür olması kontrol edilir
+* "columnsTab_Projects" elementine tıkla
+* "createdBy_Projects_Columns" elementinin görünür olması kontrol edilir
+* "createdAt_Projects_Columns" elementinin görünür olması kontrol edilir
+* "updatedBy_Projects_Columns" elementinin görünür olması kontrol edilir
+* "updatedAt_Projects_Columns" elementinin görünür olması kontrol edilir
+* "closeColumns_Projects_Columns" elementinin görünür olması kontrol edilir
+* "closeColumns_Projects_Columns" elementine tıkla
+* "projectSyncTab_Projects" elementinin görünür olması kontrol edilir
+* "createNewProjectTab_Projects" elementinin görünür olması kontrol edilir
+* "searchBox_Projects" elementinin görünür olması kontrol edilir
+
+# Dashboard tabına tıkla for projectPage
+* "dashBoardTab_Projects" elementinin görünür olması kontrol edilir
+* "dashBoardTab_Projects" elementine tıkla
+
+# System Settings tabına tıkla
+* "systemSettingsTab_Projects" elementinin görünür olması kontrol edilir
+* "systemSettingsTab_Projects" elementine tıkla
+
+# Licence Information tabına tıkla
+* "licenceInformation_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "licenceInformation_Projects_SystemSettings" elementine tıkla
+
+# System Properties tabına tıkla
+* "systemProperties_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "systemProperties_Projects_SystemSettings" elementine tıkla
+
+# Selenium Hubs tabına tıkla
+* "seleniumHubs_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "seleniumHubs_Projects_SystemSettings" elementine tıkla
+
+# Role/Permission Management tabına tıkla
+* "rolePermissionManagement_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "rolePermissionManagement_Projects_SystemSettings" elementine tıkla
+
+# Roles tabına tıkla
+* "roles_Projects_SystemSettings_RolesManagement" elementinin görünür olması kontrol edilir
+* "roles_Projects_SystemSettings_RolesManagement" elementine tıkla
+
+# Permissions tabına tıkla
+* "permissions_Projects_SystemSettings_RolesManagement" elementinin görünür olması kontrol edilir
+* "permissions_Projects_SystemSettings_RolesManagement" elementine tıkla
+
+# Browsers/Phones tabına tıkla
+* "browsersPhones_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "browsersPhones_Projects_SystemSettings" elementine tıkla
+
+# Test Environments tabına tıkla
+* "testEnvironments_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "testEnvironments_Projects_SystemSettings" elementine tıkla
+
+# Test Environments Status tabına tıkla
+* "testEnvironmentsStatus_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "testEnvironmentsStatus_Projects_SystemSettings" elementine tıkla
+
+# Active Tests tabına tıkla
+* "activeTests_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "activeTests_Projects_SystemSettings" elementine tıkla
+
+# Screen Resolutions tabına tıkla
+* "screenResolutions_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "screenResolutions_Projects_SystemSettings" elementine tıkla
+
+# Predefined Exceptions tabına tıkla
+* "preDefinedExceptions_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "preDefinedExceptions_Projects_SystemSettings" elementine tıkla
+
+# Cloud Test Environments tabına tıkla
+* "cloudTestEnvironments_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "cloudTestEnvironments_Projects_SystemSettings" elementine tıkla
+
+# Cloud Test Environments Groups tabına tıkla
+* "cloudTestEnvironmentsGroups_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "cloudTestEnvironmentsGroups_Projects_SystemSettings" elementine tıkla
+
+# Notifications tabına tıkla
+* "notifications_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "notifications_Projects_SystemSettings" elementine tıkla
+
+# Project Clone tabına tıkla
+* "projectClone_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "projectClone_Projects_SystemSettings" elementine tıkla
+
+# Company's scheduled plans tabına tıkla
+* "companysScheduledPlans_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "companysScheduledPlans_Projects_SystemSettings" elementine tıkla
+
+# Companies tabına tıkla
+* "companiesTab_Projects" elementinin görünür olması kontrol edilir
+* "companiesTab_Projects" elementine tıkla
+
+# Users tabına tıkla for projectPage
+* "usersTab_Projects" elementinin görünür olması kontrol edilir
+* "usersTab_Projects" elementine tıkla
+
+# Projects tabına tıkla for projectPage
+* "projectsTab_Projects" elementinin görünür olması kontrol edilir
+* "projectsTab_Projects" elementine tıkla
+
+# Scenarios tabına tıkla
+* "scenariosTab_Projects" elementinin görünür olması kontrol edilir
+* "scenariosTab_Projects" elementine tıkla
+
+# Plans tabına tıkla for projectPage
+* "plansTab_Projects" elementinin görünür olması kontrol edilir
+* "plansTab_Projects" elementine tıkla
+
+# BDD Editör tabına tıkla
+* "bddEditor_Projects" elementinin görünür olması kontrol edilir
+* "bddEditor_Projects" elementine tıkla
+
+# Reports tabına tıkla for projectPage
+* "reportsTab_Projects" elementinin görünür olması kontrol edilir
+* "reportsTab_Projects" elementine tıkla
+
+# Test Executions(Auto) tabına tıkla
+* "testExecutionsAuto_Projects_Reports" elementinin görünür olması kontrol edilir
+* "testExecutionsAuto_Projects_Reports" elementine tıkla
+
+# Test Executions(Remote) tabına tıkla
+* "testExecutionsRemote_Projects_Reports" elementinin görünür olması kontrol edilir
+* "testExecutionsRemote_Projects_Reports" elementine tıkla
+
+# Test Executions(Tag) tabına tıkla
+* "testExecutionsTag_Projects_Reports" elementinin görünür olması kontrol edilir
+* "testExecutionsTag_Projects_Reports" elementine tıkla
+
+# Detailed Reports tabına tıkla
+* "detailedReports_Projects_Reports" elementinin görünür olması kontrol edilir
+* "detailedReports_Projects_Reports" elementine tıkla
+
+# Instant Reports tabına tıkla
+* "instantReports_Projects_Reports" elementinin görünür olması kontrol edilir
+* "instantReports_Projects_Reports" elementine tıkla
+
+# Scheduled reports tabına tıkla
+* "scheduledReports_Projects_Reports" elementinin görünür olması kontrol edilir
+* "scheduledReports_Projects_Reports" elementine tıkla
+
+# Graph reports tabına tıkla
+* "graphReports_Projects_Reports" elementinin görünür olması kontrol edilir
+* "graphReports_Projects_Reports" elementine tıkla
+
+# Execution Graphs tabına tıkla
+* "executionGraphs_Projects_Reports" elementinin görünür olması kontrol edilir
+* "executionGraphs_Projects_Reports" elementine tıkla
+
+# Pass rate reports tabına tıkla
+* "passRateReports_Projects_Reports" elementinin görünür olması kontrol edilir
+* "passRateReports_Projects_Reports" elementine tıkla
+
+# Test Results By Period tabına tıkla
+* "testResultsByPeriod_Projects_Reports" elementinin görünür olması kontrol edilir
+* "testResultsByPeriod_Projects_Reports" elementine tıkla
+
+# Columns Tabına tıkla
+* "columnsTab_Projects" elementinin görünür olması kontrol edilir
+* "columnsTab_Projects" elementine tıkla
+
+# Created By Sütunu ekle ve eklendiğini kontrol et
+* Columns Tabına tıkla
+* "createdBy_Projects_Columns" elementinin görünür olması kontrol edilir
+* "createdBy_Projects_Columns" elementine tıkla
+* "createdByColumnHeader" elementinin "class" niteliği "hidden" değerini içermediği kontrol edilir
+
+# Created At Sütunu ekle ve eklendiğini kontrol et
+* Columns Tabına tıkla
+* "createdAt_Projects_Columns" elementinin görünür olması kontrol edilir
+* "createdAt_Projects_Columns" elementine tıkla
+* "createdAtColumnHeader" elementinin "class" niteliği "hidden" değerini içermediği kontrol edilir
+
+# Updated By Sütunu ekle ve eklendiğini kontrol et
+* Columns Tabına tıkla
+* "updatedBy_Projects_Columns" elementinin görünür olması kontrol edilir
+* "updatedBy_Projects_Columns" elementine tıkla
+* "updatedByColumnHeader" elementinin "class" niteliği "hidden" değerini içermediği kontrol edilir
+
+# Updated At Sütunu ekle ve eklendiğini kontrol et
+* Columns Tabına tıkla
+* "updatedAt_Projects_Columns" elementinin görünür olması kontrol edilir
+* "updatedAt_Projects_Columns" elementine tıkla
+* "updatedAtColumnHeader" elementinin "class" niteliği "hidden" değerini içermediği kontrol edilir
+
+# Arama kutusuna <projectName> kelimesini yaz for projectPage
+* "searchBox_Projects" elementinin görünür olması kontrol edilir
+* "searchBox_Projects" elementine <projectName> değerini yaz
+* "1" saniye bekle
+
+# Arama kutusuna <projectName> kelimesini yaz ve kontrol et
+* Arama kutusuna <projectName> kelimesini yaz for projectPage
+* "projectNames_Projects" element listesinin text'inde <projectName> kelimesi var mı kontrol et
+
+# Project Sync tabına tıkla
+* "projectSyncTab_Projects" elementinin görünür olması kontrol edilir
+* "projectSyncTab_Projects" elementine tıkla
+* Şu anki url "http://dev.testinium.com/members/project/projectSync.html" ile aynı mı
+* "pageHeader_ProjectSync" elementinin görünür olması kontrol edilir
+* "pageHeader_ProjectSync" elementinin text değeri "Project Synchronization" değerini içeriyor mu
+
+# Project Sync sayfasının element kontrolü yapılır
+* Project Sync tabına tıkla
+* "projectStep_ProjectSync" elementinin "class" niteliği "active" değerine eşit mi
+* "steps_ProjectSync" elementinin görünür olması kontrol edilir
+* "projectsPanel_ProjectSync" elementinin görünür olması kontrol edilir
+* "cancelButton_ProjectSync" elementinin görünür olması kontrol edilir
+* "nextButton_ProjectSync" elementinin görünür olması kontrol edilir
+
+
+# Project Sync sayfasındaki Cancel butonuna tıkla
+* "cancelButton_ProjectSync" elementinin görünür olması kontrol edilir
+* "cancelButton_ProjectSync" elementine odaklan
+* "cancelButton_ProjectSync" elementine tıkla
+
+# Project Sync sayfasındaki Next Butonuna tıkla
+* "nextButton_ProjectSync" elementinin görünür olması kontrol edilir
+* "nextButton_ProjectSync" elementine odaklan
+* "nextButton_ProjectSync" elementine tıkla
+
+# Select Project Hata mesajı alınır
+* "selectProjectErrorMessage_ProjectSync" elementinin görünür olması kontrol edilir
+* "selectProjectErrorMessage_ProjectSync" elementinin text değeri "Select Project" değerine eşit mi
+
+# Project Sync sayfasında <projectName> isimli proje seçilerek Next tuşuna basılır ve 2.adıma geçilir
+* "projectName_ProjectSync" elementinin değerini <projectName> değeriyle değiştirerek "xpathKeyValue" elementini oluştur
+* "xpathKeyValue" elementinin görünür olması kontrol edilir
+* "xpathKeyValue" elementine tıkla
+
+
+# Project Sync sayfasında 2. adımın element kontrolleri yapılır
+* "steps_ProjectSync" elementinin görünür olması kontrol edilir
+* "methodsTable_ProjectSync_Step2" elementinin görünür olması kontrol edilir
+* "cancelButton_ProjectSync" elementinin görünür olması kontrol edilir
+* "nextButton_ProjectSync" elementinin görünür olması kontrol edilir
+* "backButton_ProjectSync" elementinin görünür olması kontrol edilir
+* "methodsToImportStep_ProjectSync" elementinin "class" niteliği "active" değerine eşit mi
+
+# Project Sync sayfasındaki Back butonuna tıkla
+* "backButton_ProjectSync" elementinin görünür olması kontrol edilir
+* "backButton_ProjectSync" elementine odaklan
+* "backButton_ProjectSync" elementine tıkla
+
+# Project Sync sayfasında 2.adımdan Back tuşuna basıp 1.adıma geçiş yapılır
+* Project Sync tabına tıkla
+* Project Sync sayfasında "Enterprise_Otomasyon" isimli proje seçilerek Next tuşuna basılır ve 2.adıma geçilir
+* Project Sync sayfasında 2. adımın element kontrolleri yapılır
+* Project Sync sayfasındaki Back butonuna tıkla
+* "projectsPanel_ProjectSync" elementinin görünür olması kontrol edilir
+* "cancelButton_ProjectSync" elementinin görünür olması kontrol edilir
+* "nextButton_ProjectSync" elementinin görünür olması kontrol edilir
+* "projectStep_ProjectSync" elementinin "class" niteliği "active" değerine eşit mi
+* "methodsToImportStep_ProjectSync" elementinin "class" niteliği "active" değerine eşit mi
+
+# Project Sync sayfasında 3.adımın element kontroleri yapılır
+* "steps_ProjectSync" elementinin görünür olması kontrol edilir
+* "deleteMethodsTable_ProjectSync_Step3" elementinin görünür olması kontrol edilir
+* "cancelButton_ProjectSync" elementinin görünür olması kontrol edilir
+* "nextButton_ProjectSync" elementinin görünür olması kontrol edilir
+* "backButton_ProjectSync" elementinin görünür olması kontrol edilir
+* "methodsToRemoveStep_ProjectSync" elementinin "class" niteliği "active" değerine eşit mi
+
+# Gerekli Seçimler yapılır ve 3.adıma geçilir sayfa kontrolü yapılır
+* Project Sync sayfasında "Enterprise_Otomasyon" isimli proje seçilerek Next tuşuna basılır ve 2.adıma geçilir
+* Project Sync sayfasında 2. adımın element kontrolleri yapılır
+* "checkAllCheckBox_ProjectSync_Step2" elementinin görünür olması kontrol edilir
+* "checkAllCheckBox_ProjectSync_Step2" elementine tıkla
+* "nextButton_ProjectSync" elementine odaklan
+* "nextButton_ProjectSync" elementine tıkla
+* Project Sync sayfasında 3.adımın element kontroleri yapılır
+
+# Project Sync sayfasında 3.adımdan Back tuşuna basıp 2.adıma geçiş yapılır
+* Project Sync tabına tıkla
+* Gerekli Seçimler yapılır ve 3.adıma geçilir sayfa kontrolü yapılır
+* Project Sync sayfasındaki Back butonuna tıkla
+* "steps_ProjectSync" elementinin görünür olması kontrol edilir
+* "methodsTable_ProjectSync_Step2" elementinin görünür olması kontrol edilir
+* "cancelButton_ProjectSync" elementinin görünür olması kontrol edilir
+* "nextButton_ProjectSync" elementinin görünür olması kontrol edilir
+* "backButton_ProjectSync" elementinin görünür olması kontrol edilir
+* "methodsToRemoveStep_ProjectSync" elementinin "class" niteliği "" değerine eşit mi
+
+# Project Sync sayfasında 4.adımın element kontroleri yapılır
+* "steps_ProjectSync" elementinin görünür olması kontrol edilir
+* "summaryTable_ProjectSync_Step4" elementinin görünür olması kontrol edilir
+* "cancelButton_ProjectSync" elementinin görünür olması kontrol edilir
+* "saveButton_ProjectSync" elementinin görünür olması kontrol edilir
+* "backButton_ProjectSync" elementinin görünür olması kontrol edilir
+* "summaryStep_ProjectSync" elementinin "class" niteliği "active" değerine eşit mi
+
+# Gerekli Seçimler yapılır ve 4.adıma geçilir sayfa kontrolü yapılır
+* Project Sync sayfasında "Enterprise_Otomasyon" isimli proje seçilerek Next tuşuna basılır ve 2.adıma geçilir
+* Project Sync sayfasında 2. adımın element kontrolleri yapılır
+* "checkAllCheckBox_ProjectSync_Step2" elementinin görünür olması kontrol edilir
+* "checkAllCheckBox_ProjectSync_Step2" elementine tıkla
+* "nextButton_ProjectSync" elementine odaklan
+* "nextButton_ProjectSync" elementine tıkla
+* Project Sync sayfasında 3.adımın element kontroleri yapılır
+* "nextButton_ProjectSync" elementine odaklan
+* "nextButton_ProjectSync" elementine tıkla
+* Project Sync sayfasında 4.adımın element kontroleri yapılır
+
+# Create new project tabına tıkla
+* "createNewProjectTab_Projects" elementinin görünür olması kontrol edilir
+* "createNewProjectTab_Projects" elementine tıkla
+
+# Create new project tabına tıkla ve sayfada olduğunu kontrol et
+* Create new project tabına tıkla
+* Şu anki url "http://dev.testinium.com/members/project/projectTypeSelection.html" ile aynı mı
+
+# Gauge Frameworkü kullanarak bir appium projesi oluştur
+* "ProjectForm_AppiumProject" elementinin görünür olması kontrol edilir
+* "ProjectForm_AppiumProject" elementine tıkla
+* Şu anki url "http://dev.testinium.com/members/project/appiumProjectForm.html?type=appium" ile aynı mı
+* "testFrameworkPanel_AppiumProject" elementinin görünür olması kontrol edilir
+* "testFrameworkName_AppiumProject" elementinin görünür olması kontrol edilir
+* "testFrameworkName_AppiumProject" elementinin text değeri "Appium" değerine eşit mi
+/* project Form sayfasının elementlerini kontrol et
+* "AppiumGauge" adıyla Appium gauge projesi oluştur
+* The new project has been created successfully mesajının alınması ve projects ekranına sayfanın yönlenmesi beklenir
+* Projects sayfası oluşturulan "seleniumSiteURLProjectNameKeyValue" proje ismi kontrolü
+
+# <projectName> adıyla Appium gauge projesi oluştur
+* <projectName> değerine rastgele "7" karakter ekle ve "seleniumSiteURLProjectNameKeyValue" keyinde tut
+* "gaugeFileType_AppiumProject" elementine tıkla
+* "projectName_Appium" elementine "seleniumSiteURLProjectNameKeyValue" değerini yaz
+* "projectDescription_Appium" elementine "This project is opened for Automation Test" değerini yaz
+* "repositoryPath_DailyRun" elementinin değerini temizle
+* "repositoryPath_DailyRun" elementine "rundaily" değerini yaz
+* "saveButton_DailyRun" elementine tıkla
+
+# The new project has been created successfully mesajının alınması ve projects ekranına sayfanın yönlenmesi beklenir
+* "projectSuccessfullyCreated_DailyRun" elementinin görünür olması kontrol edilir "90"
+* Şu anki url "http://dev.testinium.com/members/project/appiumProjectForm.html?type=appium" ile farklı mı
+* Şu anki url "http://dev.testinium.com/members/projectList.html" ile aynı mı

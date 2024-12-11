@@ -1,0 +1,254 @@
+[
+  {
+    "key": "companies",
+    "value": ".icon-building",
+    "type": "css"
+  },
+  {
+    "key": "companiestext",
+    "value": "//div[@class='table-header']//span[contains(text(),'Companies')]",
+    "type": "xpath"
+  },
+  {
+    "key": "slectcombobox",
+    "value": ".btn.btn-primary.btn-sm.dashboard-header-button",
+    "type": "css"
+  },
+  {
+    "key": "button",
+    "value": "div[class='btn btn-primary btn-sm dashboard-header-button']",
+    "type": "css"
+  },
+  {
+    "key": "project-button",
+    "value": "//div[@data-outcome='/members/projectList.html']",
+    "type": "xpath"
+  },
+  {
+    "key": "staticsText",
+    "value": "//div[@id='statistics']//div//h4",
+    "type": "xpath"
+  },
+  {
+    "key": "user-button",
+    "value": "//div[@data-outcome='/members/userList.html']",
+    "type": "xpath"
+  },
+  {
+    "key": "scenario-button",
+    "value": "//div[@data-outcome='/members/testScenarioList.html']",
+    "type": "xpath"
+  },
+  {
+    "key": "plan-button",
+    "value": "//div[@data-outcome='/members/testPlanList.html']",
+    "type": "xpath"
+  },
+  {
+    "key": "usedMinutes-text",
+    "value": "//div[@data-outcome='/members/invoiceHistoryList.html']",
+    "type": "xpath"
+  },
+  {
+    "key": "rtp-text",
+    "value": "//div[@data-outcome='/members/dashboardRunningTests.html']",
+    "type": "xpath"
+  },
+ {
+    "key":"activeTest-text",
+    "value": "//div[@data-outcome='/members/dashboardActiveTests.html']",
+    "type": "xpath"
+  },
+  {
+    "key":"combobox",
+    "value":".ui-button-icon-primary.ui-icon.ui-icon-triangle-1-s",
+    "type": "css"
+  },
+  {
+    "key": "search-button",
+    "value": "a[id='j_idt232']",
+    "type": "css"
+  },
+  {
+    "key": "clear-button",
+    "value": "a[id='j_idt234']",
+    "type": "css"
+  },
+  {
+    "key": "testinium-button",
+    "value": "//button[@data-toggle='dropdown']",
+    "type": "xpath"
+  },
+  {
+    "key": "profile-button",
+    "value":"//a[@href='/members/userProfile.html']",
+    "type": "xpath"
+  },
+  {
+    "key": "companyDetails-button",
+    "value": "//ul[@class='pull-right dropdown-menu dropdown-yellow dropdown-caret']//a[@href='/members/user/companyDetails.html']",
+    "type": "xpath"
+  },
+  {
+    "key": "dashboard-button",
+    "value": "//ul[@class='pull-right dropdown-menu dropdown-yellow dropdown-caret']//a[@href='/members/dashboard.html']",
+    "type": "xpath"
+  },
+  {
+    "key": "logout-button",
+    "value": "//ul[@class='pull-right dropdown-menu dropdown-yellow dropdown-caret']//a[@href='/logout.html']",
+    "type": "xpath"
+  },
+  {
+    "key": "returnToMainPage-button",
+    "value": "//div[@class='logo']//a[@href='/members/dashboard.html']//img[@src='/javax.faces.resource/images/Testinium_Logo_Horizontal.png']",
+    "type": "xpath"
+  },
+  {
+    "key": "sysSettingsls-button",
+    "value": "//span[text()=' System Settings ']",
+    "type": "xpath"
+  },
+  {
+    "key": "usersls-button",
+    "value": "//span[text()=' Users '] ",
+    "type": "xpath"
+  },
+  {
+    "key": "projectls-button",
+    "value": "//span[text()=' Projects ']",
+    "type": "xpath"
+  },
+  {
+    "key": "Scenariosls-button",
+    "value": "//span[text()=' Scenarios ']",
+    "type": "xpath"
+  },
+  {
+    "key": "Plansls-button",
+    "value": "//div[@class='sidebar']//a[@href='/members/testPlanList.html' and .//span[normalize-space(.)='Plans']]",
+    "type": "xpath"
+  },
+  {
+
+    "key": "BDDEditorls-button",
+    "value": "//span[text()=' BDD Editor ']",
+    "type": "xpath"
+  },
+  {
+    "key": "Reportsls-button",
+    "value": "//span[text()=' Reports ']",
+    "type": "xpath"
+  },
+  {
+    "key": "companiesls-button",
+    "value": "//a[@href='/members/companyList.html']",
+    "type": "xpath"
+  },
+  {
+    "key": "l90dEside-button",
+    "value": "//*[name()='path' and contains(@class,'0c3-shape c3-shape c3-arc c3-arc-Error-')]",
+    "type": "xpath"
+  },
+
+  {
+    "key":"comboboxselect",
+    "value": "//option[contains(text(),'Furkan Kartal')]",
+    "type": "xpath"
+  },
+  {
+    "key": "amozon-project",
+    "value": "//a[text()='Amazon']",
+    "type": "xpath"
+  },
+  {
+    "key": "FurkanKartal-co",
+    "value": " //li[@data-item-label='Furkan Kartal']",
+    "type": "xpath"
+  },
+  {
+    "key":"company-box",
+    "value": "//input[@id='navForm:companySelectForAdmin_input']",
+    "type": "xpath"
+  },
+  {
+    "key":"DashboardTextNavBar_Dashboard",
+    "value": "//div[@class='navbar-header']//li[normalize-space(.)='Dashboard']",
+    "type": "xpath"
+  },
+  {
+    "key":"DashboardTextHeader_Dashboard",
+    "value": "//div[@class='page-header']//h1[normalize-space()='Dashboard']",
+    "type": "xpath"
+  },
+  {
+    "key":"Dashboard_ProjectSelectButton",
+    "value": "//div[@class='inline dropdown-hover']//div[contains(@class,'ui-selectcheckboxmenu-trigger')]",
+    "type": "xpath"
+  },
+  {
+    "key":"Dashboard_ProjectButton",
+    "value": "//div[@class='card-counter info']//span[text()='Project']",
+    "type": "xpath"
+  },
+  {
+    "key":"Dashboard_UserButton",
+    "value": "//div[@class='card-counter info']//span[text()='User']",
+    "type": "xpath"
+  },
+  {
+
+    "key":"Dashboard_ScenarioButton",
+    "value": "//div[@class='card-counter info']//span[text()='Scenario']",
+    "type": "xpath"
+  },
+  {
+
+    "key":"Dashboard_PlanButton",
+    "value": "//div[@class='card-counter info']//span[text()='Plan']",
+    "type": "xpath"
+  },
+  {
+    "key":"Dashboard_UsedMinutesButton",
+    "value": "//div[@class='card-counter primary']//span[text()='Used Minutes']",
+    "type": "xpath"
+
+  },
+  {
+    "key":"Dashboard_RunningTestPlansButton",
+    "value": "//div[@class='card-counter primary']//span[normalize-space(.)='Running Test Plans']",
+    "type": "xpath"
+
+  },
+  {
+    "key":"Dashboard_ActiveTestButton",
+    "value": "//div[@class='card-counter primary']//span[normalize-space(.)='Active Tests']",
+    "type": "xpath"
+
+  },
+  {
+    "key":"",
+    "value": "",
+    "type": "xpath"
+
+  },
+  {
+    "key":"",
+    "value": "",
+    "type": "xpath"
+
+  },
+  {
+    "key":"",
+    "value": "",
+    "type": "xpath"
+
+  },
+  {
+    "key":"",
+    "value": "",
+    "type": "xpath"
+
+  }
+]
+

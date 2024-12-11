@@ -1,0 +1,282 @@
+[
+  {
+    "key": "seleniumProjectForm_DailyRun",
+    "value": "//li[@class='articles__article']/a[.//h2[normalize-space(.)='Selenium']]",
+    "type": "xpath"
+  },
+  {
+    "key": "testFrameworkPanel_DailyRun",
+    "value": "testFrameworkPanel",
+    "type": "id"
+  },
+  {
+    "key": "testFrameworkName_DailyRun",
+    "value": "#testFrameworkPanel>div>span",
+    "type": "css"
+  },
+  {
+    "key": "testFileType_DailyRun",
+    "value": "//table[@id='testFileType' and .//input[@value='SELENIUM_JAVA'] and .//input[@value='SELENIUM_HTML'] and .//input[@value='SELENIUM_CUCUMBER'] and .//input[@value='SELENIUM_CS'] and .//input[@value='SELENIUM_GAUGE'] and .//input[@value='SELENIUM_SPECFLOW']  ]",
+    "type": "xpath"
+  },
+  {
+    "key": "gaugeFileType_DailyRun",
+    "value": "input[value='SELENIUM_GAUGE']",
+    "type": "css"
+  },
+  {
+    "key": "testRunnerTool_DailyRun",
+    "value": "//table[@id='testRunnerTool' and .//input[@value='MAVEN']]",
+    "type": "xpath"
+  },
+  {
+    "key": "projectName_DailyRun",
+    "value": "projectName",
+    "type": "id"
+  },
+  {
+    "key": "projectDescription_DailyRun",
+    "value": "projectDescription",
+    "type": "id"
+  },
+  {
+    "key": "repositoryPath_DailyRun",
+    "value": "repositoryPath",
+    "type": "id"
+  },
+  {
+    "key": "projectEnabled_DailyRun",
+    "value": "//table[@id='projectEnabled' and .//input[@value='true'] and .//input[@value='false']]",
+    "type": "xpath"
+  },
+  {
+    "key": "modularProjectPanel_DailyRun",
+    "value": "//div[@id='modularProjectPanel' and .//div[@id='modularEnableCheckBox']]",
+    "type": "xpath"
+  },
+  {
+    "key": "dependencyProjects_DailyRun",
+    "value": "table[id='dependencyProjects']",
+    "type": "css"
+  },
+  {
+    "key": "saveButton_DailyRun",
+    "value": "saveButton",
+    "type": "id"
+  },
+  {
+    "key": "cancelButtton_DailyRun",
+    "value": "resetButton",
+    "type": "id"
+  },
+  {
+    "key": "projectSuccessfullyCreated_DailyRun",
+    "value": "//li[@role='alert']/span",
+    "type": "xpath"
+  },
+  {
+    "key": "projectNameKontrol_ProjectsPage_DailyRun",
+    "value": "//tbody[@id='projectList_data' and .//a[text()='%s']]",
+    "type": "xpath"
+  },
+  {
+    "key": "AnotherCompany_ProjectsPage_DailyRun",
+    "value": "//span[@id='navForm:companySelectForAdmin']/input[@value='TESTINIUM']",
+    "type": "xpath"
+  },
+  {
+    "key": "projectName_ScenariosPage_DailyRun",
+    "value": "project_input",
+    "type": "id"
+  },
+  {
+    "key": "createNewScenario_ScenariosPage_DailyRun",
+    "value": "//a[.//span[text()='CREATE NEW SCENARIO']]",
+    "type": "xpath"
+  },
+  {
+    "key": "projectName_TestScenarioForm_DailyRun",
+    "value": "//label[text()='Project']/following-sibling::div/div",
+    "type": "xpath"
+  },
+  {
+    "key": "scenarioName_TestScenarioForm_DailyRun",
+    "value": "testScenarioName",
+    "type": "id"
+  },
+  {
+    "key": "sourceFileSelect_TestScenarioForm_DailyRun",
+    "value": "//div[@id='sourceFileTreePanel']//button[.//span[text()='Select']]",
+    "type": "xpath"
+  },
+  {
+    "key": "denemeSpec_TestScenarioForm_DailyRun",
+    "value": "//span[@role='treeitem']//span[contains(.,'example.spec')]",
+    "type": "xpath"
+  },
+  {
+    "key": "selectTestScenario_TestScenarioForm_DailyRun",
+    "value": "//button[.//span[text()='Select Test Scenario']]",
+    "type": "xpath"
+  },
+  {
+    "key": "testiniumaGitScenario_TestScenarioForm_DailyRun",
+    "value": "//label[text()=' @Testinium']/preceding-sibling::input",
+    "type": "xpath"
+  },
+  {
+    "key": "saveButton_TestScenarioForm_DailyRun",
+    "value": "saveButton",
+    "type": "id"
+  },
+  {
+    "key": "infoMessage_ScenarioList_DailyRun",
+    "value": "ui-messages-info-summary",
+    "type": "class"
+  },
+  {
+    "key": "testScenariosName_ScenarioList_DailyRun",
+    "value": "//tbody[@id='scenarioList_data']//a[contains(@href,'/members/scenario/seleniumScenarioForm.html') and @title='%s']",
+    "type": "xpath"
+  },
+  {
+    "key": "projectName_PlansPage_DailyRun",
+    "value": "project_input",
+    "type": "id"
+  },
+  {
+    "key": "createNewPlan_PlansPage_DailyRun",
+    "value": "//a[.//span[text()='CREATE NEW PLAN']]",
+    "type": "xpath"
+  },
+  {
+    "key": "projectName_TestPlanForm_DailyRun",
+    "value": "//label[text()='Project Name']/following-sibling::div/div",
+    "type": "xpath"
+  },
+  {
+    "key": "planName_TestPlanForm_DailyRun",
+    "value": "planName",
+    "type": "id"
+  },
+  {
+    "key": "testSenaryoDailyrun_TestPlanForm_DailyRun",
+    "value": "//span[@role='treeitem']//span[contains(.,'testSenaryoDailyRun')]",
+    "type": "xpath"
+  },
+  {
+    "key": "nextButton_TestPlanForm_DailyRun",
+    "value": "//a[contains(@class,'btn-next') and .//text()='Next']",
+    "type": "xpath"
+  },
+  {
+    "key": "chromeLatestAdd_TestPlanForm_DailyRun",
+    "value": "//tr[.//label[text()='Chrome'] and .//label[text()='LATEST']]//a[.//i[@class='icon-plus']]",
+    "type": "xpath"
+  },
+  {
+    "key": "selectedBrowsersChromeLatest_TestPlanForm_DailyRun",
+    "value": "//span[@id='selectEnvironmentsArea']//tbody[.//label[text()='Windows 10'] and .//label[text()='Chrome'] and .//label[text()='LATEST']]",
+    "type": "xpath"
+  },
+  {
+    "key": "schedulePanel_TestPlanForm_DailyRun",
+    "value": "//span[@class='ui-panel-title' and text()='Schedule']",
+    "type": "xpath"
+  },
+  {
+    "key": "notificationsPanel_TestPlanForm_DailyRun",
+    "value": "//span[@class='ui-panel-title' and text()='Notifications']",
+    "type": "xpath"
+  },
+  {
+    "key": "testPlanSummaryPanel_TestPlanForm_DailyRun",
+    "value": "//span[@class='ui-panel-title' and text()='Test Plan Summary']",
+    "type": "xpath"
+  },
+  {
+    "key": "saveButton_TestPlanForm_DailyRun",
+    "value": "saveButton",
+    "type": "id"
+  },
+  {
+    "key": "infoMessage_PlanList_DailyRun",
+    "value": "ui-messages-info-summary",
+    "type": "class"
+  },
+  {
+    "key": "testPlanName_PlanList_DailyRun",
+    "value": "//tbody[@id='testPlanTable_data']//a[contains(@href,'/members/plan/seleniumTestPlanForm.html') and text()='%s']",
+    "type": "xpath"
+  },
+  {
+    "key": "runPlan_PlanList_DailyRun",
+    "value": "//tbody[@id='testPlanTable_data']//tr[.//a[contains(@href,'/members/plan/seleniumTestPlanForm.html') and text()='%s']]//a[contains(@id,'runButton')]",
+    "type": "xpath"
+  },
+  {
+    "key": "yesPopUp_PlanListRun_DailyRun",
+    "value": "//span[text()='Do you want to run test plan now?']//parent::div//button[contains(@class,'ui-confirmdialog-yes')]",
+    "type": "xpath"
+  },
+  {
+    "key": "testResult_PlanList_DailyRun",
+    "value": "//label[contains(@id,'resultSummary')]",
+    "type": "xpath"
+  },
+  {
+    "key": "testReportsButton_PlanList_DailyRun",
+    "value": "a[id$='reportButton']",
+    "type": "css"
+  },
+  {
+    "key": "reportData_TestReports_DailyRun",
+    "value": "//tbody[@id='resultTable_data' and .//td[text()='%s']]",
+    "type": "xpath"
+  },
+  {
+    "key": "badgeSuccess_TestReports_DailyRun",
+    "value": "//tbody[@id='resultTable_data' and .//td[text()='%s']]//span[contains(@class,'badge-success')]",
+    "type": "xpath"
+  },
+  {
+    "key": "planCheckBox_PlanList_DailyRun",
+    "value": "//tbody[@id='testPlanTable_data' and .//a[text()='%s']]//div[contains(@class,'ui-chkbox-box')]",
+    "type": "xpath"
+  },
+  {
+    "key": "deleteButton_PlanList_DailyRun",
+    "value": "deleteButton",
+    "type": "id"
+  },
+  {
+    "key": "yesButton_PlanList_DailyRun",
+    "value": "//span[text()='Do you want to delete these records?']//following::div//button[contains(@class,'ui-confirmdialog-yes')]",
+    "type": "xpath"
+  },
+  {
+    "key": "planDisabledInfo_PlanList_DailyRun",
+    "value": "ui-messages-warn-summary",
+    "type": "class"
+  },
+  {
+    "key": "deleteInfo_PlanList_DailyRun",
+    "value": "ui-messages-info-summary",
+    "type": "class"
+  },
+  {
+    "key": "selectAll_PlanList_DailyRun",
+    "value": "//thead[@id='testPlanTable_head']//div[contains(@class,'ui-chkbox-box')]",
+    "type": "xpath"
+  },
+  {
+    "key": "selectAll_ScenarioList_DailyRun",
+    "value": "//span[text()='Select All']//preceding-sibling::div[contains(@class,'ui-chkbox-box')]",
+    "type": "xpath"
+  },
+  {
+    "key": "checkBoxProject_Projects_DailyRun",
+    "value": "//tbody[@id='projectList_data']//tr[.//a[text()='%s']]//div[contains(@class,'ui-chkbox-box')]",
+    "type": "xpath"
+  }
+]

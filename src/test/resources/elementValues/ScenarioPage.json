@@ -1,0 +1,298 @@
+[
+  {
+    "key": "createNewPlanButton_ScenarioPage",
+    "value": "//span[text()='CREATE NEW SCENARIO']//parent::a",
+    "type": "xpath"
+  },
+  {
+    "key": "scenariosTab",
+    "value":"//a[@href='/members/testScenarioList.html']//following-sibling::span",
+    "type": "xpath"
+  },
+  {
+    "key": "pageHeader",
+    "value": "//div[@class='page-header']/h1",
+    "type": "xpath"
+  },
+  {
+    "key": "exportExcelTop",
+    "value": "//a[@class='btn btn-sm btn-primary pull-right']/span [text()='Export Excel']",
+    "type": "xpath"
+  },
+  {
+    "key": "createNewScenarioTop",
+    "value": "//a[@class='btn btn-sm btn-primary pull-right']/span [text()='CREATE NEW SCENARIO']",
+    "type": "xpath"
+  },
+  {
+    "key": "createNewGroupTop",
+    "value": "//a[@class='btn btn-sm btn-primary pull-right']/span [text()='CREATE NEW GROUP']",
+    "type": "xpath"
+  },
+  {
+    "key": "copyScenarioTop",
+    "value": "//a[@class='btn btn-sm btn-primary pull-right']/span [text()='COPY SCENARIO']",
+    "type": "xpath"
+  },
+  {
+    "key": "exportExcelTitle",
+    "value": "//span[@id='reportDialog_title']",
+    "type": "xpath"
+  },
+  {
+    "key": "netScenarioButton",
+    "value": "//div[@class='ui-chkbox-box ui-widget ui-corner-all ui-state-default']",
+    "type": "xpath"
+  },
+  {
+    "key": "selectAllButton",
+    "value": "//span[@class='ui-chkbox-label']",
+    "type": "xpath"
+  },
+  {
+    "key": "exportExcelButton",
+    "value": "//a[@class='ui-commandlink ui-widget btn btn-info']",
+    "type": "xpath"
+  },
+  {
+    "key": "exitButton",
+    "value": "//a[@class='ui-dialog-titlebar-icon ui-dialog-titlebar-close ui-corner-all']",
+    "type": "xpath"
+  },
+  {
+    "key": "projectName",
+    "value": "//label[@id='j_idt216']",
+    "type": "xpath"
+  },
+  {
+    "key": "projectButton",
+    "value": "//span[@id='project']/button",
+    "type": "xpath"
+  },
+  {
+    "key": "testScenarioForm_",
+    "value": "//div[@class='page-header']/h1",
+    "type": "xpath"
+  },
+  {
+    "key": "scenarioName_Button",
+    "value": "#testScenarioName",
+    "type": "css"
+  },
+  {
+    "key": "description",
+    "value": "scenarioDescription",
+    "type": "id"
+  },
+  {
+
+    "key": "expectedResult",
+    "value": "#expectedResult",
+    "type": "css"
+  },
+  {
+    "key": "testStep",
+    "value": "//input[@name='testStepsTable:j_idt250']",
+    "type": "xpath"
+
+  },
+  {
+    "key": "testStepActionsAdd",
+    "value": "testStepsTable:j_idt256",
+    "type": "id"
+  },
+  {
+
+    "key": "maxExecutionTime",
+    "value": "#scenarioMaxExecutionLimit",
+    "type": "css"
+  },
+  {
+
+    "key": "enabledYes",
+    "value": "//input[@id='scenarioEnabled:0']",
+    "type": "xpath"
+  },
+  {
+
+    "key": "enabledNo",
+    "value": "//input[@id='scenarioEnabled:1']",
+    "type": "xpath"
+
+  },
+  {
+    "key": "scenarioDetailsSave",
+    "value": "saveButton",
+    "type": "id"
+  },
+  {
+
+    "key": "scenarioDetailsCancel",
+    "value": "cancel",
+    "type": "id"
+  },
+  {
+    "key": "projectNameList",
+    "value": ".ui-autocomplete-item.ui-autocomplete-list-item.ui-corner-all",
+    "type": "css"
+  },
+  {
+    "key": "testScenarioForm",
+    "value": "//div[@class='page-header']//h1[normalize-space(.)='Test Scenario Form']",
+    "type": "xpath"
+  },
+  {
+    "key": "scenarioName",
+    "value": "testScenarioName",
+    "type": "id"
+  },
+  {
+    "key": "testScenarioSave",
+    "value": "#saveButton",
+    "type": "css"
+  },
+  {
+    "key": "testScenarioCancel",
+    "value": "#cancel",
+    "type": "css"
+  },
+  {
+    "key": "copyTestScenario_SourceProject",
+    "value": "#project",
+    "type": "css"
+  },
+  {
+    "key": "scenariosOfPlan",
+    "value": "j_idt223:0",
+    "type": "id"
+  },
+  {
+    "key": "tergetProject",
+    "value": "projectToClone",
+    "type": "id"
+  },
+  {
+    "key": "copyTestScenario_Save",
+    "value": "saveButton",
+    "type": "id"
+  },
+  {
+    "key": "copyTestScenario_Cancel",
+    "value": "resetButton",
+    "type": "id"
+  },
+  {
+    "key": "dashBoardTab_Scenario",
+    "value": "//div[@id='sidebar']//a[@href='/members/dashboard.html' and .//span[normalize-space(.)='Dashboard']]",
+    "type": "xpath"
+  },
+  {
+    "key": "companiesTab_Scenario",
+    "value": "//div[@id='sidebar']//a[@href='/members/companyList.html' and .//span[normalize-space(.)='Companies']]",
+    "type": "xpath"
+  },
+  {
+    "key": "usersTab_Scenario",
+    "value": "//div[@id='sidebar']//a[@href='/members/userList.html' and .//span[normalize-space(.)='Users']]",
+    "type": "xpath"
+  },
+  {
+    "key": "projectTab_Scenario",
+    "value": "//div[@id='sidebar']//a[@href='/members/projectList.html' and .//span[normalize-space(.)='Projects']]",
+    "type": "xpath"
+  },
+  {
+    "key": "plansTab_Scenario",
+    "value": "//div[@id='sidebar']//a[@href='/members/testPlanList.html' and .//span[normalize-space(.)='Plans']]",
+    "type": "xpath"
+  },
+  {
+    "key": "bddEditor_Scenario",
+    "value": "//div[@id='sidebar']//a[@href='/members/featureFileList.html' and .//span[normalize-space(.)='BDD Editor']]",
+    "type": "xpath"
+  },
+  {
+    "key": "searchbox_Scenario",
+    "value": "scenarioNameFilter",
+    "type": "id"
+  },
+  {
+    "key": "scenarioNameList_scenarioPage",
+    "value": "//span[@id='project']",
+    "type": "xpath"
+  },
+  {
+    "key": "scenarioName_scenarioTable_scenariosPage",
+    "value": "//tbody[@id='scenarioList_data']/tr/td/div/following-sibling::a[text()='%s']",
+    "type": "xpath"
+  },
+  {
+    "key": "projectNameSelect_ScenarioPage",
+    "value": "//span[@id='project_panel']//li[@data-item-label='%s']",
+    "type": "xpath"
+  },
+  {
+    "key": "scenarioName_TestscenarioForm_ScenarioPage",
+    "value": "planName",
+    "type": "id"
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": "xpath"
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": "xpath"
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": "xpath"
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": "xpath"
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": "xpath"
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": "xpath"
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": "xpath"
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": "xpath"
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": "xpath"
+  },
+  {
+
+    "key": "",
+    "value": "",
+    "type": "xpath"
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": "xpath"
+
+
+
+  }
+  ]

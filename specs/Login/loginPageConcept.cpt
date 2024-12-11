@@ -1,0 +1,23 @@
+# <email> ve <password> bilgileriyle giris yap
+* "userNameInLoginPage" elementinin görünür olması kontrol edilir
+* "passwordInLoginPage" elementinin görünür olması kontrol edilir
+* "userNameInLoginPage" elementine <email> değerini yaz
+* "passwordInLoginPage" elementine <password> değerini yaz
+* "signInButton" elementinin tıklanabilir olması kontrol edilir
+* "signInButton" elementine tıkla
+
+
+# <email> ve <password> bilgileriyle gecerli login yap
+* <email> ve <password> bilgileriyle giris yap
+* Şu anki url "http://dev.testinium.com/members/dashboard.html" içeriyor mu
+* "headerDashboard" elementinin görünür olması kontrol edilir
+* "headerDashboard" elementinin text değeri "Dashboard" değerini içeriyor mu
+
+# Login başarısız uyarısında <errorMessage> hata mesajı alınır.
+* "alertDangerInLoginPage" elementinin görünür olması kontrol edilir
+* "alertDangerInLoginPage" elementinin text değeri <errorMessage> değerine eşit mi
+
+# Forgot my password butonuna tıkla
+* "forgotPasswordInLoginPage" elementinin görünür olması kontrol edilir
+* "forgotPasswordInLoginPage" elementinin tıklanabilir olması kontrol edilir
+* "forgotPasswordInLoginPage" elementine tıkla

@@ -1,0 +1,287 @@
+[
+  {
+    "key": "header_PlansPage",
+    "value": ".page-header>h1",
+    "type": "css"
+  },
+  {
+    "key": "projectNameInput_PlansPage",
+    "value": "project_input",
+    "type": "id"
+  },
+  {
+    "key": "plansTable_PlansPage",
+    "value": "//div[@id='testPlanTable' and .//th[@aria-label='Plan Name'] and .//th[@aria-label='Project Name'] and .//th[@aria-label='Description'] and .//th[@aria-label='Enabled: activate to sort column ascending'] and .//th[@aria-label='Last Execution']]",
+    "type": "xpath"
+  },
+  {
+    "key": "deleteButton_PlansPage",
+    "value": "deleteButton",
+    "type": "id"
+  },
+  {
+    "key": "columnsButton_PlansPage",
+    "value": "toggler",
+    "type": "id"
+  },
+  {
+    "key": "runWithTagButton_PlansPage",
+    "value": "a[href='/members/tagList.html']",
+    "type": "css"
+  },
+  {
+    "key": "clonePlanButton_PlansPage",
+    "value": "a[href='/members/testPlanClone.html']",
+    "type": "css"
+  },
+  {
+    "key": "showExpiredPlansButton_PlansPage",
+    "value": "//span[text()='Show Expired Plans']//parent::a",
+    "type": "xpath"
+  },
+  {
+    "key": "createNewPlanButton_PlansPage",
+    "value": "//span[text()='CREATE NEW PLAN']//parent::a",
+    "type": "xpath"
+  },
+  {
+    "key": "showRunningPlansButton_PlansPage",
+    "value": "showActivePlansButton",
+    "type": "id"
+  },
+  {
+    "key": "planNameFilter_PlansPage",
+    "value": "planNameFilter",
+    "type": "id"
+  },
+  {
+    "key": "planName_PlansPage",
+    "value": "//tbody[@id='testPlanTable_data' ]//tr[.//a[contains(@href,'/members/plan/seleniumTestPlanForm.html') and text()='%s']]",
+    "type": "xpath"
+  },
+  {
+    "key": "scenarioOfPlan_PlansPage",
+    "value": "//span[@role='treeitem']//span[contains(.,'%s')]",
+    "type": "xpath"
+  },
+  {
+    "key": "nextButton_PlansPage",
+    "value": "//a[contains(@class,'btn-next') and .//text()='Next']",
+    "type": "xpath"
+  },
+  {
+    "key": "linuxLatestAdd_PlansPage",
+    "value": "//tr[.//label[text()='Chrome'] and .//label[text()='LATEST']]//a[.//i[@class='icon-plus']]",
+    "type": "xpath"
+  },
+  {
+    "key": "selectedBrowsersChromeLatest_PlansPage",
+    "value": "//span[@id='selectEnvironmentsArea']//tbody[.//label[text()='Linux'] and .//label[text()='Chrome'] and .//label[text()='LATEST']]",
+    "type": "xpath"
+  },
+  {
+    "key": "schedulePanel_PlansPage",
+    "value": "//span[@class='ui-panel-title' and text()='Schedule']",
+    "type": "xpath"
+  },
+  {
+    "key": "repetitivePeriod_PlansPage",
+    "value": "input[name='periodType'][value='REPETITIVE']",
+    "type": "css"
+  },
+  {
+    "key": "repetitivePickerBeginInput_PlansPage",
+    "value": "repetitivePickerBegin_input",
+    "type": "id"
+  },
+  {
+    "key": "repetitivePickerEndInput_PlansPage",
+    "value": "repetitivePickerEnd_input",
+    "type": "id"
+  },
+  {
+    "key": "repeatPeriod_PlansPage",
+    "value": "//td[.//div[contains(@class,'ui-radiobutton')] and .//label[text()='%s']]//div[contains(@class,'ui-radiobutton-bo')]",
+    "type": "xpath"
+  },
+  {
+    "key": "notificationsPanel_PlansPage",
+    "value": "//span[@class='ui-panel-title' and text()='Notifications']",
+    "type": "xpath"
+  },
+  {
+    "key": "testPlanSummaryPanel_PlansPage",
+    "value": "//span[@class='ui-panel-title' and text()='Test Plan Summary']",
+    "type": "xpath"
+  },
+  {
+    "key": "saveButton_PlansPage",
+    "value": "saveButton",
+    "type": "id"
+  },
+  {
+    "key": "infoMessage_PlansPage",
+    "value": "ui-messages-info-summary",
+    "type": "class"
+  },
+  {
+    "key": "testPlanName_PlansPage",
+    "value": "//tbody[@id='testPlanTable_data']//a[contains(@href,'/members/plan/seleniumTestPlanForm.html') and text()='%s']",
+    "type": "xpath"
+  },
+  {
+    "key": "planCheckBox_PlansPage",
+    "value": "//tbody[@id='testPlanTable_data']//tr[.//a[text()='%s']]//div[contains(@class,'ui-chkbox-box')]",
+    "type": "xpath"
+  },
+  {
+    "key": "yesButton_PlansPage",
+    "value": "//span[text()='Do you want to delete these records?']//following::div//button[contains(@class,'ui-confirmdialog-yes')]",
+    "type": "xpath"
+  },
+  {
+    "key": "planDisabledInfo_PlansPage",
+    "value": "ui-messages-warn-summary",
+    "type": "class"
+  },
+  {
+    "key": "deleteInfo_PlansPage",
+    "value": "ui-messages-info-summary",
+    "type": "class"
+  },
+  {
+    "key": "header_PlansPage_RunWithTag",
+    "value": ".page-header>h1",
+    "type": "css"
+  },
+  {
+    "key": "tagTable_PlansPage_RunWithTag",
+    "value": "//div[@id='tagTable' and .//th[@aria-label='Tag Name'] and .//th[@aria-label='Company'] and .//th[@aria-label='Plan Count']]",
+    "type": "xpath"
+  },
+  {
+    "key": "columnsButton_PlansPage_RunWithTag",
+    "value": "toggler",
+    "type": "id"
+  },
+  {
+    "key": "newTagButton_PlansPage_RunWithTag",
+    "value": "//span[text()='New Tag']//parent::a",
+    "type": "xpath"
+  },
+  {
+    "key": "header_PlansPage_RunWithTag_NewTag",
+    "value": ".page-header>h1",
+    "type": "css"
+  },
+  {
+    "key": "tagName_PlansPage_RunWithTag_NewTag",
+    "value": "//input[@name='tagName']",
+    "type": "xpath"
+  },
+  {
+    "key": "project_PlansPage_RunWithTag_NewTag",
+    "value": "project",
+    "type": "id"
+  },
+  {
+    "key": "sourceList_PlansPage_RunWithTag_NewTag",
+    "value": "//div[@class='ui-picklist-list-wrapper' and .//div[text()='Source']]",
+    "type": "xpath"
+  },
+  {
+    "key": "targetList_PlansPage_RunWithTag_NewTag",
+    "value": "//div[@class='ui-picklist-list-wrapper' and .//div[text()='Target']]",
+    "type": "xpath"
+  },
+  {
+    "key": "buttons_PlansPage_RunWithTag_NewTag",
+    "value": "ui-picklist-buttons",
+    "type": "class"
+  },
+  {
+    "key": "cancel_PlansPage_RunWithTag_NewTag",
+    "value": "cancel",
+    "type": "id"
+  },
+  {
+    "key": "next_PlansPage_RunWithTag_NewTag",
+    "value": "//a[contains(@class,'btn-next')]",
+    "type": "xpath"
+  },
+  {
+    "key": "schedule_PlansPage_RunWithTag_NewTag",
+    "value": "//span[@class='ui-panel-title' and text()='Schedule']",
+    "type": "xpath"
+  },
+  {
+    "key": "schedulePanel_PlansPage_RunWithTag_NewTag",
+    "value": "//div[contains(@class,'ui-panel-content')]",
+    "type": "xpath"
+  },
+  {
+    "key": "backButton_PlansPage_RunWithTag_NewTag",
+    "value": "//a[contains(@class,'btn-prev')]",
+    "type": "xpath"
+  },
+  {
+    "key": "saveButton_PlansPage_RunWithTag_NewTag",
+    "value": "saveButton",
+    "type": "id"
+  },
+  {
+    "key": "expiredPlan_PlansPage_ShowExpiredPlans",
+    "value": "//div[@id='expiredTestPlanTable']//a[text()='%s']",
+    "type": "xpath"
+  },
+  {
+    "key": "endDateInput_PlansPage_ShowExpiredPlans",
+    "value": "//tr[contains(@class,'ui-datatable') and .//a[text()='%s']]//input[contains(@id,'repetitivePickerEnd_input')]",
+    "type": "xpath"
+  },
+  {
+    "key": "updateButton_PlansPage_ShowExpiredPlans",
+    "value": "//tr[contains(@class,'ui-datatable') and .//a[text()='%s']]//a[contains(@id,'updateButton')]",
+    "type": "xpath"
+  },
+  {
+    "key": "runButton_PlansPage",
+    "value": "//tbody[@id='testPlanTable_data']/tr[.//a[text()='%s']]//a[contains(@id,'runButton')]",
+    "type": "xpath"
+  },
+  {
+    "key": "runYesPopUp_PlansPage",
+    "value": "//span[text()='Do you want to run test plan now?']//following::div//button[contains(@class,'ui-confirmdialog-yes')]",
+    "type": "xpath"
+  },
+  {
+    "key": "planName_PlansPage_ShowRunningPlans",
+    "value": "//tbody[@id='activePlansTable_data']//tr[.//td[text()='%s']]",
+    "type": "xpath"
+  },
+  {
+    "key": "activePlansTitle_PlansPage_ShowRunningPlans",
+    "value": "activePlansDialog_title",
+    "type": "id"
+  },
+  {
+    "key": "reportButton_PlansPage",
+    "value": "//tbody[@id='testPlanTable_data']/tr[.//a[text()='%s']]//a[contains(@id,'reportButton')]",
+    "type": "xpath"
+  },
+  {
+    "key": "planName_PlansPage_Report",
+    "value": "//tbody[@id='resultTable_data']/tr[.//td[text()='%s']]",
+    "type": "xpath"
+  },
+  {
+    "key": "editButton_PlansPage",
+    "value": "//tbody[@id='testPlanTable_data']/tr[.//a[text()='%s']]//a[contains(@id,'editButton')]",
+    "type": "xpath"
+  },
+  {
+    "key": "planName_PlansPage_Edit",
+    "value": "planName",
+    "type": "id"
+  }
+]

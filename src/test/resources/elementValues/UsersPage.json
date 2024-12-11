@@ -1,0 +1,252 @@
+[
+  {
+    "key": "pageHeader_UsersPage",
+    "value": "//div[@class='page-header']/h1[normalize-space(.)='User List']",
+    "type": "xpath"
+  },
+  {
+    "key": "userListTable_UsersPage",
+    "value": "//div[@id='userList' and .//th/span[text()='User Name'] and .//th/span[text()='Roles'] and .//th/span[text()='Company Name'] and .//th/span[text()='Enabled']]",
+    "type": "xpath"
+  },
+  {
+    "key": "companyNameList_UsersPage",
+    "value": "company",
+    "type": "id"
+  },
+  {
+    "key": "manageRolesTab_UsersPage",
+    "value": "//a[@href='/members/admin/roleList.html' and .//span[normalize-space(.)='MANAGE ROLES']]",
+    "type": "xpath"
+  },
+  {
+    "key": "createNewUserTab_UsersPage",
+    "value": "//a[@href='/members/userForm.html' and .//span[normalize-space(.)='CREATE NEW USER']]",
+    "type": "xpath"
+  },
+  {
+    "key": "userNameFilter_UsersPage",
+    "value": "userNameFilter",
+    "type": "id"
+  },
+  {
+    "key": "emptyUserMessage_UsersPage",
+    "value": "//tbody[@id='userList_data']//tr[contains(@class,'ui-datatable-empty-message')]/td",
+    "type": "xpath"
+  },
+  {
+    "key": "userName_UserTable_UsersPage",
+    "value": "//tbody[@id='userList_data' and .//a[text()='%s']]",
+    "type": "xpath"
+  },
+  {
+    "key": "roleListText_ManageRoles_UsersPage",
+    "value": ".page-header>h1",
+    "type": "css"
+  },
+  {
+    "key": "roleListTable_ManageRoles_UsersPage",
+    "value": "//div[@id='roleList' and .//th[@aria-label='Role Name'] and .//th[@aria-label='Description'] and .//th[@aria-label='Enabled']]",
+    "type": "xpath"
+  },
+  {
+    "key": "createNewRoleButton_ManageRoles_UsersPage",
+    "value": "//span[text()='CREATE NEW ROLE']/parent::a[@href='/members/admin/roleForm.html']",
+    "type": "xpath"
+  },
+  {
+    "key": "roleManagementText_ManageRoles_CreateNewRole_UsersPage",
+    "value": ".page-header>h1",
+    "type": "css"
+  },
+  {
+    "key": "roleName_ManageRoles_CreateNewRole_UsersPage",
+    "value": "defaultForm:roleName",
+    "type": "id"
+  },
+  {
+    "key": "roleDescription_ManageRoles_CreateNewRole_UsersPage",
+    "value": "defaultForm:roleDescription",
+    "type": "id"
+  },
+  {
+    "key": "enabledTrue_ManageRoles_CreateNewRole_UsersPage",
+    "value": "input[name='defaultForm:roleEnabled'][value='true']",
+    "type": "css"
+  },
+  {
+    "key": "enabledFalse_ManageRoles_CreateNewRole_UsersPage",
+    "value": "input[name='defaultForm:roleEnabled'][value='false']",
+    "type": "css"
+  },
+  {
+    "key": "allPermissionsList_ManageRoles_CreateNewRole_UsersPage",
+    "value": "//div[@class='ui-picklist-list-wrapper' and .//ul[@aria-label='All Permissions']]",
+    "type": "xpath"
+  },
+  {
+    "key": "rolePermissionsList_ManageRoles_CreateNewRole_UsersPage",
+    "value": "//div[@class='ui-picklist-list-wrapper' and .//ul[@aria-label='Role Permissions']]",
+    "type": "xpath"
+  },
+  {
+    "key": "saveButton_ManageRoles_CreateNewRole_UsersPage",
+    "value": "a[id='defaultForm:saveButton']",
+    "type": "css"
+  },
+  {
+    "key": "cancelButton_ManageRoles_CreateNewRole_UsersPage",
+    "value": "a[id='defaultForm:resetButton']",
+    "type": "css"
+  },
+  {
+    "key": "roleNameControl_ManageRoles_CreateNewRole_UsersPage",
+    "value": "//tbody[@id='roleList_data']/tr[td[text()='%s']]",
+    "type": "xpath"
+  },
+  {
+    "key": "deleteButton_ManageRoles_CreateNewRole_UsersPage",
+    "value": "//tbody[@id='roleList_data']/tr[td[text()='%s']]//a[contains(@id,'deleteButton')]",
+    "type": "xpath"
+  },
+  {
+    "key": "yesPopUp_ManageRoles_CreateNewRole_UsersPage",
+    "value": "//div[contains(@class,'ui-confirm-dialog')]//button[contains(@class,'yes')]",
+    "type": "xpath"
+  },
+  {
+    "key": "info_ManageRoles_CreateNewRole_UsersPage",
+    "value": "ui-messages-info-summary",
+    "type": "class"
+  },
+  {
+    "key": "errorMessage_ManageRoles_CreateNewRole_UsersPage",
+    "value": "ui-messages-error-summary",
+    "type": "class"
+  },
+  {
+    "key": "permissionName_ManageRoles_CreateNewRole_UsersPage",
+    "value": "//ul[@aria-label='All Permissions']/li[@data-item-label='%s']",
+    "type": "xpath"
+  },
+  {
+    "key": "permissionNameRolePermissions_ManageRoles_CreateNewRole_UsersPage",
+    "value": "//ul[@aria-label='Role Permissions']/li[@data-item-label='%s']",
+    "type": "xpath"
+  },
+  {
+    "key": "addButton_ManageRoles_CreateNewRole_UsersPage",
+    "value": "//div[@class='ui-picklist-buttons-cell']//button[@title='Add']",
+    "type": "xpath"
+  },
+  {
+    "key": "addAllButton_ManageRoles_CreateNewRole_UsersPage",
+    "value": "//div[@class='ui-picklist-buttons-cell']//button[@title='Add All']",
+    "type": "xpath"
+  },
+  {
+    "key": "removeButton_ManageRoles_CreateNewRole_UsersPage",
+    "value": "//div[@class='ui-picklist-buttons-cell']//button[@title='Remove']",
+    "type": "xpath"
+  },
+  {
+    "key": "removeAllButton_ManageRoles_CreateNewRole_UsersPage",
+    "value": "//div[@class='ui-picklist-buttons-cell']//button[@title='Remove All']",
+    "type": "xpath"
+  },
+  {
+    "key": "userName_CreateNewUser_UsersPage",
+    "value": "input[id='defaultForm:userName']",
+    "type": "css"
+  },
+  {
+    "key": "email_CreateNewUser_UsersPage",
+    "value": "input[id='defaultForm:email']",
+    "type": "css"
+  },
+  {
+    "key": "companyName_CreateNewUser_UsersPage",
+    "value": "select[id='defaultForm:company']",
+    "type": "css"
+  },
+  {
+    "key": "rolesTable_CreateNewUser_UsersPage",
+    "value": "table[id='defaultForm:roles']",
+    "type": "css"
+  },
+  {
+    "key": "availableCompanies_CreateNewUser_UsersPage",
+    "value": "//div[@class='ui-picklist-list-wrapper' and .//div[text()='Available Companies']]",
+    "type": "xpath"
+  },
+  {
+    "key": "userCompanies_CreateNewUser_UsersPage",
+    "value": "//div[@class='ui-picklist-list-wrapper' and .//div[text()='User Companies']]",
+    "type": "xpath"
+  },
+  {
+    "key": "pickButtons_CreateNewUser_UsersPage",
+    "value": "ui-picklist-buttons",
+    "type": "class"
+  },
+  {
+    "key": "language_CreateNewUser_UsersPage",
+    "value": "select[id='defaultForm:language']",
+    "type": "css"
+  },
+  {
+    "key": "timeZone_CreateNewUser_UsersPage",
+    "value": "input[id='defaultForm:timezone_input']",
+    "type": "css"
+  },
+  {
+    "key": "gitAccess_CreateNewUser_UsersPage",
+    "value": "table[id='defaultForm:svnAccess']",
+    "type": "css"
+  },
+  {
+    "key": "enabled_CreateNewUser_UsersPage",
+    "value": "table[id='defaultForm:userEnabled']",
+    "type": "css"
+  },
+  {
+    "key": "save_CreateNewUser_UsersPage",
+    "value": "a[id='defaultForm:saveButton']",
+    "type": "css"
+  },
+  {
+    "key": "cancel_CreateNewUser_UsersPage",
+    "value": "a[id='defaultForm:resetButton']",
+    "type": "css"
+  },
+  {
+    "key": "pageHeader_CreateNewUser_UsersPage",
+    "value": ".page-header>h1",
+    "type": "css"
+  },
+  {
+    "key": "firstError_CreateNewUser_UsersPage",
+    "value": "(//span[@class='ui-messages-error-summary'])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "secondError_CreateNewUser_UsersPage",
+    "value": "(//span[@class='ui-messages-error-summary'])[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "info_CreateNewUser_UsersPage",
+    "value": "li[role='alert']>span",
+    "type": "css"
+  },
+  {
+    "key": "deleteUserButton_CreateNewUser_UsersPage",
+    "value": "//tr[contains(@class,'ui-datatable') and .//td/a[text()='%s']]//a[contains(@id,'deleteButton')]",
+    "type": "xpath"
+  },
+  {
+    "key": "yesPopUp_CreateNewUser_UsersPage",
+    "value": "//button[contains(@class,'ui-confirmdialog-yes') and .//span[text()='Yes']]",
+    "type": "xpath"
+  }
+]

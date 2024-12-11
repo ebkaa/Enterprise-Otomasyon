@@ -1,0 +1,241 @@
+
+
+# BDD Editor Sayfası Kontrolleri Yapılır
+* Şu anki url "https://dev.testinium.com/members/featureFileList.html" ile aynı mı
+* "TestFileText" elementinin text değeri "File List" değerine eşit mi
+* "BDD_Editor_Dropdown" elementinin görünür olması kontrol edilir
+* "BDD_Editor_Dropdown" elementine "AmazonSelenium3" değerini yaz
+ "BDD_Editor_Dropdown" dropdown elementinin "5" indexine tıkla
+* "BDD_Editor_Dropdown" elementine tıkla
+* "CreateSpecFileButton" elementinin görünür olması kontrol edilir
+* "CreateSpecFileButton" elementinin tıklanabilir olması kontrol edilir
+* "CreateSpecFileButton" elementinin text değeri "Create Spec File" değerine eşit mi
+* "CreateConceptFileButton" elementinin görünür olması kontrol edilir
+* "CreateConceptFileButton" elementinin tıklanabilir olması kontrol edilir
+* "CreateConceptFileButton" elementinin text değeri "Create Concept File" değerine eşit mi
+* "SpecConceptFileList" elementinin görünür olması kontrol edilir
+* "CreateConceptFileButton" elementinin tıklanabilir olması kontrol edilir
+* "SpecConceptFileList" elementinin text değeri "Spec & Concept File List" değerine eşit mi
+* "SpecTab" elementinin görünür olması kontrol edilir
+* "SpecTab" elementinin tıklanabilir olması kontrol edilir
+* "SpecTab" elementinin text değeri "Specs" değerine eşit mi
+* "ConceptTab" elementinin görünür olması kontrol edilir
+* "ConceptTab" elementinin tıklanabilir olması kontrol edilir
+* "ConceptTab" elementinin text değeri "Concepts" değerine eşit mi
+* "SpecFileNameText" elementinin görünür olması kontrol edilir
+* "SpecFileNameText" elementinin text değeri "Spec File Name" değerine eşit mi
+* "LanguageText" elementinin görünür olması kontrol edilir
+* "LanguageText" elementinin text değeri "Language" değerine eşit mi
+* "ScenarioCountText" elementinin görünür olması kontrol edilir
+* "ScenarioCountText" elementinin text değeri "Scenario Count" değerine eşit mi
+* "SearchFileName" elementinin görünür olması kontrol edilir
+* "SearchFileName" elementinin text değeri "Search file name :" değerine eşit mi
+
+# BDD Editor Rastgele Proje Seçimi
+* "RastgeleSecim" menusünden random seçim yap
+# Yanlış Proje Seçimi ve Hata Mesajı alma
+* "YanlısProje" elementine tıkla
+* "HataMesajı" elementinin text değeri "\"An error occurred due to git server connection.\"" değerine eşit mi
+
+# Searchable olduğu kontrol edilir
+* "Amazon" elementine tıkla
+* "3" saniye bekle
+* "SearchFileNameText" elementinin görünür olması kontrol edilir
+* "SearchFileNameText" elementinin tıklanabilir olması kontrol edilir
+* "SearchFileNameText" elementine "example.spec" değerini yaz
+* "3" saniye bekle
+* "ExampleSpecText" elementinin text değeri "example.spec" değerine eşit mi
+
+# Yeni Concept File Oluşturulması
+* "CreateConceptFileButton" elementinin tıklanabilir olması kontrol edilir
+* "CreateConceptFileButton" elementine tıkla
+
+# <SpecProjectName> adıyla Spec oluştur
+* "CreateSpecFileButton" elementinin tıklanabilir olması kontrol edilir
+* "CreateSpecFileButton" elementine tıkla
+* <SpecProjectName> degerini "SpecProjectName" keyinde tut
+* "CreateSpecProjectNameText" elementine <SpecProjectName> değerini yaz
+.. CreateSpecFileNameText json ekle
+
+# <ProjectName> adıyla Concept oluştur
+* "CreateConceptFileButton" elementinin tıklanabilir olması kontrol edilir
+* "CreateConceptFileButton" elementine tıkla
+* <ProjectName> degerini "ConceptProjectName" keyinde tut
+//* "CreateConceptProjectNameText" elementine <ProjectName> keyini yolla
+* "CreateConceptProjectNameText" elementine <ProjectName> değerini yaz
+..* "CreateConceptProjectNameText" elementinin text değeri <ProjectName> değerini içeriyor mu
+..* "CreateConceptProjectNameText" elementinin text değeri <ProjectName> değerine eşit mi
+
+# SenaryoName hata mesajı kontrolu
+* "ScenarioNameEmptyErrorMessage" elementinin görünür olması kontrol edilir
+* "ScenarioNameEmptyErrorMessage" elementinin text değeri "Scenario name cannot be empty" değerine eşit mi
+
+# TestStep hata mesajı kontrolu
+* "TestStepErrorMessage" elementinin görünür olması kontrol edilir
+* "TestStepErrorMessage" elementinin text değeri "Each scenario must have at least one test step." değerini içeriyor mu
+
+# TestStep hata mesajı olmaması kontrolu
+* "TestStepErrorMessage" elementinin görünür olmadığı kontrol edilir
+
+# Boş hata mesajı kontrolu
+* "FileNameRequiredErrorMessage" elementinin görünür olması kontrol edilir
+* "FileNameRequiredErrorMessage" elementinin text değeri "File Name field is required." değerine eşit mi
+
+# Boş hata mesajı olmaması kontrolu
+* "FileNameRequiredErrorMessage" elementinin görünür olmadığı kontrol edilir
+
+#Karakter hata mesajı olmaması kontrol edilir
+* "FileNameValidationErrorMessage" elementinin görünür olmadığı kontrol edilir
+
+#SenaryoName Hata mesajı olmaması kontrol edilir
+* "ScenarioNameEmptyErrorMessage" elementinin görünür olmadığı kontrol edilir
+
+
+# Boş hata mesajı kontrolu with name error
+* "CreatePageSaveButton" elementine tıkla
+* "FirstCreateConceptErrorMassage" elementinin tıklanabilir olması kontrol edilir
+* "FirstCreateConceptErrorMassage" elementinin text değeri "File Name field is required." değerine eşit mi
+
+# Karakter hata mesajı kontrolu
+* "FileNameValidationErrorMessage" elementinin görünür olması kontrol edilir
+* "FileNameValidationErrorMessage" elementinin text değeri "File Name: Validation Error: Value is less than allowable minimum of '3'" değerine eşit mi
+
+# New Concept Save
+* "CreatePageSaveButton" elementinin görünür olması kontrol edilir
+* "CreatePageSaveButton" elementinin tıklanabilir olması kontrol edilir
+* "CreatePageSaveButton" elementine tıkla
+
+# New Spec Save
+* "CreatePageSaveButton" elementinin görünür olması kontrol edilir
+* "CreatePageSaveButton" elementinin tıklanabilir olması kontrol edilir
+* "CreatePageSaveButton" elementine tıkla
+
+#Yeni senaryo eklenmesi
+* "NewScenarioButton" elementinin görünür olması kontrol edilir
+* "NewScenarioButton" elementinin tıklanabilir olması kontrol edilir
+* "NewScenarioButton" elementine tıkla
+
+# <TagName> adlı Tag eklenmesi
+* "TagNameTextforBDD" elementinin görünür olması kontrol edilir
+* "TagNameTextforBDD" elementinin tıklanabilir olması kontrol edilir
+* "TagNameTextforBDD" elementine <TagName> değerini yaz
+
+#<ScenarioName> adlı senaryo eklenmesi
+* "NewScenarioButton" elementinin görünür olması kontrol edilir
+* "NewScenarioButton" elementinin tıklanabilir olması kontrol edilir
+* "NewScenarioButton" elementine tıkla
+* "NewScenarioText" elementine <ScenarioName> değerini yaz
+..* "NewScenarioText" elementinin text değeri <ScenarioName> değerine eşit mi
+
+#Boş Senaryo ve Boş File Name ile Concept Kontrolu
+* "CreatePageSaveButton" elementine tıkla
+* "3" saniye bekle
+* "FileNameRequiredErrorMessage" elementinin görünür olması kontrol edilir
+* "FileNameRequiredErrorMessage" elementinin text değeri "File Name field is required." değerine eşit mi
+* "ScenarioNameEmptyErrorMessage" elementinin text değeri "Scenario name cannot be empty" değerine eşit mi
+* "ScenarioNameEmptyErrorMessage" elementinin görünür olması kontrol edilir
+
+
+
+
+
+
+
+
+
+
+
+# BDD Editor Sayfasına Gidilmesi
+* "BDD_Editor_Button" elementinin var olduğu kontrol edilir
+* "BDD_Editor_Button" elementinin görünür olması kontrol edilir
+* "BDD_Editor_Button" elementine tıkla
+* "BDDFileListText" elementinin var olduğu kontrol edilir
+* waitPageLoadCompleteJs
+# BDD_Editor Dropdown'a tıklanması
+* "BDD_Editor_Dropdown" elementinin var olduğu kontrol edilir
+* "BDD_Editor_Dropdown" elementinin görünür olması kontrol edilir
+* "BDD_Editor_Dropdown" elementine tıkla
+#Amazon Projesinin Secimi
+* "BDD_Editor_Dropdown" dropdown elementinin "5" indexine tıkla
+* "BDD_Editor_Dropdown" elementine tıkla
+* "2" saniye bekle
+
+#Create Spec Kısmına gidilmesi
+* "CreateSpec" elementinin var olduğu kontrol edilir
+* "CreateSpec" elementinin görünür olması kontrol edilir
+* "CreateSpec" elementine tıkla
+#Spec File Name oluşturulur
+* "SpecFileNameInput" elementinin var olduğu kontrol edilir
+* "SpecFileNameInput" elementinin görünür olması kontrol edilir
+* "SpecFileNameInput" elementine "Otomasyon Deneme" değerini yaz
+* get text "SpecFileNameInput" element and control "Otomasyon Deneme"
+#Yeni Spec Icin yeni Scenario ekleme
+* "NewScenrioForSpec" elementinin var olduğu kontrol edilir
+* "NewScenrioForSpec" elementinin görünür olması kontrol edilir
+* "NewScenrioForSpec" elementine tıkla
+#Snerio Adı Ekleme For Spec
+* "NewScenarioForSpec" elementinin var olduğu kontrol edilir
+* "NewScenarioForSpec" elementinin görünür olması kontrol edilir
+* "NewScenarioForSpec" elementine "Otomasyon Scenario Deneme" değerini yaz
+* get text "NewScenarioForSpec" element and control "Otomasyon Scenario Deneme"
+#First Tag Adı Ekleme For Spec
+* "NewTextTagForSpec1" elementinin var olduğu kontrol edilir
+* "NewTextTagForSpec1" elementinin görünür olması kontrol edilir
+* "NewTextTagForSpec1" elementine "Otomasyon Scenario Deneme" değerini yaz
+* get text "NewTextTagForSpec1" element and control "Otomasyon Scenario Deneme"
+#Second Tag Adı Ekleme For Spec
+* "NewTextTagForSpec2" elementinin var olduğu kontrol edilir
+* "NewTextTagForSpec2" elementinin görünür olması kontrol edilir
+* "NewTextTagForSpec2" elementine "Otomasyon Scenario Deneme" değerini yaz
+* get text "NewTextTagForSpec2" element and control "Otomasyon Scenario Deneme"
+#Yeni TestStep For Spec
+* "RandomStepForTestPlan" elementinin var olduğu kontrol edilir
+* "RandomStepForTestPlan" elementinin görünür olması kontrol edilir
+* "RandomStepForTestPlan" menusünden random seçim yap
+#Copy Scenario For Spec
+* "CopyScenarioForSpec" elementinin var olduğu kontrol edilir
+* "CopyScenarioForSpec" elementinin görünür olması kontrol edilir
+* "CopyScenarioForSpec" elementine tıkla
+#Remove Scenario For Spec
+* "RemoveScenarioForSpec" elementinin var olduğu kontrol edilir
+* "RemoveScenarioForSpec" elementinin görünür olması kontrol edilir
+* "RemoveScenarioForSpec" elementine tıkla
+# Kayıt et for Spec
+* "SaveButtonForSpec" elementinin var olduğu kontrol edilir
+* "SaveButtonForSpec" elementinin görünür olması kontrol edilir
+* "SaveButtonForSpec" elementine tıkla
+# Spec'den cik
+* "CancelButtonForSpec" elementinin var olduğu kontrol edilir
+* "CancelButtonForSpec" elementinin görünür olması kontrol edilir
+* "CancelButtonForSpec" elementine tıkla
+#Create Concept
+* "CreateConceptFileButton" elementinin var olduğu kontrol edilir
+* "CreateConceptFileButton" elementinin görünür olması kontrol edilir
+* "CreateConceptFileButton" elementine tıkla
+#Edit Spec kısmına gidilmesi
+* "EditSpec" elementinin var olduğu kontrol edilir
+* "EditSpec" elementinin görünür olması kontrol edilir
+* "EditSpec" elementine tıkla
+#Concept Sekmesine Tıklanması
+* "ConceptSekmesi" elementinin var olduğu kontrol edilir
+* "ConceptSekmesi" elementinin görünür olması kontrol edilir
+* "ConceptSekmesi" elementine tıkla
+#Spec Sekmesine tıklanması
+* "SpecSekmesi" elementinin var olduğu kontrol edilir
+* "SpecSekmesi" elementinin görünür olması kontrol edilir
+* "SpecSekmesi" elementine tıkla
+#BDD Concept Araması
+* "SearchFieldConceptForBDD" elementinin var olduğu kontrol edilir
+* "SearchFieldConceptForBDD" elementinin görünür olması kontrol edilir
+*  "SearchFieldConceptForBDD" elementine "deneme" değerini yaz
+#BDD Spec Araması
+* "SearchFieldSpecForBDD" elementinin var olduğu kontrol edilir
+* "SearchFieldSpecForBDD" elementinin görünür olması kontrol edilir
+* "SearchFieldSpecForBDD" elementine tıkla
+*  "SearchFieldSpecForBDD" elementine "deneme" değerini yaz
+
+
+
+
+
+

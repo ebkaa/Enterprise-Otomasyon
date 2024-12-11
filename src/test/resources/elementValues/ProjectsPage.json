@@ -1,0 +1,465 @@
+[
+  {
+    "key": "dashBoardTab_Projects",
+    "value": "//div[@class='sidebar']//a[@href='/members/dashboard.html' and .//span[normalize-space(.)='Dashboard']]",
+    "type": "xpath"
+  },
+  {
+    "key": "systemSettingsTab_Projects",
+    "value": "//div[@class='sidebar']//a[.//span[normalize-space(.)='System Settings']]",
+    "type": "xpath"
+  },
+  {
+    "key": "companiesTab_Projects",
+    "value": "//div[@class='sidebar']//a[@href='/members/companyList.html' and .//span[normalize-space(.)='Companies']]",
+    "type": "xpath"
+  },
+  {
+    "key": "usersTab_Projects",
+    "value": "//div[@class='sidebar']//a[@href='/members/userList.html' and .//span[normalize-space(.)='Users']]",
+    "type": "xpath"
+  },
+  {
+    "key": "projectsTab_Projects",
+    "value": "//div[@class='sidebar']//a[@href='/members/projectList.html' and .//span[normalize-space(.)='Projects']]",
+    "type": "xpath"
+  },
+  {
+    "key": "scenariosTab_Projects",
+    "value": "//div[@class='sidebar']//a[@href='/members/testScenarioList.html' and .//span[normalize-space(.)='Scenarios']]",
+    "type": "xpath"
+  },
+  {
+    "key": "plansTab_Projects",
+    "value": "//div[@class='sidebar']//a[@href='/members/testPlanList.html' and .//span[normalize-space(.)='Plans']]",
+    "type": "xpath"
+  },
+  {
+    "key": "bddEditor_Projects",
+    "value": "//div[@class='sidebar']//a[@href='/members/featureFileList.html' and .//span[normalize-space(.)='BDD Editor']]",
+    "type": "xpath"
+  },
+  {
+    "key": "reportsTab_Projects",
+    "value": "//div[@class='sidebar']//a[.//span[normalize-space(.)='Reports']]",
+    "type": "xpath"
+  },
+  {
+    "key": "licenceInformation_Projects_SystemSettings",
+    "value": "//div[@class='sidebar']//a[.//span[normalize-space(.)='System Settings']]/following-sibling::ul//a[@href='/members/admin/licencePropertyList.html' and ./span[text()='Licence Information']]",
+    "type": "xpath"
+  },
+  {
+    "key": "systemProperties_Projects_SystemSettings",
+    "value": "//div[@class='sidebar']//a[.//span[normalize-space(.)='System Settings']]/following-sibling::ul//a[@href='/members/admin/systemPropertyList.html' and ./span[text()='System Properties']]",
+    "type": "xpath"
+  },
+  {
+    "key": "seleniumHubs_Projects_SystemSettings",
+    "value": "//div[@class='sidebar']//a[.//span[normalize-space(.)='System Settings']]/following-sibling::ul//a[@href='/members/admin/seleniumHubList.html' and ./span[normalize-space(.)='Selenium Hubs']]",
+    "type": "xpath"
+  },
+  {
+    "key": "rolePermissionManagement_Projects_SystemSettings",
+    "value": "//div[@class='sidebar']//a[.//span[normalize-space(.)='System Settings']]/following-sibling::ul//a[./span[normalize-space(.)='Role / Permission Management']]",
+    "type": "xpath"
+  },
+  {
+    "key": "roles_Projects_SystemSettings_RolesManagement",
+    "value": "//div[@class='sidebar']//a[.//span[normalize-space(.)='System Settings']]/following-sibling::ul//a[./span[normalize-space(.)='Role / Permission Management']]/following-sibling::ul//a[@href='/members/admin/roleList.html' and ./span[normalize-space(.)='Roles']]",
+    "type": "xpath"
+  },
+  {
+    "key": "permissions_Projects_SystemSettings_RolesManagement",
+    "value": "//div[@class='sidebar']//a[.//span[normalize-space(.)='System Settings']]/following-sibling::ul//a[./span[normalize-space(.)='Role / Permission Management']]/following-sibling::ul//a[@href='/members/admin/permissionList.html' and ./span[normalize-space(.)='Permissions']]",
+    "type": "xpath"
+  },
+  {
+    "key": "browsersPhones_Projects_SystemSettings",
+    "value": "//div[@class='sidebar']//a[.//span[normalize-space(.)='System Settings']]/following-sibling::ul//a[@href='/members/admin/browserPhoneList.html' and ./span[normalize-space(.)='Browsers/Phones']]",
+    "type": "xpath"
+  },
+  {
+    "key": "testEnvironments_Projects_SystemSettings",
+    "value": "//div[@class='sidebar']//a[.//span[normalize-space(.)='System Settings']]/following-sibling::ul//a[@href='/members/admin/testEnvironmentList.html' and ./span[normalize-space(.)='Test Environments']]",
+    "type": "xpath"
+  },
+  {
+    "key": "testEnvironmentsStatus_Projects_SystemSettings",
+    "value": "//div[@class='sidebar']//a[.//span[normalize-space(.)='System Settings']]/following-sibling::ul//a[@href='/members/admin/environmentStatusList.html' and ./span[normalize-space(.)='Test Environments Status']]",
+    "type": "xpath"
+  },
+  {
+    "key": "activeTests_Projects_SystemSettings",
+    "value": "//div[@class='sidebar']//a[.//span[normalize-space(.)='System Settings']]/following-sibling::ul//a[@href='/members/admin/dashboardTestQueue.html' and ./span[normalize-space(.)='Active Tests']]",
+    "type": "xpath"
+  },
+  {
+    "key": "screenResolutions_Projects_SystemSettings",
+    "value": "//div[@class='sidebar']//a[.//span[normalize-space(.)='System Settings']]/following-sibling::ul//a[@href='/members/admin/operatingSystemResolutionList.html' and ./span[normalize-space(.)='Screen Resolutions']]",
+    "type": "xpath"
+  },
+  {
+    "key": "preDefinedExceptions_Projects_SystemSettings",
+    "value": "//div[@class='sidebar']//a[.//span[normalize-space(.)='System Settings']]/following-sibling::ul//a[@href='/members/admin/predefinedExceptionList.html' and ./span[normalize-space(.)='Predefined Exceptions']]",
+    "type": "xpath"
+  },
+  {
+    "key": "cloudTestEnvironments_Projects_SystemSettings",
+    "value": "//div[@class='sidebar']//a[.//span[normalize-space(.)='System Settings']]/following-sibling::ul//a[@href='/members/admin/testiniumcloud/testiniumCloudEnvList.html' and ./span[normalize-space(.)='Cloud Test Environments']]",
+    "type": "xpath"
+  },
+  {
+    "key": "cloudTestEnvironmentsGroups_Projects_SystemSettings",
+    "value": "//div[@class='sidebar']//a[.//span[normalize-space(.)='System Settings']]/following-sibling::ul//a[@href='/members/admin/testiniumcloud/testiniumCloudEnvGroupList.html' and ./span[normalize-space(.)='Cloud Test Environments Groups']]",
+    "type": "xpath"
+  },
+  {
+    "key": "notifications_Projects_SystemSettings",
+    "value": "//div[@class='sidebar']//a[.//span[normalize-space(.)='System Settings']]/following-sibling::ul//a[@href='/members/admin/notificationList.html' and ./span[normalize-space(.)='Notifications']]",
+    "type": "xpath"
+  },
+  {
+    "key": "projectClone_Projects_SystemSettings",
+    "value": "//div[@class='sidebar']//a[.//span[normalize-space(.)='System Settings']]/following-sibling::ul//a[@href='/members/admin/companyProjectCloneForm.html' and ./span[normalize-space(.)='Project Clone']]",
+    "type": "xpath"
+  },
+  {
+    "key": "companysScheduledPlans_Projects_SystemSettings",
+    "value": "//div[@class='sidebar']//a[.//span[normalize-space(.)='System Settings']]/following-sibling::ul//a[@href='/members/admin/companyScheduledPlans.html']",
+    "type": "xpath"
+  },
+  {
+    "key": "testExecutionsAuto_Projects_Reports",
+    "value": "//div[@class='sidebar']//a[.//span[normalize-space(.)='Reports']]/following-sibling::ul//a[normalize-space(@href)='/members/reports/testExecutionList.html' and ./span[normalize-space(.)='Test Executions (Auto)']]",
+    "type": "xpath"
+  },
+  {
+    "key": "testExecutionsRemote_Projects_Reports",
+    "value": "//div[@class='sidebar']//a[.//span[normalize-space(.)='Reports']]/following-sibling::ul//a[@href='/members/reports/remoteTestResultList.html' and ./span[normalize-space(.)='Test Executions (Remote)']]",
+    "type": "xpath"
+  },
+  {
+    "key": "testExecutionsTag_Projects_Reports",
+    "value": "//div[@class='sidebar']//a[.//span[normalize-space(.)='Reports']]/following-sibling::ul//a[normalize-space(@href)='/members/reports/tagTestExecutionList.html' and ./span[normalize-space(.)='Test Executions (Tag)']]",
+    "type": "xpath"
+  },
+  {
+    "key": "detailedReports_Projects_Reports",
+    "value": "//div[@class='sidebar']//a[.//span[normalize-space(.)='Reports']]/following-sibling::ul//a[normalize-space(@href)='/members/reports/performanceReports.html' and ./span[normalize-space(.)='Detailed Reports']]",
+    "type": "xpath"
+  },
+  {
+    "key": "instantReports_Projects_Reports",
+    "value": "//div[@class='sidebar']//a[.//span[normalize-space(.)='Reports']]/following-sibling::ul//a[normalize-space(@href)='/members/reports/instantReports.html' and ./span[normalize-space(.)='Instant Reports']]",
+    "type": "xpath"
+  },
+  {
+    "key": "scheduledReports_Projects_Reports",
+    "value": "//div[@class='sidebar']//a[.//span[normalize-space(.)='Reports']]/following-sibling::ul//a[normalize-space(@href)='/members/reports/scheduledReportList.html' and ./span[normalize-space(.)='Scheduled Reports']]",
+    "type": "xpath"
+  },
+  {
+    "key": "graphReports_Projects_Reports",
+    "value": "//div[@class='sidebar']//a[.//span[normalize-space(.)='Reports']]/following-sibling::ul//a[normalize-space(@href)='/members/reports/graphCompanyReports.html' and ./span[normalize-space(.)='Graph Reports']]",
+    "type": "xpath"
+  },
+  {
+    "key": "executionGraphs_Projects_Reports",
+    "value": "//div[@class='sidebar']//a[.//span[normalize-space(.)='Reports']]/following-sibling::ul//a[normalize-space(@href)='/members/reports/graphExecutionReports.html' and ./span[normalize-space(.)='Execution Graphs']]",
+    "type": "xpath"
+  },
+  {
+    "key": "passRateReports_Projects_Reports",
+    "value": "//div[@class='sidebar']//a[.//span[normalize-space(.)='Reports']]/following-sibling::ul//a[normalize-space(@href)='/members/reports/passRateReports.html' and ./span[normalize-space(.)='Pass Rate Reports']]",
+    "type": "xpath"
+  },
+  {
+    "key": "testResultsByPeriod_Projects_Reports",
+    "value": "//div[@class='sidebar']//a[.//span[normalize-space(.)='Reports']]/following-sibling::ul//a[normalize-space(@href)='/members/reports/graphReportsByPeriod.html' and ./span[normalize-space(.)='Test Results By Period']]",
+    "type": "xpath"
+  },
+  {
+    "key": "testiniumLogo_Projects",
+    "value": ".navbar-header>.logo>a[href='/members/dashboard.html']",
+    "type": "css"
+  },
+  {
+    "key": "dashboardIcon_Projects",
+    "value": "//div[@class='navbar-header']//i[contains(@class,'home-icon')]/following-sibling::a[@href='/members/dashboard.html']",
+    "type": "xpath"
+  },
+  {
+    "key": "projectListTextNavBar_Projects",
+    "value": "//div[@class='navbar-header']//li[normalize-space(.)='Project List']",
+    "type": "xpath"
+  },
+  {
+    "key": "projectListTextHeader_Projects",
+    "value": "//div[@class='page-header']//h1[normalize-space()='Project List']",
+    "type": "xpath"
+  },
+  {
+    "key": "projectTable_Projects",
+    "value": "//div[@id='projectList'][.//th[@aria-label='Project Name'] and .//th[@aria-label='Test Framework'] and .//th[@aria-label='Test File Type'] and .//th[@aria-label='Test Runner Tool'] and .//th[@aria-label='Enabled']]",
+    "type": "xpath"
+  },
+  {
+    "key": "columnsTab_Projects",
+    "value": "//span[text()='Columns']/parent::a[@id='toggler']",
+    "type": "xpath"
+  },
+  {
+    "key": "createdBy_Projects_Columns",
+    "value": "//ul[@class='ui-columntoggler-items']//label[text()='Created By']",
+    "type": "xpath"
+  },
+  {
+    "key": "createdAt_Projects_Columns",
+    "value": "//ul[@class='ui-columntoggler-items']//label[text()='Created At']",
+    "type": "xpath"
+  },
+  {
+    "key": "updatedBy_Projects_Columns",
+    "value": "//ul[@class='ui-columntoggler-items']//label[text()='Updated By']",
+    "type": "xpath"
+  },
+  {
+    "key": "updatedAt_Projects_Columns",
+    "value": "//ul[@class='ui-columntoggler-items']//label[text()='Updated At']",
+    "type": "xpath"
+  },
+  {
+    "key": "closeColumns_Projects_Columns",
+    "value": "ui-columntoggler-close",
+    "type": "class"
+  },
+  {
+    "key": "projectSyncTab_Projects",
+    "value": "a[href='/members/project/projectSync.html']",
+    "type": "css"
+  },
+  {
+    "key": "createNewProjectTab_Projects",
+    "value": "a[href='/members/project/projectTypeSelection.html']",
+    "type": "css"
+  },
+  {
+    "key": "searchBox_Projects",
+    "value": "projectNameFilter",
+    "type": "id"
+  },
+  {
+    "key": "projectButton_Dashboard",
+    "value": "#project>button.ui-autocomplete-dropdown",
+    "type": "css"
+  },
+  {
+    "key": "createdByColumnHeader",
+    "value": "th[role='columnheader'][aria-label='Created By']",
+    "type": "css"
+  },
+  {
+    "key": "createdAtColumnHeader",
+    "value": "th[role='columnheader'][aria-label='Created At']",
+    "type": "css"
+  },
+  {
+    "key": "updatedByColumnHeader",
+    "value": "th[role='columnheader'][aria-label='Updated By']",
+    "type": "css"
+  },
+  {
+    "key": "updatedAtColumnHeader",
+    "value": "th[role='columnheader'][aria-label='Updated At']",
+    "type": "css"
+  },
+  {
+    "key": "projectNames_Projects",
+    "value": "//tbody[@id='projectList_data']//a[contains(@id,'projectName')]",
+    "type": "xpath"
+  },
+  {
+    "key": "emptyProjectText_Projects",
+    "value": "//tbody[@id='projectList_data']//tr[contains(@class,'empty-message')]/td",
+    "type": "xpath"
+  },
+  {
+    "key": "pageHeader_ProjectSync",
+    "value": "//div[@class='page-header']/h1[normalize-space(.)='Project Synchronization' ]",
+    "type": "xpath"
+  },
+  {
+    "key": "steps_ProjectSync",
+    "value": "form[id='defaultForm'][action='/members/project/projectSync.html']>div[id='steps']",
+    "type": "css"
+  },
+  {
+    "key": "projectsPanel_ProjectSync",
+    "value": "projectSyncWizard",
+    "type": "id"
+  },
+  {
+    "key": "cancelButton_ProjectSync",
+    "value": "cancel",
+    "type": "id"
+  },
+  {
+    "key": "nextButton_ProjectSync",
+    "value": "nextButton",
+    "type": "id"
+  },
+  {
+    "key": "backButton_ProjectSync",
+    "value": "backButton",
+    "type": "id"
+  },
+  {
+    "key": "saveButton_ProjectSync",
+    "value": "saveButton",
+    "type": "id"
+  },
+  {
+    "key": "selectProjectErrorMessage_ProjectSync",
+    "value": "ui-messages-error-summary",
+    "type": "class"
+  },
+  {
+    "key": "projectStep_ProjectSync",
+    "value": "//div[@id='steps']//li[.//span[normalize-space(.)='PROJECT']]",
+    "type": "xpath"
+  },
+  {
+    "key": "methodsToImportStep_ProjectSync",
+    "value": "//div[@id='steps']//li[.//span[normalize-space(.)='METHODS TO IMPORT']]",
+    "type": "xpath"
+  },
+  {
+    "key": "methodsToRemoveStep_ProjectSync",
+    "value": "//div[@id='steps']//li[.//span[normalize-space(.)='METHODS TO REMOVE']]",
+    "type": "xpath"
+  },
+  {
+    "key": "summaryStep_ProjectSync",
+    "value": "//div[@id='steps']//li[.//span[normalize-space(.)='SUMMARY']]",
+    "type": "xpath"
+  },
+  {
+    "key": "projectName_ProjectSync",
+    "value": "//div[@class='panel-heading']/div[@class='panel-title']/a[./h3[normalize-space(.)='%s']]",
+    "type": "xpath"
+  },
+  {
+    "key": "methodsTable_ProjectSync_Step2",
+    "value": "//div[@id='dataTableAllMethods' and .//th[@aria-label='Method Name'] and .//th[@aria-label='Scenario Name'] and .//th[@aria-label='Parent Scenario']]",
+    "type": "xpath"
+  },
+  {
+    "key": "checkAllCheckBox_ProjectSync_Step2",
+    "value": ".ui-selection-column>span+div.ui-chkbox.ui-chkbox-all",
+    "type": "css"
+  },
+  {
+    "key": "deleteMethodsTable_ProjectSync_Step3",
+    "value": "//div[@id='deleteList'  and .//span[@class='ui-column-title' and text()='Scenario Name']]",
+    "type": "xpath"
+  },
+  {
+    "key": "summaryTable_ProjectSync_Step4",
+    "value": "//div[@id='projectSyncWizard' and .//span[@class='ui-panel-title' and text()='SUMMARY']]",
+    "type": "xpath"
+  },
+  {
+    "key": "expiration",
+    "value": "//div[contains(@class,'field-postform-expiration')]//span[@role='combobox']",
+    "type": "xpath"
+  },
+  {
+    "key": "option",
+    "value": "//li[text()='10 Minutes']",
+    "type": "xpath"
+  },
+  {
+    "key": "ProjectForm_AppiumProject",
+    "value": "//li[@class='articles__article']/a[.//h2[normalize-space(.)='Appium']]",
+    "type": "xpath"
+  },
+  {
+    "key": "testFrameworkPanel_AppiumProject",
+    "value": "testFrameworkPanel",
+    "type": "id"
+  },
+  {
+    "key": "testFrameworkName_AppiumProject",
+    "value": "#testFrameworkPanel>div>span",
+    "type": "css"
+  },
+  {
+    "key": "gaugeFileType_AppiumProject",
+    "value": "input[value='APPIUM_GAUGE']",
+    "type": "css"
+  },
+  {
+    "key": "projectName_Appium",
+    "value": "projectName",
+    "type": "id"
+  },
+  {
+    "key": "projectDescription_Appium",
+    "value": "projectDescription",
+    "type": "id"
+  },
+  {
+    "key": "testFileType_Appium",
+    "value": "//table[@id='testFileType' and .//input[@value='APPIUM_JAVA'] and .//input[@value='APPIUM_CUCUMBER'] and .//input[@value='APPIUM_CS'] and .//input[@value='APPIUM_GAUGE'] and .//input[@value='APPIUM_SPECFLOW']]",
+    "type": "xpath"
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": "xpath"
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": "xpath"
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": "xpath"
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": "xpath"
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": "xpath"
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": "xpath"
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": "xpath"
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": "xpath"
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": "xpath"
+
+
+
+  }
+]

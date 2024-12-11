@@ -1,0 +1,67 @@
+[
+  {
+    "key": "userNameInLoginPage",
+    "value": "username",
+    "type": "id"
+  },
+  {
+    "key": "passwordInLoginPage",
+    "value": "password",
+    "type": "id"
+  },
+  {
+    "key": "signInInLoginPage",
+    "value": "//button[contains(@class,\"btn-primary\")]",
+    "type": "xpath"
+  },
+  {
+    "key": "rememberMeInLoginPage",
+    "value": "ui-chkbox-label",
+    "type": "class"
+  },
+  {
+    "key": "headerDashboard",
+    "value": ".page-header>h1",
+    "type": "css"
+  },
+  {
+    "key": "alertDangerInLoginPage",
+    "value": "ui-messages-error-summary",
+    "type": "class"
+  },
+  {
+    "key": "forgotPasswordInLoginPage",
+    "value": "div[class=\"pull-right\"]>a[href=\"/forgotPassword.html\"]",
+    "type": "css"
+  },
+  {
+    "key": "emailInForgotPasswordPage",
+    "value": "Email",
+    "type": "id"
+  },
+  {
+    "key": "retrievePasswordButtonInForgotPasswordPage",
+    "value": "input[value='RETRIEVE PASSWORD']",
+    "type": "css"
+  },
+  {
+    "key": "backToLoginInForgotPassword",
+    "value": "div[class='text-center']>a[href='/login.html']",
+    "type": "css"
+  },
+  {
+    "key": "alertInfoInForgotPassword",
+    "value": "ui-messages-info-summary",
+    "type": "class"
+  },
+  {
+    "key": "alertErrorInForgotPassword",
+    "value": "ui-messages-error-summary",
+    "type": "class"
+  },
+  {
+    "key": "signInButton",
+    "value": "//*[contains(@type,'sub')]",
+    "type": "xpath"
+  }
+]

@@ -1,0 +1,238 @@
+
+# Doğru bilgiler girilerek geçerli giriş yapılır
+* "testinium" ve "Qwe123+" bilgileriyle gecerli login yap
+
+# Report tabına tıkla ve Test Execution sayfasında olduğunu kontrol et
+* Reports tabına tıklanılması
+* Test Execution auto tabına tıkla
+* Şu anki url "https://dev.testinium.com/members/reports/testExecutionList.html" ile aynı mı
+* "testReportsTitle" elementinin görünür olması kontrol edilir
+
+# Reports tabına tıklanılması
+* "reports_Tab" elementinin görünür olması kontrol edilir
+* "reports_Tab" elementine tıkla
+
+# Report sayfasına gidilmesi
+* Reports tabına tıklanılması
+* Test Execution auto tabına tıkla
+* Şu anki url "https://dev.testinium.com/members/reports/testExecutionList.html" ile aynı mı
+
+# Test Execution auto tabına tıkla
+* "2" saniye bekle
+* "reports_subTab" elementine js ile tıkla
+
+# Test Execution sayfasının kontrollerinin yapılması
+* "testReportsTitle" elementinin görünür olması kontrol edilir
+* Şu anki url "https://dev.testinium.com/members/reports/testExecutionList.html" içeriyor mu
+
+# Project/Test Plan seçilmesi
+* "projectTestPlanButton" elementinin görünür olması kontrol edilir
+* "projectTestPlanButton" elementinin tıklanabilir olması kontrol edilir
+* "projectTestPlanButton" elementine tıkla
+* "projectSelect_Auto" elementine tıkla
+* "testPlanSelect_Auto" elementine tıkla
+
+# Test planının başlangıç gününü ve bitiş gününün belirlenmesi
+* "dateTitle" elementinin görünür olması kontrol edilir
+* "dateButton" elementinin tıklanabilir olması kontrol edilir
+* "dateButton" elementine tıkla
+* "beginDateButton" elementine tıkla
+* "testReports_beginDate" elementine tıkla
+* "dateTitle" elementine tıkla
+* "endDateButton" elementine js ile tıkla
+* "testReports_endDate" elementine js ile tıkla
+
+# Test planı için criteria seçilmesi
+* "criteriaButton" elementinin görünür olması kontrol edilir
+* "criteriaButton" elementinin tıklanabilir olması kontrol edilir
+* "testReports_criteriaStatus" elementine tıkla
+
+# Seçilen Projenin detayına tıklanması
+* "showButton" elementine tıkla
+
+# Search Tabına tıkla
+* "searchButton" elementinin görünür olması kontrol edilir
+* "searchButton" elementine tıkla
+
+# Clear Tabına tıkla
+* "clearButton" elementinin görünür olması kontrol edilir
+* "clearButton" elementine tıkla
+
+# Sort According to Run Times tabına tıkla
+* "sortAccordingToRunTimes" elementinin görünür olması kontrol edilir
+* "sortAccordingToRunTimes" elementine tıkla
+
+# Delete Tabına tıkla
+* "deleteButton" elementine tıkla
+
+//# Export Excel Tabına tıkla
+//* <key> elementine tıkla
+
+# Text Executions (Remote) sayfasına tıkla
+* "textExecutionsRemote" elementine tıkla
+
+# Test Results of Remote Executions browserın incelenmesi
+* "textExecutionsRemoteShow" elementine tıkla
+* "checkStatus" elementinin text değeri "Successful" değerini içeriyor mu
+
+# Download Report tabına tıklanması
+* "dowloadReport" elementine tıkla
+
+# Error mesajının alınması
+* "errorMessage_remote" elementinin text değeri "???eq(null) is not allowed. Use isNull() instead???" değerini içeriyor mu
+
+# Test Executions Tag tabına tıkla
+* "reports_Tab" elementine tıkla
+* "testExecutionsTagMenu" elementine tıkla
+
+# Test Executions Tag sayfasının kontrollerinin yapılması
+* "testReportsTagTitle" elementinin görünür olması kontrol edilir
+* "TextExecutionTags_TagButton" elementine tıkla
+* "TextExecutionTags_TagButtonSelect" elementine tıkla
+
+# Search Butonuna tıkla
+* "TestExecutionTags_searchButton" elementine tıkla
+
+# Clear Butonuna tıkla
+* "TextExecutionTags_clearButton" elementine tıkla
+
+# Detailed Report tabına tıkla
+* "detailedReportsTab" elementine tıkla
+
+# Detailed Reports sayfasının kontrolünün sağlanası
+* "DetailedReportsTitle" elementinin görünür olması kontrol edilir
+* Şu anki url "https://dev.testinium.com/members/reports/performanceReports.html" ile aynı mı
+
+# Proje seçilme işleminin kontrolü
+* "DetailedReports_Project" elementine tıkla
+
+# Seçilen projenin aramasının yapılması
+* "detailedReports_SearchButton" elementine tıkla
+
+# Show butonuna tıkla
+* "detailedReports_ShowButton" elementine tıkla
+
+# Instant Reports sayfasına girilmesi
+* "reports_InstantReports" elementine tıkla
+* "instantReports_" elementine tıkla
+
+# Instant Reports sayfasının kontrollerini sağlanması
+* "instantReprtsTitle" elementinin görünür olması kontrol edilir
+* Şu anki url "https://dev.testinium.com/members/reports/instantReports.html" ile aynı mı
+
+# Proje seçildiğinde hata mesajı
+* "InstantReports_ProjectList" elementine tıkla
+* "prepareReport_Button" elementine tıkla
+* "ınstantReports_ErrorMessage" elementinin görünür olması kontrol edilir
+
+# Tarihin belirlenmesi
+* sayfayı yukarı kaydır
+* "InstantReports_DateClick" elementine tıkla
+* "InstantReports_BeforeDate" elementine tıkla
+* "InstantReports_Day" elementine tıkla
+* sayfayı aşağı kaydır
+* sayfayı aşağı kaydır
+* "InstantReports_PrepareEnvironment" elementine tıkla
+* "InstantReports_DownloadPdf" elementine tıkla
+
+# Date Range Basis Report sayfasının kontrolünün sağlanması
+* "InstantReports_DateRangeBasis" elementinin görünür olması kontrol edilir
+* "InstantReports_DateRangeBasis" elementine tıkla
+* "InstantReports_SelectProject" elementine tıkla
+
+# Start Date ve End Date belirlenmesi
+*  sayfayı yukarı kaydır
+* "InstantReports_StartDate" elementine tıkla
+* "InstantReports_BeforeDate" elementine tıkla
+* "InstantReports_Day" elementine tıkla
+* "InstantReports_statusClick" elementine tıkla
+* "InstantReports_EndDate" elementine tıkla
+* "InstantReports_EndDateClick" elementine tıkla
+* "InstantReports_statusClick" elementine tıkla
+* sayfayı aşağı kaydır
+* "InstantReports_PrepareEnvironment" elementine tıkla
+
+# Hata mesajının alınması
+* sayfayı yukarı kaydır
+* "InstantReports_ErrorTitle" elementinin görünür olması kontrol edilir
+
+# Scheduled Reports sayfasına girilmesi
+* "reports_InstantReports" elementine tıkla
+* "ScheduledReportsTab" elementine tıkla
+
+# Scheduled sayfasının kontrol edilmesi
+* "PeriodicallyScheduledReportsList" elementinin görünür olması kontrol edilir
+* Şu anki url "https://dev.testinium.com/members/reports/scheduledReportList.html" ile aynı mı
+
+# Create New Periodicslly Report sayfasına girilmesi
+* "CreateNewPeriodicallyReport" elementine tıkla
+
+# Proje seçilip Save butonuna tıklanması
+* "ScheduledReport_SelectProject" elementine tıkla
+* "ScheduledReportName" elementine "Günlük" değerini yaz
+* sayfayı aşağı kaydır
+* "ScheduledReportButton" elementine tıkla
+* sayfayı yukarı kaydır
+
+# Graph Report sayfasına girilmesi
+* "reports_InstantReports" elementine tıkla
+* "GraphReport_Tab" elementine tıkla
+
+# Tarihlerin Seçilmesi
+* "GraphReport_InputStartDate" elementine tıkla
+* "GraphReport_Back" elementine tıkla
+* "GraphReport_StartDate" elementine tıkla
+* "GraphReport_InputEndDate" elementine tıkla
+* "GraphReport_EndDate" elementine tıkla
+
+# Projenin seçilip sağa aktarılması
+* "GraphReport_SelectProject" elementine tıkla
+* "GraphReport_SelectRight" elementine çift tıkla
+
+# Draw butonuna basılması
+* "GraphReport_DrawButton" elementine tıkla
+
+# Hatalı mesajın ekranda gözükmesi
+* "GraphReport_ErrorTitle" elementinin görünür olması kontrol edilir
+
+# Export To Excel aktarılması
+* "GraphReport_ExportToExcel" elementine js ile tıkla
+
+# Execution Graphs sayfasına girilmesi
+* "reports_InstantReports" elementine tıkla
+* "ExecutionGraphs_Tab" elementine tıkla
+
+# Grafik için tarihlerin belirlenmesi
+* "ExecutionGraphs_InputStartDate" elementine tıkla
+* "GraphReport_Back" elementine tıkla
+* "GraphReport_StartDate" elementine tıkla
+* "GraphReport_InputEndDate" elementine tıkla
+* "GraphReport_EndDate" elementine tıkla
+
+# Yeni bir proje seçilmesi
+* "GraphReport_SelectProject" elementine tıkla
+* "GraphReport_SelectRight" elementine çift tıkla
+
+# Draw butonuna basılması kontrolü
+* "ExecutionGraphs_DrawButton" elementine tıkla
+
+# Pass Rate Reports sayfasına girilmesi
+* "PassRateReports_Reports" elementine tıkla
+* "PassRateReports_Tab" elementine tıkla
+
+# Scenario Basis Report sayfasının kontrolü
+* "PassRateReports_ProjectSelect" elementine tıkla
+* "PassRateReports_ProjectSelect2 " elementine tıkla
+* "2" saniye bekle
+* "PassRateReports_TestScenarioProject" elementine tıkla
+* "PassRateReports_GetResults" elementine tıkla
+
+
+
+
+
+
+
+
+
+

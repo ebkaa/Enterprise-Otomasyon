@@ -1,0 +1,427 @@
+[
+  {
+    "key": "reports_Tab",
+    "value": "//a[@class='dropdown-toggle']/span[@class='menu-text' and text()=' Reports ']",
+    "type": "xpath"
+  },
+  {
+    "key": "reports_subTab",
+    "value": "//a[@href='/members/reports/testExecutionList.html']/span[.=' Test Executions (Auto) ']",
+    "type": "xpath"
+  },
+  {
+    "key": "testReportsTitle",
+    "value": "//div[@class='page-header']/h1[normalize-space(.)='Test Reports']",
+    "type": "xpath"
+  },
+  {
+    "key": "projectTestPlanButton",
+    "value": "//div[@class='ui-panel-titlebar ui-widget-header ui-helper-clearfix ui-corner-all']/span[normalize-space(.)='Project/Test Plan']",
+    "type": "xpath"
+  },
+  {
+    "key": "projectSelect_Auto",
+    "value": "//select[@id='project1']/option[normalize-space(.)='allianzmobileproject']",
+    "type": "xpath"
+  },
+  {
+    "key": "dateTitle",
+    "value": "//div[@id='j_idt218_header']/span",
+    "type": "xpath"
+  },
+  {
+    "key": "searchButton",
+    "value": "//div[@class='form-group' and .//a[normalize-space(.)='Search']]",
+    "type": "xpath"
+  },
+  {
+    "key": "clearButton",
+    "value": "#j_idt251",
+    "type": "css"
+  },
+  {
+    "key": "sortAccordingToRunTimes",
+    "value": "#j_idt254",
+    "type": "css"
+  },
+  {
+    "key": "deleteButton",
+    "value": "#deleteButton",
+    "type": "css"
+  },
+  {
+    "key": "testPlanSelect_Auto",
+    "value": "//select[@id='plan']/option[normalize-space(.)='Allians_Mobile_Plan_01']",
+    "type": "xpath"
+  },
+  {
+    "key": "dateButton",
+    "value": "//span[@id='dateBegin']/input",
+    "type": "xpath"
+  },
+  {
+    "key": "endDateButton",
+    "value": "#dateEnd.ui-calendar.calendarFormControl.dateEnd.dateTime",
+    "type": "css"
+  },
+  {
+    "key": "boslukClick",
+    "value": " //div[@class='col-md-12 col-xs-12 p-0']",
+    "type": "xpath"
+  },
+  {
+    "key": "beginDateButton",
+    "value": "//input[@id='dateBegin_input']",
+    "type": "xpath"
+  },
+  {
+    "key": "testReports_beginDate",
+    "value": "//td[@class=' ui-datepicker-week-end ']/a[normalize-space(.)='1']",
+    "type": "xpath"
+  },
+  {
+    "key": "testReports_endDate",
+    "value": "//td[@class='  ui-datepicker-current-day']/a",
+    "type": "xpath"
+  },
+  {
+    "key": "testReports_criteriaStatus",
+    "value": "//select[@id='statusType']/option[normalize-space(.)='Error']",
+    "type": "xpath"
+  },
+  {
+    "key": "testReports_criteriaOperator",
+    "value": "//select[@id='aggregation']/option[normalize-space(.)='Less Than']",
+    "type": ""
+  },
+  {
+    "key": "testReports_criteriaOperand",
+    "value": "//input[@id='operand' and @value='5' ]",
+    "type": "xpath"
+  },
+  {
+    "key": "showButton",
+    "value": "//tr[@class='ui-widget-content ui-datatable-even ui-datatable-selectable']/td/a[@id='resultTable:0:showButton']",
+    "type": "xpath"
+  },
+  {
+    "key": "textExecutionsRemote",
+    "value": "//a[@href='/members/reports/remoteTestResultList.html']/span",
+    "type": "xpath"
+  },
+  {
+    "key": "textExecutionsRemoteShow",
+    "value": "//a[@id='resultTable:0:showButton']",
+    "type": "xpath"
+  },
+  {
+    "key": "checkStatus",
+    "value": "//label[@id='defaultForm:j_idt293']/label",
+    "type": "xpath"
+  },
+  {
+    "key": "dowloadReport",
+    "value": "defaultForm:downloadReport",
+    "type": "id"
+  },
+  {
+    "key": "errorMessage_remote",
+    "value": "//span[@class='ui-messages-error-summary']",
+    "type": "xpath"
+  },
+  {
+    "key": "testExecutionsTagMenu",
+    "value": "//a[@href='/members/reports/tagTestExecutionList.html']/span",
+    "type": "xpath"
+  },
+  {
+    "key": "testReportsTagTitle",
+    "value": "//div[@class='page-header']/h1",
+    "type": "xpath"
+  },
+  {
+    "key": "TestExecutionTags_searchButton",
+    "value": "#j_idt223",
+    "type": "css"
+  },
+  {
+    "key": "TextExecutionTags_TagButton",
+    "value": "//button[@class='btn btn-outline btn-inverse dropdown-toggle']",
+    "type": "xpath"
+  },
+  {
+    "key": "TextExecutionTags_TagButtonSelect",
+    "value": "//select[@id='tagId']//option[contains(text(),'regresyon')]",
+    "type": "xpath"
+  },
+  {
+    "key": "TextExecutionTags_clearButton",
+    "value": "//div[@class='form-group']/a[@id='j_idt226']",
+    "type": "xpath"
+  },
+  {
+    "key": "detailedReportsTab",
+    "value": "//a[@href='/members/reports/performanceReports.html']/span[text()=' Detailed Reports ']",
+    "type": "xpath"
+  },
+  {
+    "key": "DetailedReports_Project",
+    "value": "//select[@id='project']/option[text()=' allianzmobileproject']",
+    "type": "xpath"
+  },
+  {
+    "key": "DetailedReportsTitle",
+    "value": "//div[@class='page-header']/h1[normalize-space(.)='Detailed Reports']",
+    "type": "xpath"
+  },
+  {
+    "key": "detailedReports_SearchButton",
+    "value": "#j_idt268",
+    "type": "css"
+  },
+  {
+    "key": "detailedReports_ShowButton",
+    "value": "//a[@id='resultTable:0:showButton']",
+    "type": "xpath"
+  },
+  {
+    "key": "reports_InstantReports",
+    "value": "//a[@class='dropdown-toggle']/span[@class='menu-text' and text()=' Reports ']",
+    "type": "xpath"
+  },
+  {
+    "key": "instantReports_",
+    "value": "//a[@href='/members/reports/instantReports.html']/span",
+    "type": "xpath"
+  },
+  {
+    "key": "instantReprtsTitle",
+    "value": "//div[@class='page-header']/h1",
+    "type": "xpath"
+  },
+  {
+    "key": "InstantReports_ProjectList",
+    "value": "//span[@class='ui-treenode-label ui-corner-all' and text()=' allianzmobileproject']",
+    "type": "xpath"
+  },
+  {
+    "key": "prepareReport_Button",
+    "value": "//button[@id='prepareReportButton']",
+    "type": "xpath"
+  },
+  {
+    "key": "ınstantReports_ErrorMessage",
+    "value": "//span[@class='ui-messages-error-icon']/following-sibling::ul/li/span[@class='ui-messages-error-summary' and text()='Report Date field is required.'][1]",
+    "type": "xpath"
+  },
+  {
+    "key": "InstantReports_DateClick",
+    "value": "//input[@id='reportDate_input']",
+    "type": "xpath"
+  },
+  {
+    "key": "InstantReports_BeforeDate",
+    "value": "//a[@class='ui-datepicker-prev ui-corner-all']",
+    "type": "xpath"
+  },
+  {
+    "key": "InstantReports_Day",
+    "value": "//td[@class=' ui-datepicker-week-end ']/a[@class='ui-state-default' and text()='3']",
+    "type": "xpath"
+  },
+  {
+    "key": "InstantReports_PrepareEnvironment",
+    "value":"//button[@id='prepareEnvironmentReportButton']",
+    "type": "xpath"
+  },
+  {
+    "key": "InstantReports_SelectProject",
+    "value":"//span[@class='ui-treenode-label ui-corner-all ui-state-highlight' and text()='deneme_01']",
+    "type": "xpath"
+  },
+  {
+    "key": "InstantReports_PrepareEnvironmentUp",
+    "value":"//i[@class='icon-double-angle-up icon-only bigger-110']",
+    "type": "xpath"
+  },
+  {
+    "key": "InstantReports_DownloadPdf",
+    "value": "j_idt241",
+    "type": "id"
+  },
+  {
+    "key": "InstantReports_DateRangeBasis",
+    "value": "//a[@href='#dateRangeBasisReport'][normalize-space(.)='Date Range Basis Report']",
+    "type": "xpath"
+  },
+  {
+    "key": "InstantReports_StartDate",
+    "value": "//input[@id='startDate_input']",
+    "type": "xpath"
+  },
+  {
+    "key": "InstantReports_EndDate",
+    "value": "//input[@id='endDate_input']",
+    "type": "xpath"
+  },
+  {
+    "key": "InstantReports_EndDateClick",
+    "value": "//td[@class=' ui-datepicker-week-end ']/a[@class='ui-state-default' and text()='29']",
+    "type": "xpath"
+  },
+  {
+    "key": "InstantReports_statusClick",
+    "value": "j_idt265",
+    "type": "id"
+  },
+  {
+    "key": "InstantReports_ErrorTitle",
+    "value": "//span[@class='ui-messages-error-icon']/following-sibling::ul/li/span[text()='The maximum date range you can select is 31 days!']",
+    "type": "xpath"
+  },
+  {
+    "key": "ScheduledReportsTab",
+    "value": "//a[@href='/members/reports/scheduledReportList.html']",
+    "type": "xpath"
+  },
+  {
+    "key": "PeriodicallyScheduledReportsList",
+    "value": "//div[@class='page-header']/h1",
+    "type": "xpath"
+  },
+  {
+    "key": "CreateNewPeriodicallyReport",
+    "value": "//a[@class='btn btn-sm btn-primary pull-right']/i",
+    "type": "xpath"
+  },
+  {
+    "key": "ScheduledReportName",
+    "value": "//input[@id='scheduledReportForm:reportNameTb']",
+    "type": "xpath"
+  },
+  {
+    "key": "ScheduledReportButton",
+    "value": "scheduledReportForm:saveButton",
+    "type": "id"
+  },
+  {
+    "key": "ScheduledReport_SelectProject",
+    "value": "//span[@class='ui-treenode-label ui-corner-all' and text()='deneme_01']",
+    "type": "xpath"
+  },
+  {
+    "key": "GraphReport_Tab",
+    "value": "//a[@href='/members/reports/graphCompanyReports.html']",
+    "type": "xpath"
+  },
+  {
+    "key": "GraphReport_InputStartDate",
+    "value": "//span[@id='companyCharts:repetitivePickerBegin']/input",
+    "type": "xpath"
+  },
+  {
+    "key": "GraphReport_InputEndDate",
+    "value": "//span[@id='companyCharts:repetitivePickerEnd']/input",
+    "type": "xpath"
+  },
+  {
+    "key": "GraphReport_Back",
+    "value": "//a[@class='ui-datepicker-prev ui-corner-all']",
+    "type": "xpath"
+  },
+  {
+    "key": "GraphReport_StartDate",
+    "value": "//a[@class='ui-state-default' and text()='1']",
+    "type": "xpath"
+  },
+  {
+    "key": "GraphReport_EndDate",
+    "value": "//a[@class='ui-state-default' and text()='31']",
+    "type": "xpath"
+  },
+  {
+    "key": "GraphReport_Click",
+    "value": "//div[@class='ui-picklist-caption ui-widget-header ui-corner-tl ui-corner-tr' and text()='Unselected Projects']",
+    "type": "xpath"
+  },
+  {
+    "key": "GraphReport_SelectProject",
+    "value": "//li[@class='ui-picklist-item ui-corner-all ui-sortable-handle']/table/tbody/tr/td[text()=' allianzmobileproject']",
+    "type": "xpath"
+  },
+  {
+    "key": "GraphReport_SelectRight",
+    "value": "//div[@class='ui-picklist-buttons-cell']/button[@class='ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-picklist-button-add ui-state-disabled']",
+    "type": "xpath"
+  },
+  {
+    "key": "GraphReport_DrawButton",
+    "value": "//button[@id='companyCharts:j_idt233']",
+    "type": "xpath"
+  },
+  {
+    "key": "GraphReport_ErrorTitle",
+    "value": "//span[@class='ui-messages-error-summary']",
+    "type": "xpath"
+  },
+  {
+    "key": "GraphReport_ExportToExcel",
+    "value": "companyCharts:exportToExcel",
+    "type": "id"
+  },
+  {
+    "key": "ExecutionGraphs_Tab",
+    "value": "//a[@href='/members/reports/graphExecutionReports.html']",
+    "type": "xpath"
+  },
+  {
+    "key": "ExecutionGraphs_DrawButton",
+    "value": "//button[@id='companyCharts:j_idt231']",
+    "type": "xpath"
+  },
+  {
+    "key": "ExecutionGraphs_InputStartDate",
+    "value": "//span[@id='companyCharts:repetitivePickerBegin']/input",
+    "type": "xpath"
+  },
+  {
+    "key": "PassRateReports_Tab",
+    "value": "//a[@href='/members/reports/passRateReports.html']",
+    "type": "xpath"
+  },
+  {
+    "key": "PassRateReports_ProjectSelect",
+    "value": "//div[@class='col-md-7']/select",
+    "type": "xpath"
+  },
+  {
+    "key": "PassRateReports_ProjectSelect2",
+    "value": "//select[@id='project']/option[text()=' allianzmobileproject']",
+    "type": "xpath"
+  },
+  {
+
+    "key": "PassRateReports_TestScenario",
+    "value": "//span[@class='ui-treenode-label ui-corner-all ui-state-highlight' and text()='Deneme_Group']",
+    "type": "xpath"
+  },
+  {
+    "key": "PassRateReports_TestScenarioProject",
+    "value": "//span[@class='ui-tree-toggler ui-icon ui-icon-triangle-1-e']/following-sibling::span[text()='Deneme_Scenario_01']",
+    "type": "xpath"
+  },
+  {
+    "key": "PassRateReports_GetResults",
+    "value": "j_idt238",
+    "type": "id"
+  },
+  {
+    "key": "PassRateReports_Reports",
+    "value": "//span[@class='menu-text' and text()=' Reports ']",
+    "type": "xpath"
+
+
+
+  }
+  ]
+

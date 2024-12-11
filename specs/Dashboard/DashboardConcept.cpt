@@ -1,0 +1,110 @@
+
+
+# Dashboard sayfasındaki elementlerin kontrolünü yap
+* Yan taraftaki Tab kontrollerini yapınız
+* "testiniumLogo_Projects" elementinin görünür olması kontrol edilir
+ "dashboardIcon_Projects" elementinin görünür olması kontrol edilir
+* "DashboardTextNavBar_Dashboard" elementinin görünür olması kontrol edilir
+* "DashboardTextHeader_Dashboard" elementinin görünür olması kontrol edilir
+
+# Yan taraftaki Tab kontrollerini yapınız
+* "dashBoardTab_Projects" elementinin görünür olması kontrol edilir
+* "systemSettingsTab_Projects" elementinin görünür olması kontrol edilir
+* "systemSettingsTab_Projects" elementine tıkla
+* "licenceInformation_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "systemProperties_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "seleniumHubs_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "rolePermissionManagement_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "rolePermissionManagement_Projects_SystemSettings" elementine tıkla
+* "roles_Projects_SystemSettings_RolesManagement" elementinin görünür olması kontrol edilir
+* "permissions_Projects_SystemSettings_RolesManagement" elementinin görünür olması kontrol edilir
+* "rolePermissionManagement_Projects_SystemSettings" elementine tıkla
+* "browsersPhones_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "testEnvironments_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "testEnvironmentsStatus_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "activeTests_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "screenResolutions_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "preDefinedExceptions_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "cloudTestEnvironments_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "cloudTestEnvironmentsGroups_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "notifications_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "projectClone_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "companysScheduledPlans_Projects_SystemSettings" elementinin görünür olması kontrol edilir
+* "systemSettingsTab_Projects" elementine tıkla
+* "companiesTab_Projects" elementinin görünür olması kontrol edilir
+* "usersTab_Projects" elementinin görünür olması kontrol edilir
+* "projectsTab_Projects" elementinin görünür olması kontrol edilir
+* "scenariosTab_Projects" elementinin görünür olması kontrol edilir
+* "plansTab_Projects" elementinin görünür olması kontrol edilir
+* "bddEditor_Projects" elementinin görünür olması kontrol edilir
+* "reportsTab_Projects" elementinin görünür olması kontrol edilir
+* "reportsTab_Projects" elementine tıkla
+* "testExecutionsAuto_Projects_Reports" elementinin görünür olması kontrol edilir
+* "testExecutionsRemote_Projects_Reports" elementinin görünür olması kontrol edilir
+* "testExecutionsTag_Projects_Reports" elementinin görünür olması kontrol edilir
+* "detailedReports_Projects_Reports" elementinin görünür olması kontrol edilir
+* "instantReports_Projects_Reports" elementinin görünür olması kontrol edilir
+* "scheduledReports_Projects_Reports" elementinin görünür olması kontrol edilir
+* "graphReports_Projects_Reports" elementinin görünür olması kontrol edilir
+* "executionGraphs_Projects_Reports" elementinin görünür olması kontrol edilir
+* "passRateReports_Projects_Reports" elementinin görünür olması kontrol edilir
+* "testResultsByPeriod_Projects_Reports" elementinin görünür olması kontrol edilir
+
+# Reports tabına tıkla
+* "reportsTab_Projects" elementinin görünür olması kontrol edilir
+* "reportsTab_Projects" elementine tıkla
+
+# Project seçme tabına tıklanır
+* "Dashboard_ProjectSelectButton" elementinin görünür olması kontrol edilir
+* "Dashboard_ProjectSelectButton" elementine tıkla
+
+# Project butonuna tıkla
+* "Dashboard_ProjectButton" elementinin görünür olması kontrol edilir
+* "Dashboard_ProjectButton" elementine tıkla
+
+# User butonuna tıkla
+* "Dashboard_UserButton" elementinin görünür olması kontrol edilir
+* "Dashboard_UserButton" elementine tıkla
+
+# Scenario butonuna tıkla
+* "Dashboard_ScenarioButton" elementinin görünür olması kontrol edilir
+* "Dashboard_ScenarioButton" elementine tıkla
+
+# Plan butonuna tıkla
+* "Dashboard_PlanButton" elementinin görünür olması kontrol edilir
+* "Dashboard_PlanButton" elementine tıkla
+
+# Used Minutes butonuna tıkla
+* "Dashboard_UsedMinutesButton" elementinin görünür olması kontrol edilir
+* "Dashboard_UsedMinutesButton" elementine tıkla
+
+# Running Test Plans butonuna tıkla
+* "Dashboard_RunningTestPlansButton" elementinin görünür olması kontrol edilir
+* "Dashboard_RunningTestPlansButton" elementine tıkla
+
+# Active Tests butonuna tıkla
+* "Dashboard_ActiveTestButton" elementinin görünür olması kontrol edilir
+* "Dashboard_ActiveTestButton" elementine tıkla
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

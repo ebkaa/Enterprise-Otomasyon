@@ -1,0 +1,12 @@
+Created by testinium on 15.11.2022
+
+This is a concept file with following syntax for each concept.
+#Plans Tabına tıklanması
+* "PlansButton" elementinin görünür olması kontrol edilir
+* "PlansButton" elementinin tıklanabilir olması kontrol edilir
+* "PlansButton" elementine tıkla
+# Plans Sayfasının kontrolleri yapılır
+* Şu anki url "https://clouddev.testinium.io/plan" ile aynı mı
+* "AllPlansText" elementinin text değeri "All Plans" değerine eşit mi
+* "ExportTable" elementinin görünür olması kontrol edilir
+* "ExportTable" elementinin tıklanabilir olması kontrol edilir

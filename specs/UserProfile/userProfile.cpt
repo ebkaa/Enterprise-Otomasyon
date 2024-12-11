@@ -1,0 +1,38 @@
+Created by testinium on 11.10.2022
+
+This is a concept file with following syntax for each concept.
+# User Information tabına tıkla
+* "userDropdown_UserProfile" elementinin görünür olması kontrol edilir
+* "userDropdown_UserProfile" elementine tıkla
+
+# Profile butonuna tıkla
+* "profileButton_UserProfile" elementinin görünür olması kontrol edilir
+* "profileButton_UserProfile" elementine tıkla
+
+# User Profile sayfa kontrolleri
+* User Information tabına tıkla
+* Profile butonuna tıkla
+* "header_UserProfile" elementinin görünür olması kontrol edilir
+* "header_UserProfile" elementinin text değeri "User Profile" değerini içeriyor mu
+* "basicInfoTab_UserProfile" elementinin görünür olması kontrol edilir
+* "settingsTab_UserProfile" elementinin görünür olması kontrol edilir
+* "passwordTab_UserProfile" elementinin görünür olması kontrol edilir
+* "cacheTab_UserProfile" elementinin görünür olması kontrol edilir
+* "userName_UserProfile" elementinin görünür olması kontrol edilir
+* "email_UserProfile" elementinin görünür olması kontrol edilir
+* "accessKey_UserProfile" elementinin görünür olması kontrol edilir
+* "generateNewKey_UserProfile" elementinin görünür olması kontrol edilir
+* "saveButton_UserProfile" elementinin görünür olması kontrol edilir
+* "cancelButton_UserProfile" elementinin görünür olması kontrol edilir
+
+# User Profile sayfasındaki save butonuna tıkla
+* "saveButton_UserProfile" elementinin görünür olması kontrol edilir
+* "saveButton_UserProfile" elementine tıkla
+
+# User Profile sayfasındaki cancel butonuna tıkla
+* "cancelButton_UserProfile" elementinin görünür olması kontrol edilir
+* "cancelButton_UserProfile" elementine tıkla
+
+# <message> mesajının göründüğünü doğrula
+* "info_UserProfile" elementinin görünür olması kontrol edilir
+* "info_UserProfile" elementinin text değeri <message> değerine eşit mi

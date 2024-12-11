@@ -1,0 +1,211 @@
+Created by testinium on 13.10.2022
+
+This is a concept file with following syntax for each concept.
+# Plans sayfasının element kontrolleri yapılır
+* Şu anki url "http://dev.testinium.com/members/testPlanList.html" ile aynı mı
+* "header_PlansPage" elementinin text değeri "Test Plan List" değerini içeriyor mu
+* "projectNameInput_PlansPage" elementinin görünür olması kontrol edilir
+* "plansTable_PlansPage" elementinin görünür olması kontrol edilir
+* "deleteButton_PlansPage" elementinin görünür olması kontrol edilir
+* "columnsButton_PlansPage" elementinin görünür olması kontrol edilir
+* "runWithTagButton_PlansPage" elementinin görünür olması kontrol edilir
+* "clonePlanButton_PlansPage" elementinin görünür olması kontrol edilir
+* "showExpiredPlansButton_PlansPage" elementinin görünür olması kontrol edilir
+* "createNewPlanButton_PlansPage" elementinin görünür olması kontrol edilir
+* "showRunningPlansButton_PlansPage" elementinin görünür olması kontrol edilir
+* "planNameFilter_PlansPage" elementinin görünür olması kontrol edilir
+
+# Plan sayfasında <projectName> adlı proje seçilir
+* "projectNameInput_PlansPage" elementinin görünür olması kontrol edilir
+* "projectNameInput_PlansPage" elementinin değerini temizle
+* "projectNameInput_PlansPage" elementine <projectName> değerini yaz
+* "1" saniye bekle
+* "projectNameInput_PlansPage" elementine "ENTER" keyini yolla
+* "1" saniye bekle
+
+# Projeye ait planların plan tablosuna geldiği görülür
+* "planName_PlansPage" elementinin değerini "ilkplan" değeriyle değiştirerek "planControlKeyValue" elementini oluştur
+* "planControlKeyValue" elementinin görünür olması kontrol edilir
+* "planName_PlansPage" elementinin değerini "EnterpriseRegresyon" değeriyle değiştirerek "planControlKeyValue" elementini oluştur
+* "planControlKeyValue" elementinin görünür olması kontrol edilir
+/* "planName_PlansPage" elementinin değerini "OtomasyonDeneme" değeriyle değiştirerek "planControlKeyValue" elementini oluştur
+/* "planControlKeyValue" elementinin görünür olması kontrol edilir
+/* "planName_PlansPage" elementinin değerini "Project_Page_Plan_01" değeriyle değiştirerek "planControlKeyValue" elementini oluştur
+/* "planControlKeyValue" elementinin görünür olması kontrol edilir
+/* "planName_PlansPage" elementinin değerini "enesdeneme" değeriyle değiştirerek "planControlKeyValue" elementini oluştur
+/* "planControlKeyValue" elementinin görünür olması kontrol edilir
+
+# Create new plan butonuna tıklanır
+* "createNewPlanButton_PlansPage" elementinin görünür olması kontrol edilir
+* "createNewPlanButton_PlansPage" elementine tıkla
+
+# <planName> adıyla bir plan oluştur
+* <planName> degerini "planNameKeyValue" keyinde tut
+* "planName_TestPlanForm_DailyRun" elementinin görünür olması kontrol edilir
+* "planName_TestPlanForm_DailyRun" elementine "planNameKeyValue" değerini yaz
+* "scenarioOfPlan_PlansPage" elementinin değerini "PlanPage" değeriyle değiştirerek "scenarioKeyValue" elementini oluştur
+* "scenarioKeyValue" elementinin görünür olması kontrol edilir
+* "scenarioKeyValue" elementine tıkla
+* "nextButton_PlansPage" elementinin görünür olması kontrol edilir
+* "nextButton_PlansPage" elementine tıkla
+* "linuxLatestAdd_PlansPage" elementinin görünür olması kontrol edilir
+* "linuxLatestAdd_PlansPage" elementine tıkla
+* "selectedBrowsersChromeLatest_PlansPage" elementinin görünür olması kontrol edilir
+* "nextButton_PlansPage" elementinin görünür olması kontrol edilir
+* "nextButton_PlansPage" elementine tıkla
+* "schedulePanel_PlansPage" elementinin görünür olması kontrol edilir
+* "nextButton_PlansPage" elementine tıkla
+* "notificationsPanel_PlansPage" elementinin görünür olması kontrol edilir
+* "nextButton_PlansPage" elementine tıkla
+* "testPlanSummaryPanel_PlansPage" elementinin görünür olması kontrol edilir
+* "1" milisaniye bekle
+* "saveButton_PlansPage" elementinin görünür olması kontrol edilir
+* "saveButton_PlansPage" elementine tıkla
+
+# <planName> adıyla <startDate> startdate <endDate> enddate <repeatPeriod> repeatperiod schedule bir plan oluştur
+* <planName> degerini "planNameKeyValue" keyinde tut
+* "planName_TestPlanForm_DailyRun" elementinin görünür olması kontrol edilir
+* "planName_TestPlanForm_DailyRun" elementine "planNameKeyValue" değerini yaz
+* "scenarioOfPlan_PlansPage" elementinin değerini "PlanPage" değeriyle değiştirerek "scenarioKeyValue" elementini oluştur
+* "scenarioKeyValue" elementinin görünür olması kontrol edilir
+* "scenarioKeyValue" elementine tıkla
+* "nextButton_PlansPage" elementinin görünür olması kontrol edilir
+* "nextButton_PlansPage" elementine tıkla
+* "linuxLatestAdd_PlansPage" elementinin görünür olması kontrol edilir
+* "linuxLatestAdd_PlansPage" elementine tıkla
+* "selectedBrowsersChromeLatest_PlansPage" elementinin görünür olması kontrol edilir
+* "nextButton_PlansPage" elementinin görünür olması kontrol edilir
+* "nextButton_PlansPage" elementine tıkla
+* "schedulePanel_PlansPage" elementinin görünür olması kontrol edilir
+* "repetitivePeriod_PlansPage" elementinin görünür olması kontrol edilir
+* "repetitivePeriod_PlansPage" elementine tıkla
+* "repetitivePickerBeginInput_PlansPage" elementine <startDate> değerini yaz
+* "repetitivePickerEndInput_PlansPage" elementine <endDate> değerini yaz
+* "repeatPeriod_PlansPage" elementinin değerini <repeatPeriod> değeriyle değiştirerek "repeatPeriodKeyValue" elementini oluştur
+* "repeatPeriodKeyValue" elementine tıkla
+* "nextButton_PlansPage" elementine tıkla
+* "notificationsPanel_PlansPage" elementinin görünür olması kontrol edilir
+* "nextButton_PlansPage" elementine tıkla
+* "testPlanSummaryPanel_PlansPage" elementinin görünür olması kontrol edilir
+* "1" milisaniye bekle
+* "saveButton_PlansPage" elementinin görünür olması kontrol edilir
+* "saveButton_PlansPage" elementine tıkla
+
+# Planın oluşturulduğunu doğrula
+* "infoMessage_PlansPage" elementinin görünür olması kontrol edilir
+* "infoMessage_PlansPage" elementinin text değeri "The new plan has been created successfully." değerine eşit mi
+* "testPlanName_PlansPage" elementinin değerini "planNameKeyValue" değeriyle değiştirerek "newKeyValue" elementini oluştur
+* "newKeyValue" elementinin görünür olması kontrol edilir
+
+# Bilgiler girilerek plan oluşturulur ve oluşturulduğu doğrulanır
+* Şu anki url "http://dev.testinium.com/members/plan/seleniumTestPlanForm.html" ile aynı mı
+* "otomasyonTest" adıyla bir plan oluştur
+* Planın oluşturulduğunu doğrula
+* "planNameKeyValue" adlı planı sil
+
+# <planName> adlı planı sil
+* "planCheckBox_PlansPage" elementinin değerini <planName> değeriyle değiştirerek "planCheckBoxKeyValue" elementini oluştur
+* "planCheckBoxKeyValue" elementinin görünür olması kontrol edilir
+* "planCheckBoxKeyValue" elementine tıkla
+* "deleteButton_PlansPage" elementinin görünür olması kontrol edilir
+* "deleteButton_PlansPage" elementine tıkla
+* "yesButton_PlansPage" elementinin görünür olması kontrol edilir
+* "yesButton_PlansPage" elementine tıkla
+* "planDisabledInfo_PlansPage" elementinin görünür olması kontrol edilir
+* "planDisabledInfo_PlansPage" elementinin text değeri "plan is disabled. Click again to delete record." değerini içeriyor mu
+* "deleteButton_PlansPage" elementinin görünür olması kontrol edilir
+* "deleteButton_PlansPage" elementine tıkla
+* "yesButton_PlansPage" elementinin görünür olması kontrol edilir
+* "yesButton_PlansPage" elementine tıkla
+* "deleteInfo_PlansPage" elementinin görünür olması kontrol edilir
+* "deleteInfo_PlansPage" elementinin text değeri "plan is deleted successfully." değerini içeriyor mu
+
+# Run with Tag butonuna tıklanır
+* "runWithTagButton_PlansPage" elementinin görünür olması kontrol edilir
+* "runWithTagButton_PlansPage" elementine tıkla
+
+# Run with tag sayfa kontrolleri yapılır
+* Şu anki url "http://dev.testinium.com/members/tagList.html" ile aynı mı
+* "header_PlansPage_RunWithTag" elementinin görünür olması kontrol edilir
+* "header_PlansPage_RunWithTag" elementinin text değeri "Tag List" değerini içeriyor mu
+* "tagTable_PlansPage_RunWithTag" elementinin görünür olması kontrol edilir
+* "columnsButton_PlansPage_RunWithTag" elementinin görünür olması kontrol edilir
+* "newTagButton_PlansPage_RunWithTag" elementinin görünür olması kontrol edilir
+
+# New Tag butonuna tıklanır
+* "newTagButton_PlansPage_RunWithTag" elementinin görünür olması kontrol edilir
+* "newTagButton_PlansPage_RunWithTag" elementine tıkla
+
+# New tag sayfası kontrolleri yapılır
+* Şu anki url "http://dev.testinium.com/members/tagForm.html" ile aynı mı
+* "header_PlansPage_RunWithTag_NewTag" elementinin görünür olması kontrol edilir
+* "header_PlansPage_RunWithTag_NewTag" elementinin text değeri "Tag Form" değerini içeriyor mu
+* "5" saniye bekle
+* "tagName_PlansPage_RunWithTag_NewTag" elementinin var olduğu kontrol edilir
+* "project_PlansPage_RunWithTag_NewTag" elementinin var olduğu kontrol edilir
+* "sourceList_PlansPage_RunWithTag_NewTag" elementinin var olduğu kontrol edilir
+* "targetList_PlansPage_RunWithTag_NewTag" elementinin var olduğu kontrol edilir
+* "buttons_PlansPage_RunWithTag_NewTag" elementinin var olduğu kontrol edilir
+* "cancel_PlansPage_RunWithTag_NewTag" elementinin var olduğu kontrol edilir
+* "next_PlansPage_RunWithTag_NewTag" elementinin var olduğu kontrol edilir
+
+# Show expired plans butonuna tıklanır
+* "showExpiredPlansButton_PlansPage" elementinin görünür olması kontrol edilir
+* "showExpiredPlansButton_PlansPage" elementine tıkla
+* Şu anki url "http://dev.testinium.com/members/plan/expiredPlanList.html" ile aynı mı
+
+# Expired olan <planName> adlı planın Expired Test Plans tablosunda olduğu görülür
+* "expiredPlan_PlansPage_ShowExpiredPlans" elementinin değerini <planName> değeriyle değiştirerek "expiredPlanKeyValue" elementini oluştur
+* "expiredPlanKeyValue" elementinin görünür olması kontrol edilir
+
+# Expired olan <planName> adlı planın Expired Test Plans tablosundan silindiği görülür
+  * "expiredPlan_PlansPage_ShowExpiredPlans" elementinin değerini <planName> değeriyle değiştirerek "expiredPlanKeyValue" elementini oluştur
+  * "expiredPlanKeyValue" elementinin görünür olmadığı kontrol edilir
+
+# Show expired plans sayfasında <planName> adlı planın end dateini <endDate> yap
+* "endDateInput_PlansPage_ShowExpiredPlans" elementinin değerini <planName> değeriyle değiştirerek "endDtKeyValue" elementini oluştur
+* "endDtKeyValue" elementinin görünür olması kontrol edilir
+* "endDtKeyValue" elementinin değerini temizle
+* "endDtKeyValue" elementine <endDate> değerini yaz
+* "updateButton_PlansPage_ShowExpiredPlans" elementinin değerini <planName> değeriyle değiştirerek "updtKeyValue" elementini oluştur
+* "updtKeyValue" elementinin görünür olması kontrol edilir
+* "updtKeyValue" elementine tıkla
+
+
+# <planName> adlı planı koş
+* "runButton_PlansPage" elementinin değerini <planName> değeriyle değiştirerek "runPlanKeyValue" elementini oluştur
+* "runPlanKeyValue" elementinin görünür olması kontrol edilir
+* "runPlanKeyValue" elementine tıkla
+* "runYesPopUp_PlansPage" elementinin görünür olması kontrol edilir
+* "runYesPopUp_PlansPage" elementine tıkla
+* "infoMessage_PlansPage" elementinin görünür olması kontrol edilir
+* "infoMessage_PlansPage" elementinin text değeri "Test Plan has started. You can see the results in the reports after 1-2 minutes." değerine eşit mi
+
+
+# <planName> adlı planın Show Running Plans kısmında koştuğunu gör
+* "planName_PlansPage_ShowRunningPlans" elementinin değerini <planName> değeriyle değiştirerek "showRunningKeyValue" elementini oluştur
+* "showRunningKeyValue" elementinin görünür olması kontrol edilir
+
+# Show Running Plans butonuna tıkla
+* "showRunningPlansButton_PlansPage" elementinin görünür olması kontrol edilir
+* "showRunningPlansButton_PlansPage" elementine tıkla
+* "activePlansTitle_PlansPage_ShowRunningPlans" elementinin görünür olması kontrol edilir
+* "activePlansTitle_PlansPage_ShowRunningPlans" elementinin text değeri "Running Test Plans" değerini içeriyor mu
+
+# <planName> adlı planın raporuna git
+* "reportButton_PlansPage" elementinin değerini <planName> değeriyle değiştirerek "reportButtonKeyValue" elementini oluştur
+* "reportButtonKeyValue" elementinin görünür olması kontrol edilir
+* "reportButtonKeyValue" elementine tıkla
+* Şu anki url "http://dev.testinium.com/members/reports/testExecutionList.html" içeriyor mu
+
+# <planName> adlı planın editine git
+* "editButton_PlansPage" elementinin değerini <planName> değeriyle değiştirerek "editButtonKeyValue" elementini oluştur
+* "editButtonKeyValue" elementinin görünür olması kontrol edilir
+* "editButtonKeyValue" elementine tıkla
+
+# <planName> adlı planın raporunun gösterildiğini kontrol et
+* "planName_PlansPage_Report" elementinin değerini <planName> değeriyle değiştirerek "reportNameKeyValue" elementini oluştur
+* "reportNameKeyValue" elementinin görünür olması kontrol edilir
+
+# <planName> adlı planın editinin gösterildiğini kontrol et
+* "planName_PlansPage_Edit" elementinin "value" niteliği <planName> değerine eşit mi

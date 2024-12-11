@@ -1,0 +1,482 @@
+[
+  {
+    "key": "pageHeader_SystemSettings_LicenceInformation",
+    "value": "div[class='page-header']>h1",
+    "type": "css"
+  },
+  {
+    "key": "licencePropertiesTable_SystemSettings_LicenceInformation",
+    "value": "//div[@id='licenceList' and .//th[@aria-label='Licence'] and .//th[@aria-label='License Added Date']]",
+    "type": "xpath"
+  },
+  {
+    "key": "updatePublicKey_SystemSettings_LicenceInformation",
+    "value": "//a[@href='/members/admin/licencePropertyPublicKeyForm.html' and .//span[text()='UPDATE PUBLIC KEY']]",
+    "type": "xpath"
+  },
+  {
+    "key": "addNewLicence_SystemSettings_LicenceInformation",
+    "value": "//a[@href='/members/admin/licencePropertyForm.html' and .//span[text()='ADD NEW LICENCE']]",
+    "type": "xpath"
+  },
+  {
+    "key": "publicKeyText_SystemSettings_LicenceInformation_UpdatePublicKey",
+    "value": "//textarea[@id='defaultForm:publicKeyValue']",
+    "type": "xpath"
+  },
+  {
+    "key": "saveButton_SystemSettings_LicenceInformation_UpdatePublicKey",
+    "value": "//a[@id='defaultForm:saveButton']",
+    "type": "xpath"
+  },
+  {
+    "key": "cancelButton_SystemSettings_LicenceInformation_UpdatePublicKey",
+    "value": "//a[@id='defaultForm:resetButton']",
+    "type": "xpath"
+  },
+  {
+    "key": "addlicenceText_SystemSettings_LicenceInformation_AddNewLicence",
+    "value": "//textarea[@id='defaultForm:licencePropertyValue']",
+    "type": "xpath"
+  },
+  {
+    "key": "saveButton_SystemSettings_LicenceInformation_AddNewLicence",
+    "value": "//a[@id='defaultForm:saveButton']",
+    "type": "xpath"
+  },
+  {
+    "key": "cancelButton_SystemSettings_LicenceInformation_AddNewLicence",
+    "value": "//a[@id='defaultForm:resetButton']",
+    "type": "xpath"
+  },
+  {
+    "key": "pageHeader_SystemSettings_SystemProperties",
+    "value": ".page-header>h1",
+    "type": "css"
+  },
+  {
+    "key": "systemPropertiesTable_SystemSettings_SystemProperties",
+    "value": "//div[@id='systemPropertyList' and .//th[@aria-label='Key'] and .//th[@aria-label='Value']]",
+    "type": "xpath"
+  },
+  {
+    "key": "createNewSystemProperty_SystemSettings_SystemProperties",
+    "value": "//a[@href='/members/admin/systemPropertyForm.html' and .//span[text()='CREATE NEW SYSTEM PROPERTY']]",
+    "type": "xpath"
+  },
+  {
+    "key": "systemPropertyKey_SystemSettings_SystemProperties_AddNew",
+    "value": "//input[@id='defaultForm:systemPropertyKey']",
+    "type": "xpath"
+  },
+  {
+    "key": "systemPropertyValue_SystemSettings_SystemProperties_AddNew",
+    "value": "//input[@id='defaultForm:systemPropertyValue']",
+    "type": "xpath"
+  },
+  {
+    "key": "saveButton_SystemSettings_SystemProperties_AddNew",
+    "value": "//a[@id='defaultForm:saveButton']",
+    "type": "xpath"
+  },
+  {
+    "key": "cancelButton_SystemSettings_SystemProperties_AddNew",
+    "value": "//a[@id='defaultForm:resetButton']",
+    "type": "xpath"
+  },
+  {
+    "key": "pageHeader_SystemSettings_SeleniumHubs",
+    "value": ".page-header>h1",
+    "type": "css"
+  },
+  {
+    "key": "seleniumHubsTable_SystemSettings_SeleniumHubs",
+    "value": "//div[@id='seleniumHubList' and .//th[@aria-label='Hub Name'] and .//th[@aria-label='Hub Url'] and .//th[@aria-label='Hub Internal Url'] and .//th[@aria-label='Enabled']]",
+    "type": "xpath"
+  },
+  {
+    "key": "createNewSeleniumHub_SystemSettings_SeleniumHubs",
+    "value": "//a[@href='/members/admin/seleniumHubForm.html' and .//span[text()='CREATE NEW SELENIUM HUB']]",
+    "type": "xpath"
+  },
+  {
+    "key": "hubName_SystemSettings_SeleniumHubs_CreateNew",
+    "value": "//input[@id='defaultForm:hubName']",
+    "type": "xpath"
+  },
+  {
+    "key": "hubUrl_SystemSettings_SeleniumHubs_CreateNew",
+    "value": "//input[@id='defaultForm:hubUrl']",
+    "type": "xpath"
+  },
+  {
+    "key": "hubInternalUrl_SystemSettings_SeleniumHubs_CreateNew",
+    "value": "//input[@id='defaultForm:hubInternalUrl']",
+    "type": "xpath"
+  },
+  {
+    "key": "enabled_SystemSettings_SeleniumHubs_CreateNew",
+    "value": "//table[@id='defaultForm:enabled']",
+    "type": "xpath"
+  },
+  {
+    "key": "save_SystemSettings_SeleniumHubs_CreateNew",
+    "value": "//a[@id='defaultForm:saveButton']",
+    "type": "xpath"
+  },
+  {
+    "key": "cancel_SystemSettings_SeleniumHubs_CreateNew",
+    "value": "//a[@id='defaultForm:resetButton']",
+    "type": "xpath"
+  },
+  {
+    "key": "pageHeader_SystemSettings_BrowsersPhones",
+    "value": ".page-header>h1",
+    "type": "css"
+  },
+  {
+    "key": "browserPhoneList_SystemSettings_BrowsersPhones",
+    "value": "//div[@id='browserPhoneList' and .//th[@aria-label='Code'] and .//th[@aria-label='Name'] and .//th[@aria-label='Operating System'] and .//th[@aria-label='Enabled']]",
+    "type": "xpath"
+  },
+  {
+    "key": "createBrowserPhone_SystemSettings_BrowsersPhones",
+    "value": "//a[@href='/members/admin/browserPhoneForm.html' and .//span[text()='CREATE BROWSER/PHONE']]",
+    "type": "xpath"
+  },
+  {
+    "key": "operatingSystem_SystemSettings_BrowsersPhones",
+    "value": "operatingSystem",
+    "type": "id"
+  },
+  {
+    "key": "code_SystemSettings_BrowsersPhones_CreateNew",
+    "value": "//input[@id='defaultForm:code']",
+    "type": "xpath"
+  },
+  {
+    "key": "name_SystemSettings_BrowsersPhones_CreateNew",
+    "value": "//input[@id='defaultForm:browserName']",
+    "type": "xpath"
+  },
+  {
+    "key": "operatingSystem_BrowsersPhones_CreateNew",
+    "value": "//select[@id='defaultForm:operatingSystem']",
+    "type": "xpath"
+  },
+  {
+    "key": "enabled_BrowsersPhones_CreateNew",
+    "value": "//table[@id='defaultForm:envEnabled']",
+    "type": "xpath"
+  },
+  {
+    "key": "save_BrowsersPhones_CreateNew",
+    "value": "//a[@id='defaultForm:saveButton']",
+    "type": "xpath"
+  },
+  {
+    "key": "cancel_BrowsersPhones_CreateNew",
+    "value": "//a[@id='defaultForm:resetButton']",
+    "type": "xpath"
+  },
+  {
+    "key": "pageHeader_SystemSettings_TestEnvironments",
+    "value": ".page-header>h1",
+    "type": "css"
+  },
+  {
+    "key": "operatingSystem_TestEnvironments",
+    "value": "operatingSystem",
+    "type": "id"
+  },
+  {
+    "key": "environmentList_TestEnvironments",
+    "value": "//div[@id='environmentList']",
+    "type": "xpath"
+  },
+  {
+    "key": "createNewEnvironment_TestEnvironments",
+    "value": "//a[@href='/members/admin/testEnvironmentForm.html' and .//span[text()='CREATE NEW ENVIRONMENT']]",
+    "type": "xpath"
+  },
+  {
+    "key": "operatingSystem_TestEnvironments_CreateNew",
+    "value": "//select[@id='defaultForm:operatingSystem']",
+    "type": "xpath"
+  },
+  {
+    "key": "browser_TestEnvironments_CreateNew",
+    "value": "//select[@id='defaultForm:browser']",
+    "type": "xpath"
+  },
+  {
+    "key": "browserVersion_TestEnvironments_CreateNew",
+    "value": "//input[@id='defaultForm:browserVersion']",
+    "type": "xpath"
+  },
+  {
+    "key": "companyName_TestEnvironments_CreateNew",
+    "value": "//select[@id='defaultForm:company']",
+    "type": "xpath"
+  },
+  {
+    "key": "enabled_TestEnvironments_CreateNew",
+    "value": "//table[@id='defaultForm:envEnabled']",
+    "type": "xpath"
+  },
+  {
+    "key": "save_TestEnvironments_CreateNew",
+    "value": "//a[@id='defaultForm:saveButton']",
+    "type": "xpath"
+  },
+  {
+    "key": "cancel_TestEnvironments_CreateNew",
+    "value": "//a[@id='defaultForm:resetButton']",
+    "type": "xpath"
+  },
+  {
+    "key": "pageHeader_TestEnvironmentsStatus",
+    "value": ".page-header>h1",
+    "type": "css"
+  },
+  {
+    "key": "environmentList_TestEnvironmentsStatus",
+    "value": "//div[@id='capabilityList']",
+    "type": "xpath"
+  },
+  {
+    "key": "refreshButton_TestEnvironmentsStatus",
+    "value": "refreshButton",
+    "type": "id"
+  },
+  {
+    "key": "header_ActiveTests",
+    "value": ".page-header>h1",
+    "type": "css"
+  },
+  {
+    "key": "activeTestsList_ActiveTests",
+    "value": "//div[@id='testQueueTable' and .//th[@aria-label='Company'] and .//th[@aria-label='Running Test Count'] and .//th[@aria-label='Waiting Test Count']]",
+    "type": "xpath"
+  },
+  {
+    "key": "refreshButton_ActiveTests",
+    "value": "refreshButton",
+    "type": "id"
+  },
+  {
+    "key": "header_ScreenResolutions",
+    "value": ".page-header>h1",
+    "type": "css"
+  },
+  {
+    "key": "screenResolutionList_ScreenResolutions",
+    "value": "//div[@id='operatingSystemResolutionList' and .//th[@aria-label='Operating System'] and .//th[@aria-label='Screen Resolution']]",
+    "type": "xpath"
+  },
+  {
+    "key": "createNewResolution_ScreenResolutions",
+    "value": "//a[@href='/members/admin/operatingSystemResolutionForm.html' and .//span[normalize-space(.)='CREATE NEW RESOLUTION']]",
+    "type": "xpath"
+  },
+  {
+    "key": "OperatingSystem_ScreenResolutions_AddNew",
+    "value": "//select[@id='defaultForm:operatingSystem']",
+    "type": "xpath"
+  },
+  {
+    "key": "ScreenResolution_ScreenResolutions_AddNew",
+    "value": "//select[@id='defaultForm:screenResolution']",
+    "type": "xpath"
+  },
+  {
+    "key": "save_ScreenResolutions_AddNew",
+    "value": "//a[@id='defaultForm:saveButton']",
+    "type": "xpath"
+  },
+  {
+    "key": "cancel_ScreenResolutions_AddNew",
+    "value": "//a[@id='defaultForm:resetButton']",
+    "type": "xpath"
+  },
+  {
+    "key": "header_predefinedExceptions",
+    "value": ".page-header>h1",
+    "type": "css"
+  },
+  {
+    "key": "predefinedExceptionsList_predefinedExceptions",
+    "value": "predefinedExceptionList",
+    "type": "id"
+  },
+  {
+    "key": "createPredefinedException_predefinedExceptions",
+    "value": "//a[@href='/members/admin/predefinedExceptionForm.html' and .//span[text()='CREATE PREDEFINED EXCEPTION']]",
+    "type": "xpath"
+  },
+  {
+    "key": "exceptionName_predefinedExceptions_AddNew",
+    "value": "//input[@id='defaultForm:exceptionName']",
+    "type": "xpath"
+  },
+  {
+    "key": "message_predefinedExceptions_AddNew",
+    "value": "//input[@id='defaultForm:messageTxt']",
+    "type": "xpath"
+  },
+  {
+    "key": "status_predefinedExceptions_AddNew",
+    "value": "//select[@id='defaultForm:statusCmb']",
+    "type": "xpath"
+  },
+  {
+    "key": "webCheck_predefinedExceptions_AddNew",
+    "value": "//div[@id='defaultForm:webChk']//span",
+    "type": "xpath"
+  },
+  {
+    "key": "mobileCheck_predefinedExceptions_AddNew",
+    "value": "//div[@id='defaultForm:mobileChk']//span",
+    "type": "xpath"
+  },
+  {
+    "key": "serviceCheck_predefinedExceptions_AddNew",
+    "value": "//div[@id='defaultForm:serviceChk']//span",
+    "type": "xpath"
+  },
+  {
+    "key": "save_predefinedExceptions_AddNew",
+    "value": "//a[@id='defaultForm:saveButton']",
+    "type": "xpath"
+  },
+  {
+    "key": "cancel_predefinedExceptions_AddNew",
+    "value": "//a[@id='defaultForm:resetButton']",
+    "type": "xpath"
+  },
+  {
+    "key": "header_CloudTestEnvironments",
+    "value": ".page-header>h1",
+    "type": "css"
+  },
+  {
+    "key": "cloudEnvironmentList_CloudTestEnvironments",
+    "value": "//div[@id='defaultForm:testiniumCloudEnvList']",
+    "type": "xpath"
+  },
+  {
+    "key": "cloudEnvironmentList_CloudTestEnvironments",
+    "value": "//div[@id='defaultForm:testiniumCloudEnvList']",
+    "type": "xpath"
+  },
+  {
+    "key": "header_CloudTestEnvironmentsGroups",
+    "value": ".page-header>h1",
+    "type": "css"
+  },
+  {
+    "key": "cloudEnvironmentGroupList_CloudTestEnvironmentsGroups",
+    "value": "//div[@id='defaultForm:testiniumCloudEnvGroupList']",
+    "type": "xpath"
+  },
+  {
+    "key": "createNewGroup_CloudTestEnvironmentsGroups",
+    "value": "//a[@href='/members/admin/testiniumcloud/testiniumCloudEnvGroupForm.html' and span[text()='CREATE NEW GROUP']]",
+    "type": "xpath"
+  },
+  {
+    "key": "groupName_CloudTestEnvironmentsGroups_AddNew",
+    "value": "//input[@id='defaultForm:groupName']",
+    "type": "xpath"
+  },
+  {
+    "key": "operatingSystem_CloudTestEnvironmentsGroups_AddNew",
+    "value": "//select[@id='defaultForm:operatingSystem']",
+    "type": "xpath"
+  },
+  {
+    "key": "testEnvironments_CloudTestEnvironmentsGroups_AddNew",
+    "value": "//ul[@aria-label='Testinium Cloud Test Environments (202)']",
+    "type": "xpath"
+  },
+  {
+    "key": "selectedEnvironments_CloudTestEnvironmentsGroups_AddNew",
+    "value": "//ul[@aria-label='Selected Environments (0)']",
+    "type": "xpath"
+  },
+  {
+    "key": "testRunMethod_CloudTestEnvironmentsGroups_AddNew",
+    "value": "//table[@id='defaultForm:runMethod']",
+    "type": "xpath"
+  },
+  {
+    "key": "save_CloudTestEnvironmentsGroups_AddNew",
+    "value": "//a[@id='defaultForm:saveButton']",
+    "type": "xpath"
+  },
+  {
+    "key": "cancel_CloudTestEnvironmentsGroups_AddNew",
+    "value": "//a[@id='defaultForm:resetButton']",
+    "type": "xpath"
+  },
+  {
+    "key": "header_Notifications",
+    "value": ".page-header>h1",
+    "type": "css"
+  },
+  {
+    "key": "notificationList_Notifications",
+    "value": "notificationsList",
+    "type": "id"
+  },
+  {
+    "key": "header_ProjectClone",
+    "value": ".page-header>h1",
+    "type": "css"
+  },
+  {
+    "key": "sourceCompany_ProjectClone",
+    "value": "companyList",
+    "type": "id"
+  },
+  {
+    "key": "sourceProject_ProjectClone",
+    "value": "projectList",
+    "type": "id"
+  },
+  {
+    "key": "targetCompany_ProjectClone",
+    "value": "targetCompanyList",
+    "type": "id"
+  },
+  {
+    "key": "save_ProjectClone",
+    "value": "saveButton",
+    "type": "id"
+  },
+  {
+    "key": "cancel_ProjectClone",
+    "value": "resetButton",
+    "type": "id"
+  },
+  {
+    "key": "header_CompanysScheduledPlans",
+    "value": ".page-header>h1",
+    "type": "css"
+  },
+  {
+    "key": "header_CompanysScheduledPlans",
+    "value": ".page-header>h1",
+    "type": "css"
+  },
+  {
+    "key": "scheduledPlansTable_CompanysScheduledPlans",
+    "value": "scheduledPlansTable",
+    "type": "id"
+  },
+  {
+    "key": "refreshButton_CompanysScheduledPlans",
+    "value": "refreshButton",
+    "type": "id"
+  }
+]

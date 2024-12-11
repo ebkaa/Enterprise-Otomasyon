@@ -1,0 +1,202 @@
+Created by testinium on 6.09.2022
+
+This is a concept file with following syntax for each concept.
+
+# project Form sayfasının elementlerini kontrol et
+* "testFrameworkPanel_DailyRun" elementinin görünür olması kontrol edilir
+* "testFrameworkName_DailyRun" elementinin görünür olması kontrol edilir
+* "testFileType_DailyRun" elementinin görünür olması kontrol edilir
+* "testRunnerTool_DailyRun" elementinin görünür olması kontrol edilir
+* "projectName_DailyRun" elementinin görünür olması kontrol edilir
+* "projectDescription_DailyRun" elementinin görünür olması kontrol edilir
+* "repositoryPath_DailyRun" elementinin görünür olması kontrol edilir
+* "projectEnabled_DailyRun" elementinin görünür olması kontrol edilir
+* "saveButton_DailyRun" elementinin görünür olması kontrol edilir
+* "cancelButtton_DailyRun" elementinin görünür olması kontrol edilir
+
+# <projectName> adıyla Selenium gauge projesi oluştur
+* <projectName> değerine rastgele "7" karakter ekle ve "seleniumSiteURLProjectNameKeyValue" keyinde tut
+* "gaugeFileType_DailyRun" elementine tıkla
+* "projectName_DailyRun" elementine "seleniumSiteURLProjectNameKeyValue" değerini yaz
+* "projectDescription_DailyRun" elementine "This project is opened for Automation Test" değerini yaz
+* "repositoryPath_DailyRun" elementinin değerini temizle
+* "repositoryPath_DailyRun" elementine "rundaily" değerini yaz
+* "saveButton_DailyRun" elementine tıkla
+
+# The new project has been created successfully mesajının alınması ve Projects ekranına sayfanın yönlenmesi beklenir
+* "projectSuccessfullyCreated_DailyRun" elementinin görünür olması kontrol edilir "90"
+* Şu anki url "https://dev.testinium.com/members/project/seleniumProjectForm.html?type=selenium" ile farklı mı
+* Şu anki url "https://dev.testinium.com/members/projectList.html" ile aynı mı
+
+# Projects sayfası oluşturulan <projectName> proje ismi kontrolü
+* "projectNameKontrol_ProjectsPage_DailyRun" elementinin değerini <projectName> değeriyle değiştirerek "xpathKeyValue" elementini oluştur
+* "xpathKeyValue" elementinin görünür olması kontrol edilir
+
+# Gauge Frameworkü kulllanarak bir selenium projesi oluştur
+* "seleniumProjectForm_DailyRun" elementinin görünür olması kontrol edilir
+* "seleniumProjectForm_DailyRun" elementine tıkla
+* Şu anki url "https://dev.testinium.com/members/project/seleniumProjectForm.html?type=selenium" ile aynı mı
+* "testFrameworkPanel_DailyRun" elementinin görünür olması kontrol edilir
+* "testFrameworkName_DailyRun" elementinin görünür olması kontrol edilir
+* "testFrameworkName_DailyRun" elementinin text değeri "Selenium" değerine eşit mi
+* project Form sayfasının elementlerini kontrol et
+* "dailyRunGauge" adıyla Selenium gauge projesi oluştur
+* The new project has been created successfully mesajının alınması ve Projects ekranına sayfanın yönlenmesi beklenir
+* Projects sayfası oluşturulan "seleniumSiteURLProjectNameKeyValue" proje ismi kontrolü
+
+ #Deneme adlı company'e geçiş yap
+ *"AnotherCompany_ProjectsPage_DailyRun" elementinin değerini temizle
+ *"AnotherCompany_ProjectsPage_DailyRun" elementine "Deneme" değerini yaz
+ *"1" saniye bekle
+ *"AnotherCompany_ProjectsPage_DailyRun" elementine "ENTER" keyini yolla
+ *"1" saniye bekle
+
+# Proje ismi alanından açılan projeyi seç
+* "projectName_ScenariosPage_DailyRun" elementinin görünür olması kontrol edilir
+* "projectName_ScenariosPage_DailyRun" elementinin değerini temizle
+* "projectName_ScenariosPage_DailyRun" elementine "seleniumSiteURLProjectNameKeyValue" değerini yaz
+* "1" saniye bekle
+* "projectName_ScenariosPage_DailyRun" elementine "ENTER" keyini yolla
+
+# <scenarioName> adıyla bir senaryo oluştur dailyrun
+* <scenarioName> degerini "senaryoNameKeyValue" keyinde tut
+* "scenarioName_TestScenarioForm_DailyRun" elementinin görünür olması kontrol edilir
+* "scenarioName_TestScenarioForm_DailyRun" elementine <scenarioName> değerini yaz
+* "sourceFileSelect_TestScenarioForm_DailyRun" elementinin görünür olması kontrol edilir
+* "sourceFileSelect_TestScenarioForm_DailyRun" elementine tıkla
+* "denemeSpec_TestScenarioForm_DailyRun" elementinin görünür olması kontrol edilir
+* "denemeSpec_TestScenarioForm_DailyRun" elementine tıkla
+* "selectTestScenario_TestScenarioForm_DailyRun" elementinin görünür olması kontrol edilir
+* "selectTestScenario_TestScenarioForm_DailyRun" elementine tıkla
+* "testiniumaGitScenario_TestScenarioForm_DailyRun" elementinin görünür olması kontrol edilir
+* "testiniumaGitScenario_TestScenarioForm_DailyRun" elementine tıkla
+* "saveButton_TestScenarioForm_DailyRun" elementinin görünür olması kontrol edilir
+* "saveButton_TestScenarioForm_DailyRun" elementine tıkla
+
+# <planName> adıyla bir plan oluştur dailyrun
+* <planName> degerini "planNameKeyValue" keyinde tut
+* "planName_TestPlanForm_DailyRun" elementinin görünür olması kontrol edilir
+* "planName_TestPlanForm_DailyRun" elementine <planName> değerini yaz
+* "testSenaryoDailyrun_TestPlanForm_DailyRun" elementinin görünür olması kontrol edilir
+* "testSenaryoDailyrun_TestPlanForm_DailyRun" elementine tıkla
+* "nextButton_TestPlanForm_DailyRun" elementinin görünür olması kontrol edilir
+* "nextButton_TestPlanForm_DailyRun" elementine tıkla
+* "chromeLatestAdd_TestPlanForm_DailyRun" elementinin görünür olması kontrol edilir
+* "chromeLatestAdd_TestPlanForm_DailyRun" elementine tıkla
+* "selectedBrowsersChromeLatest_TestPlanForm_DailyRun" elementinin görünür olması kontrol edilir
+* "nextButton_TestPlanForm_DailyRun" elementinin görünür olması kontrol edilir
+* "nextButton_TestPlanForm_DailyRun" elementine tıkla
+* "schedulePanel_TestPlanForm_DailyRun" elementinin görünür olması kontrol edilir
+* "nextButton_TestPlanForm_DailyRun" elementine tıkla
+* "notificationsPanel_TestPlanForm_DailyRun" elementinin görünür olması kontrol edilir
+* "nextButton_TestPlanForm_DailyRun" elementine tıkla
+* "testPlanSummaryPanel_TestPlanForm_DailyRun" elementinin görünür olması kontrol edilir
+* "1" milisaniye bekle
+* "saveButton_TestPlanForm_DailyRun" elementinin görünür olması kontrol edilir
+* "saveButton_TestPlanForm_DailyRun" elementine tıkla
+
+# Senaryonun başarılı şekilde oluşturulduğunu kontrol et
+* "infoMessage_ScenarioList_DailyRun" elementinin görünür olması kontrol edilir
+* "infoMessage_ScenarioList_DailyRun" elementinin text değeri "The new scenario has been created successfully." değerine eşit mi
+* "testScenariosName_ScenarioList_DailyRun" elementinin değerini "senaryoNameKeyValue" değeriyle değiştirerek "newKeyValue" elementini oluştur
+* "newKeyValue" elementinin görünür olması kontrol edilir
+
+# Planın başarılı şekilde oluşturulduğunu kontrol et
+* "infoMessage_PlanList_DailyRun" elementinin görünür olması kontrol edilir
+* "infoMessage_PlanList_DailyRun" elementinin text değeri "The new plan has been created successfully." değerine eşit mi
+* "testPlanName_PlanList_DailyRun" elementinin değerini "planNameKeyValue" değeriyle değiştirerek "newKeyValue" elementini oluştur
+* "newKeyValue" elementinin görünür olması kontrol edilir
+
+# Açılan proje için yeni senaryo oluştur ve oluşturulduğunu kontrol et
+* Scenarios tabına tıkla
+* Proje ismi alanından açılan projeyi seç
+* "createNewScenario_ScenariosPage_DailyRun" elementinin görünür olması kontrol edilir
+* "createNewScenario_ScenariosPage_DailyRun" elementine tıkla
+* Şu anki url "https://dev.testinium.com/members/scenario/seleniumScenarioForm.html" ile aynı mı
+* "projectName_TestScenarioForm_DailyRun" elementinin text değeri "seleniumSiteURLProjectNameKeyValue" değerini içeriyor mu
+* "testSenaryoDailyRun" adıyla bir senaryo oluştur dailyrun
+* Senaryonun başarılı şekilde oluşturulduğunu kontrol et
+
+# Plan sayfasında proje ismi alanından açılan projeyi seç
+* "projectName_PlansPage_DailyRun" elementinin görünür olması kontrol edilir
+* "projectName_PlansPage_DailyRun" elementinin değerini temizle
+* "projectName_PlansPage_DailyRun" elementine "seleniumSiteURLProjectNameKeyValue" değerini yaz
+* "1" saniye bekle
+* "projectName_PlansPage_DailyRun" elementine "ENTER" keyini yolla
+
+# Açılan proje için yeni plan oluştur ve oluşturulduğunu kontrol et
+* Plans tabına tıkla for companies
+* Plan sayfasında proje ismi alanından açılan projeyi seç
+* "createNewPlan_PlansPage_DailyRun" elementinin görünür olması kontrol edilir
+* "createNewPlan_PlansPage_DailyRun" elementine tıkla
+* Şu anki url "https://dev.testinium.com/members/plan/seleniumTestPlanForm.html" ile aynı mı
+* "projectName_TestPlanForm_DailyRun" elementinin text değeri "seleniumSiteURLProjectNameKeyValue" değerini içeriyor mu
+* "testPlanDailyRun" adıyla bir plan oluştur dailyrun
+* Planın başarılı şekilde oluşturulduğunu kontrol et
+
+# Çalıştırılan planın çalıştığını ve succes aldığını kontrol et
+* "infoMessage_PlanList_DailyRun" elementinin görünür olması kontrol edilir
+* "infoMessage_PlanList_DailyRun" elementinin text değeri "Test Plan has started. You can see the results in the reports after 1-2 minutes." değerine eşit mi
+* Planın çalıştığını ve success aldığını doğrula Enterprise
+
+# Oluşturulan planı çalıştır çalıştığını ve success aldığını kontrol et
+* "runPlan_PlanList_DailyRun" elementinin değerini "planNameKeyValue" değeriyle değiştirerek "runPlanKeyValue" elementini oluştur
+* "runPlanKeyValue" elementine tıkla
+* "yesPopUp_PlanListRun_DailyRun" elementinin görünür olması kontrol edilir
+* "yesPopUp_PlanListRun_DailyRun" elementine tıkla
+* Çalıştırılan planın çalıştığını ve succes aldığını kontrol et
+
+# Test raporları butonuna tıkla raporun olduğunu ve success aldığını kontrol et
+* "testReportsButton_PlanList_DailyRun" elementinin görünür olması kontrol edilir
+* "testReportsButton_PlanList_DailyRun" elementine tıkla
+* Şu anki url "https://dev.testinium.com/members/reports/testExecutionList.html?planId=" içeriyor mu
+* "reportData_TestReports_DailyRun" elementinin değerini "planNameKeyValue" değeriyle değiştirerek "planReportKeyValue" elementini oluştur
+* "planReportKeyValue" elementinin görünür olması kontrol edilir
+* "badgeSuccess_TestReports_DailyRun" elementinin değerini "planNameKeyValue" değeriyle değiştirerek "planBadgeSuccessKeyValue" elementini oluştur
+* "planBadgeSuccessKeyValue" elementinin text değeri "1" değerini içeriyor mu
+
+# Planlara girip oluşturulan planı sil
+* Plans tabına tıkla for companies
+* Plan sayfasında proje ismi alanından açılan projeyi seç
+* "planCheckBox_PlanList_DailyRun" elementinin değerini "planNameKeyValue" değeriyle değiştirerek "planCheckBoxKeyValue" elementini oluştur
+* "1" saniye bekle
+* "selectAll_PlanList_DailyRun" elementinin görünür olması kontrol edilir
+* "selectAll_PlanList_DailyRun" elementine tıkla
+* "deleteButton_PlanList_DailyRun" elementinin görünür olması kontrol edilir
+* "deleteButton_PlanList_DailyRun" elementine tıkla
+* "yesButton_PlanList_DailyRun" elementinin görünür olması kontrol edilir
+* "yesButton_PlanList_DailyRun" elementine tıkla
+* "planDisabledInfo_PlanList_DailyRun" elementinin görünür olması kontrol edilir
+* "planDisabledInfo_PlanList_DailyRun" elementinin text değeri "plan is disabled. Click again to delete record." değerini içeriyor mu
+* "deleteButton_PlanList_DailyRun" elementinin görünür olması kontrol edilir
+* "deleteButton_PlanList_DailyRun" elementine tıkla
+* "yesButton_PlanList_DailyRun" elementinin görünür olması kontrol edilir
+* "yesButton_PlanList_DailyRun" elementine tıkla
+* "deleteInfo_PlanList_DailyRun" elementinin görünür olması kontrol edilir
+* "deleteInfo_PlanList_DailyRun" elementinin text değeri "The selected testPlanDailyRun plan is deleted successfully." değerini içeriyor mu
+
+# Senaryolara girip oluşturulan senaryoyu sil
+* Scenarios tabına tıkla
+* Proje ismi alanından açılan projeyi seç
+* "1" saniye bekle
+* "selectAll_ScenarioList_DailyRun" elementinin görünür olması kontrol edilir
+* "selectAll_ScenarioList_DailyRun" elementine tıkla
+* "deleteButton_PlanList_DailyRun" elementinin görünür olması kontrol edilir
+* "deleteButton_PlanList_DailyRun" elementine tıkla
+* "yesButton_PlanList_DailyRun" elementinin görünür olması kontrol edilir
+* "yesButton_PlanList_DailyRun" elementine tıkla
+* "deleteInfo_PlanList_DailyRun" elementinin görünür olması kontrol edilir
+* "deleteInfo_PlanList_DailyRun" elementinin text değeri "testSenaryoDailyRun scenario is deleted successfully." değerine eşit mi
+
+
+# Projects sayfasına girip oluşturulan projeyi sil
+* Projects tabına tıkla for companies
+* "checkBoxProject_Projects_DailyRun" elementinin değerini "seleniumSiteURLProjectNameKeyValue" değeriyle değiştirerek "checkboxProjectKeyValue" elementini oluştur
+* "checkboxProjectKeyValue" elementinin görünür olması kontrol edilir
+* "checkboxProjectKeyValue" elementine tıkla
+* "deleteButton_PlanList_DailyRun" elementinin görünür olması kontrol edilir
+* "deleteButton_PlanList_DailyRun" elementine tıkla
+* "yesButton_PlanList_DailyRun" elementinin görünür olması kontrol edilir
+* "yesButton_PlanList_DailyRun" elementine tıkla
+* "deleteInfo_PlanList_DailyRun" elementinin görünür olması kontrol edilir
+* "deleteInfo_PlanList_DailyRun" elementinin text değeri "was successfully deleted." değerini içeriyor mu

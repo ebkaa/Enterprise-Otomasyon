@@ -1,0 +1,176 @@
+By Enes
+
+# Bilgiler girilerek geçerli giriş yapılır
+* "testinium" ve "Qwe123+" bilgileriyle gecerli login yap
+
+# Users Tabına tıkla ve Users sayfasında olduğunu kontrol et
+* Users tabına tıkla for companies
+* Şu anki url "https://dev.testinium.com/members/userList.html" ile aynı mı
+* "pageHeader_UsersPage" elementinin görünür olması kontrol edilir
+* "pageHeader_UsersPage" elementinin text değeri "User List" değerine eşit mi
+
+# Users Sayfasının element kontrollerini yap
+* "pageHeader_UsersPage" elementinin görünür olması kontrol edilir
+* "userListTable_UsersPage" elementinin görünür olması kontrol edilir
+* "companyNameList_UsersPage" elementinin görünür olması kontrol edilir
+* "manageRolesTab_UsersPage" elementinin görünür olması kontrol edilir
+* "createNewUserTab_UsersPage" elementinin görünür olması kontrol edilir
+* "userNameFilter_UsersPage" elementinin görünür olması kontrol edilir
+
+# Company Name <companyName> seçilir
+* "companyNameList_UsersPage" elementinin görünür olması kontrol edilir
+* "companyNameList_UsersPage" select element by text <companyName>
+
+# There is not exist any user mesajı alınır
+* "emptyUserMessage_UsersPage" elementinin görünür olması kontrol edilir
+* "emptyUserMessage_UsersPage" elementinin text değeri "There is not exists any user." değerine eşit mi
+
+# <user> Üyesinin Üye listesinde listelendiği doğrulanır
+* <user> degerini "username_UserPageKeyValue" keyinde tut
+* "userName_UserTable_UsersPage" elementinin değerini "username_UserPageKeyValue" değeriyle değiştirerek "xpathKeyValue" elementini oluştur
+* "xpathKeyValue" elementinin görünür olması kontrol edilir
+
+# Manage Roles tabına tıkla
+* "manageRolesTab_UsersPage" elementinin görünür olması kontrol edilir
+* "manageRolesTab_UsersPage" elementine tıkla
+* Şu anki url "https://dev.testinium.com/members/admin/roleList.html" ile aynı mı
+
+
+# Manage Roles sayfasının element kontrolleri yapılır
+* "roleListText_ManageRoles_UsersPage" elementinin görünür olması kontrol edilir
+* "roleListText_ManageRoles_UsersPage" elementinin text değeri "Role List" değerini içeriyor mu
+* "roleListTable_ManageRoles_UsersPage" elementinin görünür olması kontrol edilir
+* "createNewRoleButton_ManageRoles_UsersPage" elementinin görünür olması kontrol edilir
+
+# Create new role tabına tıkla
+* "createNewRoleButton_ManageRoles_UsersPage" elementinin görünür olması kontrol edilir
+* "createNewRoleButton_ManageRoles_UsersPage" elementine tıkla
+* Şu anki url "https://dev.testinium.com/members/admin/roleForm.html" ile aynı mı
+
+
+# Create new role sayfasının element kontrolü yapılır
+* "roleManagementText_ManageRoles_CreateNewRole_UsersPage" elementinin görünür olması kontrol edilir
+* "roleManagementText_ManageRoles_CreateNewRole_UsersPage" elementinin text değeri "Role Management" değerini içeriyor mu
+* "roleName_ManageRoles_CreateNewRole_UsersPage" elementinin görünür olması kontrol edilir
+* "roleDescription_ManageRoles_CreateNewRole_UsersPage" elementinin görünür olması kontrol edilir
+* "enabledTrue_ManageRoles_CreateNewRole_UsersPage" elementinin görünür olması kontrol edilir
+* "enabledFalse_ManageRoles_CreateNewRole_UsersPage" elementinin görünür olması kontrol edilir
+* "allPermissionsList_ManageRoles_CreateNewRole_UsersPage" elementinin görünür olması kontrol edilir
+* "rolePermissionsList_ManageRoles_CreateNewRole_UsersPage" elementinin görünür olması kontrol edilir
+* "saveButton_ManageRoles_CreateNewRole_UsersPage" elementinin görünür olması kontrol edilir
+* "cancelButton_ManageRoles_CreateNewRole_UsersPage" elementinin görünür olması kontrol edilir
+
+
+# Bilgileri doldurarak <rol> rolünü oluştur
+* "roleName_ManageRoles_CreateNewRole_UsersPage" elementinin görünür olması kontrol edilir
+* "roleName_ManageRoles_CreateNewRole_UsersPage" elementine <rol> değerini yaz
+* <rol> degerini "roleName_UserPageKeyValue" keyinde tut
+* "roleDescription_ManageRoles_CreateNewRole_UsersPage" elementinin görünür olması kontrol edilir
+* "roleDescription_ManageRoles_CreateNewRole_UsersPage" elementine "This role is for test" değerini yaz
+* "saveButton_ManageRoles_CreateNewRole_UsersPage" elementinin görünür olması kontrol edilir
+* "saveButton_ManageRoles_CreateNewRole_UsersPage" elementine tıkla
+
+# Bilgileri doldurarak <rol> rolünü oluştur ve oluşturulduğunu kontrol et
+* Bilgileri doldurarak <rol> rolünü oluştur
+* Şu anki url "https://dev.testinium.com/members/admin/roleList.html" ile aynı mı
+* "info_ManageRoles_CreateNewRole_UsersPage" elementinin görünür olması kontrol edilir
+* "info_ManageRoles_CreateNewRole_UsersPage" elementinin text değeri "The new record has been created successfully." değerine eşit mi
+* "roleNameControl_ManageRoles_CreateNewRole_UsersPage" elementinin değerini "roleName_UserPageKeyValue" değeriyle değiştirerek "roleNameKeyValue" elementini oluştur
+* "roleNameKeyValue" elementinin görünür olması kontrol edilir
+
+# Oluşturulan rolü sil ve silindiğini kontrol et
+* "deleteButton_ManageRoles_CreateNewRole_UsersPage" elementinin değerini "roleName_UserPageKeyValue" değeriyle değiştirerek "xpathKeyValue" elementini oluştur
+* "xpathKeyValue" elementinin görünür olması kontrol edilir
+* "xpathKeyValue" elementine tıkla
+* "yesPopUp_ManageRoles_CreateNewRole_UsersPage" elementinin görünür olması kontrol edilir
+* "yesPopUp_ManageRoles_CreateNewRole_UsersPage" hover and click element
+* "roleNameKeyValue" elementinin görünür olmadığı kontrol edilir
+
+# <uyari> Uyarı mesajı alınır
+* "errorMessage_ManageRoles_CreateNewRole_UsersPage" elementinin görünür olması kontrol edilir
+* "errorMessage_ManageRoles_CreateNewRole_UsersPage" elementinin text değeri <uyari> değerini içeriyor mu
+
+# Rol oluşturma sayfasındaki save butonuna bas
+* "saveButton_ManageRoles_CreateNewRole_UsersPage" elementinin görünür olması kontrol edilir
+* "saveButton_ManageRoles_CreateNewRole_UsersPage" elementine tıkla
+
+# Create new role sayfasında Cancel tuşuna bas geri dönüldüğünü kontrol et
+* "cancelButton_ManageRoles_CreateNewRole_UsersPage" elementinin görünür olması kontrol edilir
+* "cancelButton_ManageRoles_CreateNewRole_UsersPage" elementine tıkla
+* Şu anki url "https://dev.testinium.com/members/admin/roleList.html" ile aynı mı
+
+# <permission> adlı izni seç ve role permissions kısmına taşı ve kontrollerini yap
+* "permissionName_ManageRoles_CreateNewRole_UsersPage" elementinin değerini <permission> değeriyle değiştirerek "permissionNameKeyValue" elementini oluştur
+* "permissionNameKeyValue" elementinin görünür olması kontrol edilir
+* "permissionNameKeyValue" elementine tıkla
+* "permissionNameKeyValue" elementinin "class" niteliği "ui-state-highlight" değerini içeriyor mu
+* "addButton_ManageRoles_CreateNewRole_UsersPage" elementinin görünür olması kontrol edilir
+* "addButton_ManageRoles_CreateNewRole_UsersPage" elementine tıkla
+* "500" milisaniye bekle
+* "permissionNameKeyValue" elementinin görünür olmadığı kontrol edilir
+* "permissionNameRolePermissions_ManageRoles_CreateNewRole_UsersPage" elementinin değerini <permission> değeriyle değiştirerek "permissionRoleNameKeyValue" elementini oluştur
+* "permissionRoleNameKeyValue" elementinin görünür olması kontrol edilir
+
+# Create new user tabına tıkla
+* "createNewUserTab_UsersPage" elementinin görünür olması kontrol edilir
+* "createNewUserTab_UsersPage" elementine tıkla
+* Şu anki url "https://dev.testinium.com/members/userForm.html" ile aynı mı
+* "pageHeader_CreateNewUser_UsersPage" elementinin görünür olması kontrol edilir
+* "pageHeader_CreateNewUser_UsersPage" elementinin text değeri "User Form" değerini içeriyor mu
+
+
+# Create new user sayfasının element kontrollerini yap
+* "userName_CreateNewUser_UsersPage" elementinin görünür olması kontrol edilir
+* "email_CreateNewUser_UsersPage" elementinin görünür olması kontrol edilir
+* "companyName_CreateNewUser_UsersPage" elementinin görünür olması kontrol edilir
+* "rolesTable_CreateNewUser_UsersPage" elementinin görünür olması kontrol edilir
+* "availableCompanies_CreateNewUser_UsersPage" elementinin görünür olması kontrol edilir
+* "userCompanies_CreateNewUser_UsersPage" elementinin görünür olması kontrol edilir
+* "pickButtons_CreateNewUser_UsersPage" elementinin görünür olması kontrol edilir
+* "language_CreateNewUser_UsersPage" elementinin görünür olması kontrol edilir
+* "timeZone_CreateNewUser_UsersPage" elementinin görünür olması kontrol edilir
+* "gitAccess_CreateNewUser_UsersPage" elementinin görünür olması kontrol edilir
+* "enabled_CreateNewUser_UsersPage" elementinin görünür olması kontrol edilir
+* "save_CreateNewUser_UsersPage" elementinin görünür olması kontrol edilir
+* "cancel_CreateNewUser_UsersPage" elementinin görünür olması kontrol edilir
+
+
+# Users Page mail alanına <mail> mailini yaz
+* "email_CreateNewUser_UsersPage" elementinin görünür olması kontrol edilir
+* "email_CreateNewUser_UsersPage" elementine <mail> değerini yaz
+* "save_CreateNewUser_UsersPage" elementinin görünür olması kontrol edilir
+* "save_CreateNewUser_UsersPage" elementine tıkla
+
+# Users Page kullanıcı adı alanına <kullanici> kullanıcı adını yaz
+* "userName_CreateNewUser_UsersPage" elementinin görünür olması kontrol edilir
+* "userName_CreateNewUser_UsersPage" elementine <kullanici> değerini yaz
+* "save_CreateNewUser_UsersPage" elementinin görünür olması kontrol edilir
+* "save_CreateNewUser_UsersPage" elementine tıkla
+
+# UsersPage sayfasında <hata> hatasının alındığı görülür
+* "firstError_CreateNewUser_UsersPage" elementinin görünür olması kontrol edilir
+* "firstError_CreateNewUser_UsersPage" elementinin text değeri <hata> değerine eşit mi
+
+# Users Page sayfasında User Name field is required ve Email field is required hatalarının alındığı görülür
+* "save_CreateNewUser_UsersPage" elementinin görünür olması kontrol edilir
+* "save_CreateNewUser_UsersPage" elementine tıkla
+* UsersPage sayfasında "User Name field is required." hatasının alındığı görülür
+* "secondError_CreateNewUser_UsersPage" elementinin görünür olması kontrol edilir
+* "secondError_CreateNewUser_UsersPage" elementinin text değeri "Email field is required." değerine eşit mi
+
+# Başarılı bir şekilde kullanıcı oluştur ve sil
+* "userName_CreateNewUser_UsersPage" elementinin görünür olması kontrol edilir
+* "userName_CreateNewUser_UsersPage" elementine "testUser" değerini yaz
+* "testUser" degerini "userNameKeyValue" keyinde tut
+* "email_CreateNewUser_UsersPage" elementinin görünür olması kontrol edilir
+* "email_CreateNewUser_UsersPage" elementine "test@testinium.com" değerini yaz
+* "save_CreateNewUser_UsersPage" elementinin görünür olması kontrol edilir
+* "save_CreateNewUser_UsersPage" elementine tıkla
+* "info_CreateNewUser_UsersPage" elementinin görünür olması kontrol edilir
+* "info_CreateNewUser_UsersPage" elementinin text değeri "The new record has been created successfully." değerine eşit mi
+* Şu anki url "https://dev.testinium.com/members/userList.html" ile aynı mı
+* "deleteUserButton_CreateNewUser_UsersPage" elementinin değerini "userNameKeyValue" değeriyle değiştirerek "deleteKeyValue" elementini oluştur
+* "deleteKeyValue" elementinin görünür olması kontrol edilir
+* "deleteKeyValue" elementine tıkla
+* "yesPopUp_CreateNewUser_UsersPage" elementinin görünür olması kontrol edilir
+* "yesPopUp_CreateNewUser_UsersPage" elementine tıkla

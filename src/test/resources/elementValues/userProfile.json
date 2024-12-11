@@ -1,0 +1,72 @@
+[
+  {
+    "key": "userDropdown_UserProfile",
+    "value": "//div[@role='navigation']//button[contains(@class,'user-dropdown')]",
+    "type": "xpath"
+  },
+  {
+    "key": "profileButton_UserProfile",
+    "value": "//a[@href='/members/userProfile.html' and .//i[@class='icon-user']]",
+    "type": "xpath"
+  },
+  {
+    "key": "header_UserProfile",
+    "value": ".page-header>h1",
+    "type": "css"
+  },
+  {
+    "key": "basicInfoTab_UserProfile",
+    "value": "//a[@data-toggle='tab' and @href='#edit-basic']/parent::li",
+    "type": "xpath"
+  },
+  {
+    "key": "settingsTab_UserProfile",
+    "value": "//a[@data-toggle='tab' and @href='#edit-settings']/parent::li",
+    "type": "xpath"
+  },
+  {
+    "key": "passwordTab_UserProfile",
+    "value": "//a[@data-toggle='tab' and @href='#edit-password']/parent::li",
+    "type": "xpath"
+  },
+  {
+    "key": "cacheTab_UserProfile",
+    "value": "//a[@data-toggle='tab' and @href='#edit-cache']/parent::li",
+    "type": "xpath"
+  },
+  {
+    "key": "userName_UserProfile",
+    "value": "input[id='defaultForm:userName'][name='defaultForm:userName']",
+    "type": "css"
+  },
+  {
+    "key": "email_UserProfile",
+    "value": "input[id='defaultForm:email'][name='defaultForm:email']",
+    "type": "css"
+  },
+  {
+    "key": "accessKey_UserProfile",
+    "value": "label[id='defaultForm:userAccessKey']",
+    "type": "css"
+  },
+  {
+    "key": "generateNewKey_UserProfile",
+    "value": "a[id='defaultForm:regenerateKey']",
+    "type": "css"
+  },
+  {
+    "key": "saveButton_UserProfile",
+    "value": "a[id='defaultForm:saveButton']",
+    "type": "css"
+  },
+  {
+    "key": "cancelButton_UserProfile",
+    "value": "a[id='defaultForm:resetButton']",
+    "type": "css"
+  },
+  {
+    "key": "info_UserProfile",
+    "value": "ui-messages-info-summary",
+    "type": "class"
+  }
+]

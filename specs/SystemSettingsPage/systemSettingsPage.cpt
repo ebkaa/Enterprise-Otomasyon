@@ -1,0 +1,222 @@
+Created by testinium on 26.09.2022
+
+This is a concept file with following syntax for each concept.
+# Licence Information sayfasının kontrollerini yap
+* Licence Information tabına tıkla
+* Şu anki url "https://dev.testinium.com/members/admin/licencePropertyList.html" ile aynı mı
+* "pageHeader_SystemSettings_LicenceInformation" elementinin görünür olması kontrol edilir
+* "pageHeader_SystemSettings_LicenceInformation" elementinin text değeri "Licence Property List" değerine eşit mi
+* "licencePropertiesTable_SystemSettings_LicenceInformation" elementinin görünür olması kontrol edilir
+* "updatePublicKey_SystemSettings_LicenceInformation" elementinin görünür olması kontrol edilir
+* "addNewLicence_SystemSettings_LicenceInformation" elementinin görünür olması kontrol edilir
+
+
+# Licence Information sayfasında Update Public Key butonuna basılır sayfa kontrolü yapılır
+* "updatePublicKey_SystemSettings_LicenceInformation" elementinin görünür olması kontrol edilir
+* "updatePublicKey_SystemSettings_LicenceInformation" elementine tıkla
+* Şu anki url "https://dev.testinium.com/members/admin/licencePropertyPublicKeyForm.html" ile aynı mı
+* "publicKeyText_SystemSettings_LicenceInformation_UpdatePublicKey" elementinin görünür olması kontrol edilir
+* "saveButton_SystemSettings_LicenceInformation_UpdatePublicKey" elementinin görünür olması kontrol edilir
+* "cancelButton_SystemSettings_LicenceInformation_UpdatePublicKey" elementinin görünür olması kontrol edilir
+* "cancelButton_SystemSettings_LicenceInformation_UpdatePublicKey" elementine tıkla
+* Şu anki url "https://dev.testinium.com/members/admin/licencePropertyList.html" ile aynı mı
+
+# Licence ınformation sayfasında Add New Licence butonuna basılır sayfa kontrolü yapılır
+* "addNewLicence_SystemSettings_LicenceInformation" elementinin görünür olması kontrol edilir
+* "addNewLicence_SystemSettings_LicenceInformation" elementine tıkla
+* Şu anki url "https://dev.testinium.com/members/admin/licencePropertyForm.html" ile aynı mı
+* "addlicenceText_SystemSettings_LicenceInformation_AddNewLicence" elementinin görünür olması kontrol edilir
+* "saveButton_SystemSettings_LicenceInformation_AddNewLicence" elementinin görünür olması kontrol edilir
+* "cancelButton_SystemSettings_LicenceInformation_AddNewLicence" elementinin görünür olması kontrol edilir
+* "cancelButton_SystemSettings_LicenceInformation_UpdatePublicKey" elementine tıkla
+* Şu anki url "https://dev.testinium.com/members/admin/licencePropertyList.html" ile aynı mı
+
+# System properties sayfasının kontrollerini yap
+* System Properties tabına tıkla
+* Şu anki url "https://dev.testinium.com/members/admin/systemPropertyList.html" ile aynı mı
+* "pageHeader_SystemSettings_SystemProperties" elementinin görünür olması kontrol edilir
+* "pageHeader_SystemSettings_SystemProperties" elementinin text değeri "System Property List" değerine eşit mi
+* "systemPropertiesTable_SystemSettings_SystemProperties" elementinin görünür olması kontrol edilir
+* "createNewSystemProperty_SystemSettings_SystemProperties" elementinin görünür olması kontrol edilir
+
+# System properties sayfasında Create new system property butonuna tıklanır sayfa kontrolü yapılır
+* "createNewSystemProperty_SystemSettings_SystemProperties" elementinin görünür olması kontrol edilir
+* "createNewSystemProperty_SystemSettings_SystemProperties" elementine tıkla
+* Şu anki url "https://dev.testinium.com/members/admin/systemPropertyForm.html" ile aynı mı
+* "systemPropertyKey_SystemSettings_SystemProperties_AddNew" elementinin görünür olması kontrol edilir
+* "systemPropertyValue_SystemSettings_SystemProperties_AddNew" elementinin görünür olması kontrol edilir
+* "saveButton_SystemSettings_SystemProperties_AddNew" elementinin görünür olması kontrol edilir
+* "cancelButton_SystemSettings_SystemProperties_AddNew" elementinin görünür olması kontrol edilir
+* "cancelButton_SystemSettings_SystemProperties_AddNew" elementine tıkla
+* Şu anki url "https://dev.testinium.com/members/admin/systemPropertyList.html" ile aynı mı
+
+# Selenium Hubs sayfasının kontrollerini yap
+* Selenium Hubs tabına tıkla
+* Şu anki url "https://dev.testinium.com/members/admin/seleniumHubList.html" ile aynı mı
+* "pageHeader_SystemSettings_SeleniumHubs" elementinin görünür olması kontrol edilir
+* "pageHeader_SystemSettings_SeleniumHubs" elementinin text değeri "Selenium Hub List" değerine eşit mi
+* "seleniumHubsTable_SystemSettings_SeleniumHubs" elementinin görünür olması kontrol edilir
+* "createNewSeleniumHub_SystemSettings_SeleniumHubs" elementinin görünür olması kontrol edilir
+
+# Selenium Hubs sayfasında Create new selenium hub butonuna tıklanır sayfa kontrolü yapılır
+* "createNewSeleniumHub_SystemSettings_SeleniumHubs" elementinin görünür olması kontrol edilir
+* "createNewSeleniumHub_SystemSettings_SeleniumHubs" elementine tıkla
+* Şu anki url "https://dev.testinium.com/members/admin/seleniumHubForm.html" ile aynı mı
+* "hubName_SystemSettings_SeleniumHubs_CreateNew" elementinin görünür olması kontrol edilir
+* "hubUrl_SystemSettings_SeleniumHubs_CreateNew" elementinin görünür olması kontrol edilir
+* "hubInternalUrl_SystemSettings_SeleniumHubs_CreateNew" elementinin görünür olması kontrol edilir
+* "enabled_SystemSettings_SeleniumHubs_CreateNew" elementinin görünür olması kontrol edilir
+* "save_SystemSettings_SeleniumHubs_CreateNew" elementinin görünür olması kontrol edilir
+*  "cancel_SystemSettings_SeleniumHubs_CreateNew" elementinin görünür olması kontrol edilir
+
+# Browsers phones sayfasının kontrollerini yap
+* Browsers/Phones tabına tıkla
+* Şu anki url "https://dev.testinium.com/members/admin/browserPhoneList.html" ile aynı mı
+* "pageHeader_SystemSettings_BrowsersPhones" elementinin görünür olması kontrol edilir
+* "pageHeader_SystemSettings_BrowsersPhones" elementinin text değeri "Browser/Phone List" değerini içeriyor mu
+* "browserPhoneList_SystemSettings_BrowsersPhones" elementinin görünür olması kontrol edilir
+* "createBrowserPhone_SystemSettings_BrowsersPhones" elementinin görünür olması kontrol edilir
+* "operatingSystem_SystemSettings_BrowsersPhones" elementinin görünür olması kontrol edilir
+
+
+# Browser Phones sayfasında Create Browser Phone butonuna tıklanır sayfa kontrolü yapılır
+* "createBrowserPhone_SystemSettings_BrowsersPhones" elementinin görünür olması kontrol edilir
+* "createBrowserPhone_SystemSettings_BrowsersPhones" elementine tıkla
+* Şu anki url "https://dev.testinium.com/members/admin/browserPhoneForm.html" ile aynı mı
+* "code_SystemSettings_BrowsersPhones_CreateNew" elementinin görünür olması kontrol edilir
+* "name_SystemSettings_BrowsersPhones_CreateNew" elementinin görünür olması kontrol edilir
+* "operatingSystem_BrowsersPhones_CreateNew" elementinin görünür olması kontrol edilir
+* "enabled_BrowsersPhones_CreateNew" elementinin görünür olması kontrol edilir
+* "save_BrowsersPhones_CreateNew" elementinin görünür olması kontrol edilir
+* "cancel_BrowsersPhones_CreateNew" elementinin görünür olması kontrol edilir
+
+
+# Test Environments sayfasının kontrolleri yapılır
+* Test Environments tabına tıkla
+* Şu anki url "https://dev.testinium.com/members/admin/testEnvironmentList.html" ile aynı mı
+* "pageHeader_SystemSettings_TestEnvironments" elementinin görünür olması kontrol edilir
+* "pageHeader_SystemSettings_TestEnvironments" elementinin text değeri "Test Environment List" değerini içeriyor mu
+* "operatingSystem_TestEnvironments" elementinin görünür olması kontrol edilir
+* "environmentList_TestEnvironments" elementinin görünür olması kontrol edilir
+* "createNewEnvironment_TestEnvironments" elementinin görünür olması kontrol edilir
+
+
+# Test environments sayfasında create new environment butonuna tıklanır sayfa kontrolü yapılır
+* "createNewEnvironment_TestEnvironments" elementinin görünür olması kontrol edilir
+* "createNewEnvironment_TestEnvironments" elementine tıkla
+* Şu anki url "https://dev.testinium.com/members/admin/testEnvironmentForm.html" ile aynı mı
+* "operatingSystem_TestEnvironments_CreateNew" elementinin görünür olması kontrol edilir
+* "browser_TestEnvironments_CreateNew" elementinin görünür olması kontrol edilir
+* "browserVersion_TestEnvironments_CreateNew" elementinin görünür olması kontrol edilir
+* "companyName_TestEnvironments_CreateNew" elementinin görünür olması kontrol edilir
+* "enabled_TestEnvironments_CreateNew" elementinin görünür olması kontrol edilir
+* "save_TestEnvironments_CreateNew" elementinin görünür olması kontrol edilir
+* "cancel_TestEnvironments_CreateNew" elementinin görünür olması kontrol edilir
+
+# Test Environments Status sayfasının kontrolleri yapılır
+* Test Environments Status tabına tıkla
+* Şu anki url "https://dev.testinium.com/members/admin/environmentStatusList.html" ile aynı mı
+* "pageHeader_TestEnvironmentsStatus" elementinin görünür olması kontrol edilir
+* "pageHeader_TestEnvironmentsStatus" elementinin text değeri "Test Environments Status" değerini içeriyor mu
+* "environmentList_TestEnvironmentsStatus" elementinin görünür olması kontrol edilir
+* "refreshButton_TestEnvironmentsStatus" elementinin görünür olması kontrol edilir
+
+# Active Tests sayfasının kontrolleri yapılır
+* Active Tests tabına tıkla
+* Şu anki url "https://dev.testinium.com/members/admin/dashboardTestQueue.html" ile aynı mı
+* "header_ActiveTests" elementinin görünür olması kontrol edilir
+* "header_ActiveTests" elementinin text değeri "Companies' Instant Test Information" değerini içeriyor mu
+* "activeTestsList_ActiveTests" elementinin görünür olması kontrol edilir
+* "refreshButton_ActiveTests" elementinin görünür olması kontrol edilir
+
+# Screen Resolutions sayfasının kontrolleri yapılır
+* Screen Resolutions tabına tıkla
+* Şu anki url "https://dev.testinium.com/members/admin/operatingSystemResolutionList.html" ile aynı mı
+* "header_ScreenResolutions" elementinin görünür olması kontrol edilir
+* "header_ScreenResolutions" elementinin text değeri "Screen Resolution List" değerini içeriyor mu
+* "screenResolutionList_ScreenResolutions" elementinin görünür olması kontrol edilir
+* "createNewResolution_ScreenResolutions" elementinin görünür olması kontrol edilir
+
+# Screen Resolutions sayfasında Create new resolution butonuna tıklanır sayfa kontrolü yapılır
+* "createNewResolution_ScreenResolutions" elementinin görünür olması kontrol edilir
+* "createNewResolution_ScreenResolutions" elementine tıkla
+* Şu anki url "https://dev.testinium.com/members/admin/operatingSystemResolutionForm.html" ile aynı mı
+* "OperatingSystem_ScreenResolutions_AddNew" elementinin görünür olması kontrol edilir
+* "ScreenResolution_ScreenResolutions_AddNew" elementinin görünür olması kontrol edilir
+* "save_ScreenResolutions_AddNew" elementinin görünür olması kontrol edilir
+* "cancel_ScreenResolutions_AddNew" elementinin görünür olması kontrol edilir
+
+# Predefined Exceptions sayfasının kontrolleri yapılır
+* Predefined Exceptions tabına tıkla
+* Şu anki url "https://dev.testinium.com/members/admin/predefinedExceptionList.html" ile aynı mı
+* "header_predefinedExceptions" elementinin görünür olması kontrol edilir
+* "header_predefinedExceptions" elementinin text değeri "Predefined Exception List" değerini içeriyor mu
+* "predefinedExceptionsList_predefinedExceptions" elementinin görünür olması kontrol edilir
+* "createPredefinedException_predefinedExceptions" elementinin görünür olması kontrol edilir
+
+
+# Predefined exceptions sayfasında Create new predefined exception butonuna tıklanır sayfa kontrolü yapılır
+* "createPredefinedException_predefinedExceptions" elementinin görünür olması kontrol edilir
+* "createPredefinedException_predefinedExceptions" elementine tıkla
+* Şu anki url "https://dev.testinium.com/members/admin/predefinedExceptionForm.html" ile aynı mı
+* "exceptionName_predefinedExceptions_AddNew" elementinin görünür olması kontrol edilir
+* "message_predefinedExceptions_AddNew" elementinin görünür olması kontrol edilir
+* "status_predefinedExceptions_AddNew" elementinin görünür olması kontrol edilir
+* "webCheck_predefinedExceptions_AddNew" elementinin görünür olması kontrol edilir
+* "mobileCheck_predefinedExceptions_AddNew" elementinin görünür olması kontrol edilir
+* "serviceCheck_predefinedExceptions_AddNew" elementinin görünür olması kontrol edilir
+* "save_predefinedExceptions_AddNew" elementinin görünür olması kontrol edilir
+* "cancel_predefinedExceptions_AddNew" elementinin görünür olması kontrol edilir
+
+# Cloud Test Environments sayfasının kontrolleri yapılır
+* Cloud Test Environments tabına tıkla
+* Şu anki url "https://dev.testinium.com/members/admin/testiniumcloud/testiniumCloudEnvList.html" ile aynı mı
+* "header_CloudTestEnvironments" elementinin görünür olması kontrol edilir
+* "header_CloudTestEnvironments" elementinin text değeri "Testinium Cloud" değerini içeriyor mu
+* "cloudEnvironmentList_CloudTestEnvironments" elementinin görünür olması kontrol edilir
+
+# Cloud Test Environments Groups sayfasının kontrolleri yapılır
+* Cloud Test Environments Groups tabına tıkla
+* Şu anki url "https://dev.testinium.com/members/admin/testiniumcloud/testiniumCloudEnvGroupList.html" ile aynı mı
+* "header_CloudTestEnvironmentsGroups" elementinin görünür olması kontrol edilir
+* "header_CloudTestEnvironmentsGroups" elementinin text değeri "Cloud Test Environments Groups" değerini içeriyor mu
+* "cloudEnvironmentGroupList_CloudTestEnvironmentsGroups" elementinin görünür olması kontrol edilir
+* "createNewGroup_CloudTestEnvironmentsGroups" elementinin görünür olması kontrol edilir
+
+# Cloud Test Environments Groups sayfasında Create new group butonuna tıklanır sayfa kontrolü yapılır
+* "createNewGroup_CloudTestEnvironmentsGroups" elementinin görünür olması kontrol edilir
+* "createNewGroup_CloudTestEnvironmentsGroups" elementine tıkla
+* Şu anki url "https://dev.testinium.com/members/admin/testiniumcloud/testiniumCloudEnvGroupForm.html" ile aynı mı
+* "groupName_CloudTestEnvironmentsGroups_AddNew" elementinin görünür olması kontrol edilir
+* "operatingSystem_CloudTestEnvironmentsGroups_AddNew" elementinin görünür olması kontrol edilir
+* "testEnvironments_CloudTestEnvironmentsGroups_AddNew" elementinin görünür olması kontrol edilir
+* "selectedEnvironments_CloudTestEnvironmentsGroups_AddNew" elementinin görünür olması kontrol edilir
+* "testRunMethod_CloudTestEnvironmentsGroups_AddNew" elementinin görünür olması kontrol edilir
+* "save_CloudTestEnvironmentsGroups_AddNew" elementinin görünür olması kontrol edilir
+* "cancel_CloudTestEnvironmentsGroups_AddNew" elementinin görünür olması kontrol edilir
+
+# Notifications sayfasının kontrollerini yapılır
+* Notifications tabına tıkla
+* Şu anki url "https://dev.testinium.com/members/admin/notificationList.html" ile aynı mı
+* "header_Notifications" elementinin görünür olması kontrol edilir
+* "header_Notifications" elementinin text değeri "Notifications" değerini içeriyor mu
+* "notificationList_Notifications" elementinin görünür olması kontrol edilir
+
+# Project Clone sayfasının kontrolleri yapılır
+* Project Clone tabına tıkla
+* Şu anki url "https://dev.testinium.com/members/admin/companyProjectCloneForm.html" ile aynı mı
+* "header_ProjectClone" elementinin görünür olması kontrol edilir
+* "header_ProjectClone" elementinin text değeri "Project Clone" değerini içeriyor mu
+* "sourceCompany_ProjectClone" elementinin görünür olması kontrol edilir
+* "sourceProject_ProjectClone" elementinin görünür olması kontrol edilir
+* "targetCompany_ProjectClone" elementinin görünür olması kontrol edilir
+* "save_ProjectClone" elementinin görünür olması kontrol edilir
+* "cancel_ProjectClone" elementinin görünür olması kontrol edilir
+
+# Companys scheduled plans sayfasının kontrolleri yapılır
+* Company's scheduled plans tabına tıkla
+* Şu anki url "https://dev.testinium.com/members/admin/companyScheduledPlans.html" ile aynı mı
+* "header_CompanysScheduledPlans" elementinin görünür olması kontrol edilir
+* "header_CompanysScheduledPlans" elementinin text değeri "Company's Scheduled Plans" değerini içeriyor mu
+* "scheduledPlansTable_CompanysScheduledPlans" elementinin görünür olması kontrol edilir
+* "refreshButton_CompanysScheduledPlans" elementinin görünür olması kontrol edilir
