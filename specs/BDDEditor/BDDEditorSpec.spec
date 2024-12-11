@@ -168,17 +168,6 @@ Tags: OneCharacterFileNameAndEmptyScenarioNameAndEmptyTagNameForSpec
 * Karakter hata mesajı kontrolu
 * SenaryoName hata mesajı kontrolu
 
-Test 1-19- Bir Karakterli FileName Boş SenaryoName Boş TagName ile Spec File Oluşturulması
-----------------
-Tags: OneCharacterFileNameAndEmptyScenarioNameAndEmptyTagNameForSpec
-* BDD Editor Sayfası Kontrolleri Yapılır
-* "a" adıyla Spec oluştur
-* "" adlı senaryo eklenmesi
-* New Concept Save
-* Boş hata mesajı olmaması kontrolu
-* Karakter hata mesajı kontrolu
-* SenaryoName hata mesajı kontrolu
-
 Test 1-20- Doğru karakterli İsimli Boş Snearyolu Boş Tag ile Spec File oluşturulması
 ----------------
 Tags: OpenBDDEditorPage
