@@ -207,7 +207,7 @@ public class Driver {
         isSafari = browserName.equalsIgnoreCase("safari");
         zoomCondition = (browserName.equalsIgnoreCase("chrome") && chromeZoomCondition)
                 || (browserName.equalsIgnoreCase("firefox") && firefoxZoomCondition);
-        driver.get(baseUrl);
+        driver.get("https://dev.testinium.com/");
     }
 
     public void quitDriver() {
